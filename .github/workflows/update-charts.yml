@@ -1,0 +1,52 @@
+name: Update charts
+
+on:
+  schedule:
+    # 04:00 UTC daily — before the Russian morning, after Open Library's own
+    # nightly reindex.
+    - cron: "0 4 * * *"
+  # Manual trigger from the Actions tab, e.g. right after changing the seeds.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build charts
+        env:
+          GOOGLE_BOOKS_KEY: ${{ secrets.GOOGLE_BOOKS_KEY }}
+        run: python build_charts.py
+
+      - name: Verify output is usable
+        # A syntactically valid but empty feed would quietly blank Discover for
+        # every reader, so it must never be committed.
+        run: |
+          python - <<'PY'
+          import json, sys
+          data = json.load(open("charts/ru.json", encoding="utf-8"))
+          total = sum(len(s["books"]) for s in data["shelves"].values())
+          print(f"{total} books across {len(data['shelves'])} shelves")
+          if total < 30:
+              sys.exit(f"refusing to publish: only {total} books")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "novely-charts-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- charts/ru.json; then
+            echo "no changes"
+          else
+            git add charts/ru.json
+            git commit -m "Update charts ($(date -u +%Y-%m-%d))"
+            git push
+          fi
