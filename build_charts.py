@@ -125,10 +125,28 @@ def log(message: str) -> None:
     print(message, file=sys.stderr, flush=True)
 
 
-def get_json(url: str, timeout: int = 30):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return json.load(response)
+def get_json(url: str, timeout: int = 30, retries: int = 4):
+    """Fetches JSON, backing off on rate limits.
+
+    Unauthenticated Google Books calls from a CI runner share an IP with every
+    other project on the platform, so a burst of requests reliably earns a 429.
+    Retrying with a widening delay turns that from a failed build into a slower
+    one; an API key removes it almost entirely.
+    """
+    delay = 2.0
+    for attempt in range(retries):
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as error:
+            rate_limited = error.code in (429, 403)
+            if not rate_limited or attempt == retries - 1:
+                raise
+            log(f"  {error.code} — retrying in {delay:.0f}s")
+            time.sleep(delay)
+            delay *= 2
+    raise RuntimeError("unreachable")
 
 
 def has_cyrillic(text: str) -> bool:
@@ -280,7 +298,10 @@ def build_shelf(slug: str, config: dict) -> dict:
 
     if len(books) < 6:
         log(f"{slug}: live chart returned {len(books)}, falling back to curated seeds")
-        with ThreadPoolExecutor(max_workers=6) as pool:
+        # Two at a time, not six. Six parallel workers against an
+        # unauthenticated endpoint is what triggers the rate limiting in the
+        # first place, and these seeds are not worth building fast.
+        with ThreadPoolExecutor(max_workers=2) as pool:
             resolved = list(pool.map(resolve_seed, config["seeds"]))
         books = [book for book in resolved if book]
         source = "curated"
