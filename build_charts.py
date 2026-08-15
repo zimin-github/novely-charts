@@ -37,7 +37,7 @@ BOOKS_PER_SHELF = 24
 GENRES = {
     "popular": {
         "title": "Популярное",
-        "openlibrary": None,  # uses the trending feed
+        "openlibrary": "__popular__",
         "seeds": [
             ("Мастер и Маргарита", "Булгаков"), ("Тень горы", "Робертс"),
             ("Сто лет одиночества", "Маркес"), ("Атомные привычки", "Клир"),
@@ -48,8 +48,12 @@ GENRES = {
         ],
     },
     "newReleases": {
+        # No live source. Open Library's Russian 2025-2026 entries are almost
+        # entirely self-published single editions — filtering them by edition
+        # count leaves one book out of twenty-four — so a hand-picked list of
+        # actual recent releases is the more honest shelf here.
         "title": "Новые книги",
-        "openlibrary": "__new__",
+        "openlibrary": None,
         "seeds": [
             ("Тоннель", "Вагнер"), ("Уроки химии", "Гармус"),
             ("Йеллоуфейс", "Куанг"), ("Тревожные люди", "Бакман"),
@@ -369,14 +373,13 @@ def localized_authors(doc: dict) -> list[str]:
 def live_chart(slug: str, config: dict) -> list[dict]:
     subject = config["openlibrary"]
     if subject is None:
+        return []
+    if subject == "__popular__":
         # The monthly trending feed is global and overwhelmingly English, and
         # intersecting it with Russian editions left about one usable book.
         # Sorting Russian-language works by reading activity gives an actual
         # popular list for this audience.
         docs = openlibrary_docs("language:rus", sort="readinglog")
-    elif subject == "__new__":
-        year = time.gmtime().tm_year
-        docs = openlibrary_docs(f"language:rus first_publish_year:[{year - 1} TO {year}]", sort="readinglog")
     else:
         docs = openlibrary_docs(f"subject:{subject} language:rus", sort="readinglog")
 
