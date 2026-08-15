@@ -231,12 +231,25 @@ def resolve_seed(seed: tuple[str, str]) -> dict | None:
 
 # --- Open Library -----------------------------------------------------------
 
+# Open Library indexes a *work* under its original title, so a Russian
+# translation is filed under "Harry Potter and the Philosopher's Stone" with an
+# English title on the work record. Asking only for work-level fields therefore
+# returned sixty results and zero usable ones for every genre. The Russian
+# edition has to be requested alongside and read from there.
+OPENLIBRARY_FIELDS = ",".join([
+    "key", "title", "author_name", "author_alternative_name", "cover_i",
+    "first_publish_year", "number_of_pages_median", "isbn",
+    "editions", "editions.key", "editions.title", "editions.language",
+    "editions.cover_i", "editions.isbn",
+])
+
+
 def openlibrary_docs(query: str, sort: str | None = None, limit: int = 60) -> list[dict]:
     params = {
         "q": query,
         "lang": "ru",
         "limit": limit,
-        "fields": "key,title,author_name,cover_i,first_publish_year,number_of_pages_median,isbn",
+        "fields": OPENLIBRARY_FIELDS,
     }
     if sort:
         params["sort"] = sort
@@ -249,36 +262,118 @@ def openlibrary_docs(query: str, sort: str | None = None, limit: int = 60) -> li
 
 
 def openlibrary_to_book(doc: dict) -> dict | None:
-    title = doc.get("title") or ""
+    """Prefers the Russian edition's own title and cover over the work's."""
+    editions = [
+        edition for edition in ((doc.get("editions") or {}).get("docs") or [])
+        if "rus" in (edition.get("language") or [])
+    ]
+    localized = next(
+        (edition for edition in editions if has_cyrillic(edition.get("title") or "")),
+        None,
+    )
+
+    title = (localized or {}).get("title") or doc.get("title") or ""
     if not has_cyrillic(title):
         return None
-    cover_id = doc.get("cover_i")
-    if not cover_id:
+
+    cover_id = (localized or {}).get("cover_i") or doc.get("cover_i")
+    isbns = (localized or {}).get("isbn") or doc.get("isbn") or []
+    isbn = next((i for i in isbns if len(i) == 13), next(iter(isbns), ""))
+
+    if cover_id:
+        cover = f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg"
+    elif isbn:
+        cover = f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg?default=false"
+    else:
         return None
+
     return {
-        "id": doc.get("key", ""),
+        "id": (localized or {}).get("key") or doc.get("key", ""),
         "title": title,
-        "authors": doc.get("author_name") or [],
+        "authors": localized_authors(doc),
         "publishedDate": str(doc.get("first_publish_year") or ""),
         "description": "",
-        "isbn": (doc.get("isbn") or [""])[0],
-        "coverURL": f"https://covers.openlibrary.org/b/id/{cover_id}-L.jpg",
+        "isbn": isbn,
+        "coverURL": cover,
         "totalPages": doc.get("number_of_pages_median") or 0,
     }
+
+
+# Cyrillic letters that exist in Ukrainian, Belarusian or Serbian but not in
+# Russian. Open Library files every Cyrillic spelling of an author under the
+# same alternative-names list, so taking the first Cyrillic one credited
+# "Джоан Роулінг" — the Ukrainian form — on a Russian shelf.
+NON_RUSSIAN_CYRILLIC = set("іїєґўњљџѓќѕђћ")
+
+
+def is_russian_text(value: str) -> bool:
+    return has_cyrillic(value) and not (set(value.lower()) & NON_RUSSIAN_CYRILLIC)
+
+
+# Authors who recur across these shelves and whom Open Library carries only
+# under their Latin name. A Russian shelf crediting "Suzanne Collins" beside
+# "Стивен Кинг" looks half-translated.
+KNOWN_AUTHORS = {
+    "j. k. rowling": "Джоан Роулинг",
+    "joanne rowling": "Джоан Роулинг",
+    "colleen hoover": "Колин Гувер",
+    "jane austen": "Джейн Остин",
+    "suzanne collins": "Сьюзен Коллинз",
+    "stephenie meyer": "Стефани Майер",
+    "stephen king": "Стивен Кинг",
+    "dan brown": "Дэн Браун",
+    "agatha christie": "Агата Кристи",
+    "j. r. r. tolkien": "Джон Толкин",
+    "george orwell": "Джордж Оруэлл",
+    "harper lee": "Харпер Ли",
+    "f. scott fitzgerald": "Фрэнсис Скотт Фицджеральд",
+    "ernest hemingway": "Эрнест Хемингуэй",
+    "gabriel garcía márquez": "Габриэль Гарсиа Маркес",
+    "haruki murakami": "Харуки Мураками",
+    "arthur conan doyle": "Артур Конан Дойл",
+    "george r. r. martin": "Джордж Мартин",
+    "neil gaiman": "Нил Гейман",
+    "andrzej sapkowski": "Анджей Сапковский",
+    "paulo coelho": "Пауло Коэльо",
+    "khaled hosseini": "Халед Хоссейни",
+    "john green": "Джон Грин",
+    "rick riordan": "Рик Риордан",
+    "c. s. lewis": "Клайв Стейплз Льюис",
+    "ray bradbury": "Рэй Брэдбери",
+    "hanya yanagihara": "Ханья Янагихара",
+    "delia owens": "Делия Оуэнс",
+    "markus zusak": "Маркус Зусак",
+}
+
+
+def localized_authors(doc: dict) -> list[str]:
+    """Russian spelling of the author when the index carries one, since the
+    primary name on a translated work is usually the original Latin form."""
+    names = doc.get("author_name") or []
+    if len(names) == 1:
+        known = KNOWN_AUTHORS.get(names[0].strip().lower())
+        if known:
+            return [known]
+    alternatives = [n for n in (doc.get("author_alternative_name") or []) if is_russian_text(n)]
+
+    if len(names) == 1:
+        if is_russian_text(names[0]):
+            return names
+        if alternatives:
+            # Shortest reasonable form: the list holds everything from
+            # "Кинг" to "Кинг, Стивен Эдвин, 1947-".
+            return [min(alternatives, key=len)]
+    return names
 
 
 def live_chart(slug: str, config: dict) -> list[dict]:
     subject = config["openlibrary"]
     if subject is None:
-        try:
-            works = get_json("https://openlibrary.org/trending/monthly.json?limit=50").get("works") or []
-        except Exception as error:  # noqa: BLE001
-            log(f"  trending unavailable: {error}")
-            return []
-        if not works:
-            return []
-        keys = " OR ".join(f"key:{work['key']}" for work in works)
-        docs = openlibrary_docs(f"({keys}) language:rus", limit=len(works))
+        # The monthly trending feed is global and overwhelmingly English, and
+        # intersecting it with Russian editions left about one usable book.
+        # Sorting Russian-language works by reading activity gives an actual
+        # popular list for this audience.
+        docs = openlibrary_docs("language:rus", sort="readinglog")
     elif subject == "__new__":
         year = time.gmtime().tm_year
         docs = openlibrary_docs(f"language:rus first_publish_year:[{year - 1} TO {year}]", sort="readinglog")
