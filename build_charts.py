@@ -117,6 +117,94 @@ GENRES = {
             ("Человек в поисках смысла", "Франкл"), ("Сила воли", "Макгонигал"),
         ],
     },
+    "scienceFiction": {
+        "title": "Фантастика",
+        "openlibrary": "science_fiction",
+        "seeds": [
+            ("Задача трёх тел", "Лю Цысинь"), ("Дюна", "Герберт"),
+            ("Пикник на обочине", "Стругацкие"), ("Марсианин", "Вейер"),
+            ("451 градус по Фаренгейту", "Брэдбери"), ("Основание", "Азимов"),
+            ("Солярис", "Лем"), ("Мы", "Замятин"),
+            ("Автостопом по галактике", "Адамс"), ("Ложная слепота", "Уоттс"),
+        ],
+    },
+    "thriller": {
+        "title": "Триллеры",
+        "openlibrary": "thrillers",
+        "seeds": [
+            ("Молчание ягнят", "Харрис"), ("Исчезнувшая", "Флинн"),
+            ("Мизери", "Кинг"), ("Код да Винчи", "Браун"),
+            ("Девушка в поезде", "Хокинс"), ("Тайная история", "Тартт"),
+            ("Институт", "Кинг"), ("Безмолвный пациент", "Микаэлидес"),
+            ("Ангелы и демоны", "Браун"), ("Метро 2033", "Глуховский"),
+        ],
+    },
+    "horror": {
+        "title": "Ужасы",
+        "openlibrary": "horror",
+        "seeds": [
+            ("Сияние", "Кинг"), ("Оно", "Кинг"),
+            ("Дракула", "Стокер"), ("Франкенштейн", "Шелли"),
+            ("Кладбище домашних животных", "Кинг"), ("Призрак дома на холме", "Джексон"),
+            ("Зов Ктулху", "Лавкрафт"), ("Кэрри", "Кинг"),
+            ("Вий", "Гоголь"), ("Ребёнок Розмари", "Левин"),
+        ],
+    },
+    "historical": {
+        "title": "Исторические",
+        "openlibrary": "historical_fiction",
+        "seeds": [
+            ("Война и мир", "Толстой"), ("Унесённые ветром", "Митчелл"),
+            ("Столпы Земли", "Фоллетт"), ("Тихий Дон", "Шолохов"),
+            ("Имя розы", "Эко"), ("Книжный вор", "Зусак"),
+            ("Соловей", "Ханна"), ("Пётр Первый", "Толстой"),
+            ("Овод", "Войнич"), ("Айвенго", "Скотт"),
+        ],
+    },
+    "youngAdult": {
+        "title": "Young Adult",
+        "openlibrary": "young_adult_fiction",
+        "seeds": [
+            ("Голодные игры", "Коллинз"), ("Виноваты звёзды", "Грин"),
+            ("Дивергент", "Рот"), ("Хорошо быть тихоней", "Чбоски"),
+            ("Бегущий в лабиринте", "Дашнер"), ("Сумерки", "Майер"),
+            ("Шестёрка воронов", "Бардуго"), ("Тень и кость", "Бардуго"),
+            ("Пятая волна", "Янси"), ("Гарри Поттер и философский камень", "Роулинг"),
+        ],
+    },
+    "biography": {
+        "title": "Биографии",
+        "openlibrary": "biography",
+        "seeds": [
+            ("Стив Джобс", "Айзексон"), ("Дневник Анны Франк", "Франк"),
+            ("Becoming. Моя история", "Обама"), ("Илон Маск", "Айзексон"),
+            ("Я — Малала", "Юсафзай"), ("Автобиография", "Кристи"),
+            ("Моя краткая история", "Хокинг"), ("Эйнштейн. Его жизнь и вселенная", "Айзексон"),
+            ("Леонардо да Винчи", "Айзексон"), ("Мемуары", "Сахаров"),
+        ],
+    },
+    "psychology": {
+        "title": "Психология",
+        "openlibrary": "psychology",
+        "seeds": [
+            ("Тело помнит всё", "ван дер Колк"), ("Игры, в которые играют люди", "Берн"),
+            ("Психология влияния", "Чалдини"), ("Думай медленно решай быстро", "Канеман"),
+            ("Дар психотерапии", "Ялом"), ("Хочу и буду", "Лабковский"),
+            ("Гибкое сознание", "Дуэк"), ("Человек в поисках смысла", "Франкл"),
+            ("Не рычите на собаку", "Прайор"), ("Токсичные родители", "Форвард"),
+        ],
+    },
+    "business": {
+        "title": "Бизнес",
+        "openlibrary": "business",
+        "seeds": [
+            ("От хорошего к великому", "Коллинз"), ("Богатый папа, бедный папа", "Кийосаки"),
+            ("Атомные привычки", "Клир"), ("Бизнес с нуля", "Рис"),
+            ("Клиенты на всю жизнь", "Сьюэлл"), ("Джедайские техники", "Дорофеев"),
+            ("Как завоёвывать друзей", "Карнеги"), ("Чёрный лебедь", "Талеб"),
+            ("Стратегия голубого океана", "Ким"), ("Спроси маму", "Фитцпатрик"),
+        ],
+    },
 }
 
 JUNK_MARKERS = (
@@ -171,10 +259,13 @@ def is_publishable(book: dict) -> bool:
 
 # --- Google Books -----------------------------------------------------------
 
-def google_search(query: str, limit: int = 5, order: str = "relevance") -> list[dict]:
+def google_search(
+    query: str, limit: int = 5, order: str = "relevance", start: int = 0
+) -> list[dict]:
     params = {
         "q": query,
         "maxResults": limit,
+        "startIndex": start,
         "orderBy": order,
         "printType": "books",
         "projection": "full",
@@ -221,6 +312,70 @@ def to_book(item: dict) -> dict | None:
         "coverURL": cover,
         "totalPages": info.get("pageCount") or 0,
     }
+
+
+# Google Books subject terms per shelf.
+#
+# Google has no chart endpoint, which is why Open Library was used for the
+# rankings in the first place. But `subject:` plus `orderBy=newest` is still a
+# genuine, automatically-updating view of what is being published in Russian —
+# and unlike Open Library it answers from anywhere, every time. That makes it
+# the right middle tier: not a popularity chart, but not a hand-written list
+# that only changes when somebody remembers to edit this file either.
+GOOGLE_SUBJECTS = {
+    "popular": "художественная литература",
+    "newReleases": "современная проза",
+    "fantasy": "фэнтези",
+    "mystery": "детектив",
+    "romance": "любовный роман",
+    "classics": "классическая литература",
+    "nonFiction": "саморазвитие",
+    "scienceFiction": "научная фантастика",
+    "thriller": "триллер",
+    "horror": "ужасы",
+    "historical": "исторический роман",
+    "youngAdult": "young adult",
+    "biography": "биография",
+    "psychology": "психология",
+    "business": "бизнес",
+}
+
+
+def google_chart(slug: str) -> list[dict]:
+    """A shelf assembled from Google's subject index.
+
+    Two orderings, deliberately. `newest` on its own drags in a great deal of
+    self-published filler that happens to have been uploaded yesterday;
+    `relevance` on its own returns the same twenty books every day and the
+    shelf stops looking alive. Newest first, then relevance to fill out what
+    the filters discarded.
+    """
+    subject = GOOGLE_SUBJECTS.get(slug)
+    if not subject:
+        return []
+
+    books: list[dict] = []
+    seen: set[str] = set()
+    for order, pages in (("newest", 3), ("relevance", 2)):
+        for page in range(pages):
+            if len(books) >= BOOKS_PER_SHELF:
+                break
+            items = google_search(
+                f'subject:"{subject}"', limit=40, order=order, start=page * 40
+            )
+            if not items:
+                break
+            for item in items:
+                book = to_book(item)
+                if not book or not is_publishable(book):
+                    continue
+                surname = book["authors"][0].split()[-1].lower() if book["authors"] else ""
+                key = f"{book['title'].lower()}|{surname}"
+                if key in seen:
+                    continue
+                seen.add(key)
+                books.append(book)
+    return books
 
 
 def resolve_seed(seed: tuple[str, str]) -> dict | None:
@@ -394,8 +549,19 @@ def build_shelf(slug: str, config: dict) -> dict:
     books = live_chart(slug, config)
     source = "openlibrary"
 
+    # Open Library ranks by reading activity, which is the better shelf when it
+    # answers — but it is an Internet Archive host and for months at a time it
+    # has not answered at all, which left every shelf on the hand-written seeds
+    # and the app honestly reporting that the chart was unavailable. Google's
+    # subject index is not a ranking, but it *is* current and it always
+    # replies, so it goes in front of the seeds rather than behind them.
     if len(books) < 6:
-        log(f"{slug}: live chart returned {len(books)}, falling back to curated seeds")
+        log(f"{slug}: live chart returned {len(books)}, trying Google subject index")
+        books = google_chart(slug)
+        source = "googlebooks"
+
+    if len(books) < 6:
+        log(f"{slug}: Google returned {len(books)}, falling back to curated seeds")
         # Two at a time, not six. Six parallel workers against an
         # unauthenticated endpoint is what triggers the rate limiting in the
         # first place, and these seeds are not worth building fast.
