@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-22T04:35:25Z",
+ "generatedAt": "2026-08-23T04:40:26Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -283,16 +283,16 @@
      "totalPages": 231
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
+     "id": "/books/OL23058167M",
+     "title": "Дракула",
      "authors": [
-      "Стивен Кинг"
+      "Bram Stoker"
      ],
-     "publishedDate": "1983",
+     "publishedDate": "1897",
      "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
+     "isbn": "9785267002509",
+     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
+     "totalPages": 384
     }
    ]
   },
@@ -1997,18 +1997,6 @@
      "totalPages": 489
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
-    },
-    {
      "id": "/books/OL23058167M",
      "title": "Дракула",
      "authors": [
@@ -2019,6 +2007,18 @@
      "isbn": "9785267002509",
      "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
      "totalPages": 384
+    },
+    {
+     "id": "/books/OL34009968M",
+     "title": "Кладбище домашних животных",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1983",
+     "description": "",
+     "isbn": "9785170770861",
+     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
+     "totalPages": 422
     },
     {
      "id": "/books/OL45119801M",
@@ -2317,18 +2317,6 @@
      "totalPages": 190
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
-    },
-    {
      "id": "/books/OL23058167M",
      "title": "Дракула",
      "authors": [
@@ -2339,6 +2327,18 @@
      "isbn": "9785267002509",
      "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
      "totalPages": 384
+    },
+    {
+     "id": "/books/OL34009968M",
+     "title": "Кладбище домашних животных",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1983",
+     "description": "",
+     "isbn": "9785170770861",
+     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
+     "totalPages": 422
     },
     {
      "id": "/books/OL61135107M",
@@ -3330,18 +3330,6 @@
      "totalPages": 231
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
-    },
-    {
      "id": "/books/OL23058167M",
      "title": "Дракула",
      "authors": [
@@ -3352,6 +3340,18 @@
      "isbn": "9785267002509",
      "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
      "totalPages": 384
+    },
+    {
+     "id": "/books/OL34009968M",
+     "title": "Кладбище домашних животных",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1983",
+     "description": "",
+     "isbn": "9785170770861",
+     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
+     "totalPages": 422
     },
     {
      "id": "/books/OL61135107M",
