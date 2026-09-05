@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-04T08:37:24Z",
+ "generatedAt": "2026-09-05T08:10:47Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -230,7 +230,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798778245013",
+     "isbn": "9781985707368",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -682,7 +682,7 @@
      "description": "",
      "isbn": "9785352003725",
      "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 200
+     "totalPages": 203
     },
     {
      "id": "/books/OL21898446M",
@@ -758,7 +758,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798778245013",
+     "isbn": "9781985707368",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1088,7 +1088,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780374528379",
+     "isbn": "9781936136148",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1232,21 +1232,21 @@
      ],
      "publishedDate": "1870",
      "description": "",
-     "isbn": "9781281857842",
+     "isbn": "9781897093696",
      "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
      "totalPages": 325
     },
     {
-     "id": "/books/OL38631447M",
-     "title": "Бесплодные земли",
+     "id": "/books/OL12584722M",
+     "title": "Carloson - Авто премиум сегмента в аренду",
      "authors": [
-      "Стивен Кинг"
+      "Audrey Niffenegger"
      ],
-     "publishedDate": "1991",
+     "publishedDate": "2003",
      "description": "",
-     "isbn": "9785237014853",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
-     "totalPages": 563
+     "isbn": "9785699150472",
+     "coverURL": "https://covers.openlibrary.org/b/id/15251461-L.jpg",
+     "totalPages": 546
     }
    ]
   },
@@ -1298,7 +1298,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798778245013",
+     "isbn": "9781985707368",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1372,7 +1372,7 @@
      "description": "",
      "isbn": "9785352003725",
      "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 200
+     "totalPages": 203
     },
     {
      "id": "/works/OL267096W",
@@ -1450,11 +1450,11 @@
      "id": "/works/OL21025633W",
      "title": "Записки изъ подполья",
      "authors": [
-      "Фёдор Достоевский"
+      "Ф.М Достоевский"
      ],
      "publishedDate": "1864",
      "description": "",
-     "isbn": "9781721888719",
+     "isbn": "9781983676925",
      "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
      "totalPages": 132
     },
@@ -1466,7 +1466,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780374528379",
+     "isbn": "9781936136148",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1555,7 +1555,7 @@
       "Юваль Ной Харари"
      ],
      "publishedDate": "2022-06-30",
-     "description": "Рождение человечества» – первая часть оригинальной графической адаптации всемирного бестселлера Юваля Ноя Харари «Sapiens. Краткая история человечества» – книги о том, как человек разумный, бывший когда-то одним из нескольких видов людей, не игравшим в экосистеме Земли какой-либо заметной роли, сумел стать единственным человеческим видом на ней, научился расщеплять атом, летать на Луну, изменять генетический код и превратился в полновластного властителя всей планеты.Это ошеломляющая история о том, как ничем не примечательное млекопитающие стало человеком, который научился расщеплять атом, летать на Луну, манипулировать генетическим кодом и обрел абсолютную власть над планетой.В этом захватывающем дух путешествии в глубокие дебри истории вашим гидом будет Юваль Ной Харари, а компанию вам составят Первобытный Билл, доктор Фантазия и детектив Лопес.Иллюстрированный формат позволит взглянуть на события нашего далекого прошлого другими глазами: эволюция человека представлена через телевизионное реалити-шоу, первая встреча сапиенсов и неандертальцев осмысляется через шедевры современного искусства, а исчезновение с лица Земли мамонтов и саблезубых кошек становится предметом расследования в кинодетективе. Так об истории человечества не рассказывал еще никто.",
+     "description": "Рождение человечества» – первая часть оригинальной графической адаптации всемирного бестселлера Юваля Ноя Харари «Sapiens. Краткая история человечества» – книги о том, как человек разумный, бывший когда-то одним из нескольких видов людей, не игравшим в экосистеме Земли какой-либо заметной роли, сумел стать единственным человеческим видом на ней, научился расщеплять атом, летать на Луну, изменять генетический код и превратился в полновластного властителя всей планеты. Это ошеломляющая история о том, как ничем не примечательное млекопитающие стало человеком, который научился расщеплять атом, летать на Луну, манипулировать генетическим кодом и обрел абсолютную власть над планетой. В этом захватывающем дух путешествии в глубокие дебри истории вашим гидом будет Юваль Ной Харари, а компанию вам составят Первобытный Билл, доктор Фантазия и детектив Лопес. Иллюстрированный формат позволит взглянуть на события нашего далекого прошлого другими глазами: эволюция человека представлена через телевизионное реалити-шоу, первая встреча сапиенсов и неандертальцев осмысляется через шедевры современного искусства, а исчезновение с лица Земли мамонтов и саблезубых кошек становится предметом расследования в кинодетективе. Так об истории человечества не рассказывал еще никто.",
      "isbn": "9785044506831",
      "coverURL": "https://books.google.com/books/content?id=u2R4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
      "totalPages": 248
@@ -1855,7 +1855,7 @@
      "description": "",
      "isbn": "9785352003725",
      "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 200
+     "totalPages": 203
     },
     {
      "id": "/books/OL27138268M",
@@ -1913,7 +1913,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780374528379",
+     "isbn": "9781936136148",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1942,16 +1942,16 @@
      "totalPages": 288
     },
     {
-     "id": "/books/OL39794172M",
-     "title": "Утраченный символ",
+     "id": "/books/OL38219539M",
+     "title": "Битва королей",
      "authors": [
-      "Дэн Браун"
+      "Джордж Мартин"
      ],
-     "publishedDate": "2009",
+     "publishedDate": "1998",
      "description": "",
-     "isbn": "9785170251957",
-     "coverURL": "https://covers.openlibrary.org/b/id/12904246-L.jpg",
-     "totalPages": 604
+     "isbn": "9785170762071",
+     "coverURL": "https://covers.openlibrary.org/b/id/12767858-L.jpg",
+     "totalPages": 761
     }
    ]
   },
@@ -2202,6 +2202,18 @@
      "totalPages": 714
     },
     {
+     "id": "/books/OL2270254M",
+     "title": "Двадцать тысячь лье под водой",
+     "authors": [
+      "Жюль Верн"
+     ],
+     "publishedDate": "1870",
+     "description": "",
+     "isbn": "9781897093696",
+     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
+     "totalPages": 325
+    },
+    {
      "id": "/books/OL49348297M",
      "title": "Біле Ікло",
      "authors": [
@@ -2224,18 +2236,6 @@
      "isbn": "9785170177301",
      "coverURL": "https://covers.openlibrary.org/b/id/13035742-L.jpg",
      "totalPages": 608
-    },
-    {
-     "id": "/books/OL2270254M",
-     "title": "Двадцать тысячь лье под водой",
-     "authors": [
-      "Жюль Верн"
-     ],
-     "publishedDate": "1870",
-     "description": "",
-     "isbn": "9781281857842",
-     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
-     "totalPages": 325
     },
     {
      "id": "/books/OL38631447M",
@@ -2583,7 +2583,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798778245013",
+     "isbn": "9781985707368",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -2717,7 +2717,7 @@
      "description": "",
      "isbn": "9785352003725",
      "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 200
+     "totalPages": 203
     },
     {
      "id": "/works/OL267096W",
@@ -2783,11 +2783,11 @@
      "id": "/works/OL21025633W",
      "title": "Записки изъ подполья",
      "authors": [
-      "Фёдор Достоевский"
+      "Ф.М Достоевский"
      ],
      "publishedDate": "1864",
      "description": "",
-     "isbn": "9781721888719",
+     "isbn": "9781983676925",
      "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
      "totalPages": 132
     },
@@ -3082,7 +3082,7 @@
      ],
      "publishedDate": "1870",
      "description": "",
-     "isbn": "9781281857842",
+     "isbn": "9781897093696",
      "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
      "totalPages": 325
     },
@@ -3245,7 +3245,7 @@
      ],
      "publishedDate": "1924",
      "description": "",
-     "isbn": "9781680572087",
+     "isbn": "9780241458761",
      "coverURL": "https://covers.openlibrary.org/b/id/5484189-L.jpg",
      "totalPages": 224
     },
@@ -3301,7 +3301,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798778245013",
+     "isbn": "9781985707368",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3394,11 +3394,11 @@
      "id": "/works/OL21025633W",
      "title": "Записки изъ подполья",
      "authors": [
-      "Фёдор Достоевский"
+      "Ф.М Достоевский"
      ],
      "publishedDate": "1864",
      "description": "",
-     "isbn": "9781721888719",
+     "isbn": "9781983676925",
      "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
      "totalPages": 132
     },
@@ -3410,7 +3410,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780374528379",
+     "isbn": "9781936136148",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
