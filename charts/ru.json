@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-05T08:10:47Z",
+ "generatedAt": "2026-09-06T08:31:56Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -1334,7 +1334,7 @@
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9798764491622",
+     "isbn": "9781081208691",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1549,18 +1549,6 @@
      "totalPages": 330
     },
     {
-     "id": "u2R4EAAAQBAJ",
-     "title": "Sapiens. Графическая история. Часть 1. Рождение человечества",
-     "authors": [
-      "Юваль Ной Харари"
-     ],
-     "publishedDate": "2022-06-30",
-     "description": "Рождение человечества» – первая часть оригинальной графической адаптации всемирного бестселлера Юваля Ноя Харари «Sapiens. Краткая история человечества» – книги о том, как человек разумный, бывший когда-то одним из нескольких видов людей, не игравшим в экосистеме Земли какой-либо заметной роли, сумел стать единственным человеческим видом на ней, научился расщеплять атом, летать на Луну, изменять генетический код и превратился в полновластного властителя всей планеты. Это ошеломляющая история о том, как ничем не примечательное млекопитающие стало человеком, который научился расщеплять атом, летать на Луну, манипулировать генетическим кодом и обрел абсолютную власть над планетой. В этом захватывающем дух путешествии в глубокие дебри истории вашим гидом будет Юваль Ной Харари, а компанию вам составят Первобытный Билл, доктор Фантазия и детектив Лопес. Иллюстрированный формат позволит взглянуть на события нашего далекого прошлого другими глазами: эволюция человека представлена через телевизионное реалити-шоу, первая встреча сапиенсов и неандертальцев осмысляется через шедевры современного искусства, а исчезновение с лица Земли мамонтов и саблезубых кошек становится предметом расследования в кинодетективе. Так об истории человечества не рассказывал еще никто.",
-     "isbn": "9785044506831",
-     "coverURL": "https://books.google.com/books/content?id=u2R4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-     "totalPages": 248
-    },
-    {
      "id": "A5dZAgAAQBAJ",
      "title": "Думай медленно... Решай быстро",
      "authors": [
@@ -1571,18 +1559,6 @@
      "isbn": "9785457519237",
      "coverURL": "https://books.google.com/books/content?id=A5dZAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
      "totalPages": 783
-    },
-    {
-     "id": "r0Sd0QEACAAJ",
-     "title": "Тонкое искусство пофигизма",
-     "authors": [
-      "Марк Мэнсон"
-     ],
-     "publishedDate": "2025-10-04",
-     "description": "- В мире продано свыше 6 миллионов экземпляров - Вдохновляющий ответ на вопрос В чём смысл жизни? - О том, как перестать зацикливаться на себе и своих проблемах О чем Оглянитесь вокруг себя. Пролистайте ленту соцсетей. Прислушайтесь. И вы услышите, как окружающий мир настойчиво твердит Будь лучше!, Добейся успеха любой ценой!, Будь первым! Несмотря на то, что человеческая цивилизация еще никогда в истории не жила в таком достатке, всё больше людей испытывают необъяснимое ощущение фрустрации. Будто бы чего-то не хватает, будто бы у всех твоих френдов в соцсетях жизнь лучше и приятнее. Об авторе Марк Мэнсон - блогер, предприниматель и писатель. Ведет блог об отношениях, свиданиях, саморазвитии, преодолении, тревоги, писательстве и путешествиях, который читают около миллиона человек в месяц. Создатель и генеральный директор компании Infinity Squared Media LLC.",
-     "isbn": "9785961472196",
-     "coverURL": "https://books.google.com/books/content?id=r0Sd0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-     "totalPages": 0
     },
     {
      "id": "p2OcEQAAQBAJ",
@@ -1957,1534 +1933,664 @@
   },
   "thriller": {
    "title": "Триллеры",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/books/OL39811806M",
-     "title": "ОНО",
+     "id": "S2bTkQEACAAJ",
+     "title": "Молчание ягнят",
      "authors": [
-      "Стивен Кинг"
+      "Томас Харрис"
      ],
-     "publishedDate": "1986",
-     "description": "",
-     "isbn": "9789669931757",
-     "coverURL": "https://covers.openlibrary.org/b/id/8569284-L.jpg",
-     "totalPages": 1168
-    },
-    {
-     "id": "/books/OL23034780M",
-     "title": "Код да Винчи",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785170224579",
-     "coverURL": "https://covers.openlibrary.org/b/id/8396573-L.jpg",
-     "totalPages": 489
-    },
-    {
-     "id": "/books/OL23058167M",
-     "title": "Дракула",
-     "authors": [
-      "Bram Stoker"
-     ],
-     "publishedDate": "1897",
-     "description": "",
-     "isbn": "9785267002509",
-     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
-     "totalPages": 384
-    },
-    {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
-    },
-    {
-     "id": "/books/OL45119801M",
-     "title": "Шестерка воронов",
-     "authors": [
-      "Leigh Bardugo"
-     ],
-     "publishedDate": "2015",
-     "description": "",
-     "isbn": "9785171366162",
-     "coverURL": "https://covers.openlibrary.org/b/id/13122069-L.jpg",
+     "publishedDate": "2012",
+     "description": "Сюжет стремительный, интригующий, увлекательный. Великая книга величайшего мастера жанра",
+     "isbn": "9785699585007",
+     "coverURL": "https://books.google.com/books/content?id=S2bTkQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
      "totalPages": 512
     },
     {
-     "id": "/books/OL61135107M",
-     "title": "Портрет Дориана Грея",
+     "id": "lb95AAAAQBAJ",
+     "title": "Исчезнувшая",
      "authors": [
-      "Oscar Wilde"
+      "Гиллиан Флинн"
      ],
-     "publishedDate": "1890",
-     "description": "",
-     "isbn": "9785041039578",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
-     "totalPages": 246
-    },
-    {
-     "id": "/books/OL26384183M",
-     "title": "Ангелы и демоны",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785170280797",
-     "coverURL": "https://covers.openlibrary.org/b/id/9189643-L.jpg",
-     "totalPages": 575
-    },
-    {
-     "id": "/books/OL12543685M",
-     "title": "Зеленая миля",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1996",
-     "description": "",
-     "isbn": "9785237011579",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651978-L.jpg",
-     "totalPages": 465
-    },
-    {
-     "id": "/books/OL26354654M",
-     "title": "Парк Юрского периода",
-     "authors": [
-      "Michael Crichton"
-     ],
-     "publishedDate": "1990",
-     "description": "",
-     "isbn": "9785040072491",
-     "coverURL": "https://covers.openlibrary.org/b/id/8748992-L.jpg",
-     "totalPages": 455
-    },
-    {
-     "id": "/books/OL38565762M",
-     "title": "Стрелок",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1976",
-     "description": "",
-     "isbn": "9785170770519",
-     "coverURL": "https://covers.openlibrary.org/b/id/12802998-L.jpg",
-     "totalPages": 256
-    },
-    {
-     "id": "/books/OL12545159M",
-     "title": "Остров Сокровищ",
-     "authors": [
-      "Robert Louis Stevenson"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9785329001181",
-     "coverURL": "https://covers.openlibrary.org/b/id/14551555-L.jpg",
-     "totalPages": 248
-    },
-    {
-     "id": "/books/OL44570103M",
-     "title": "Бессонница",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1994",
-     "description": "",
-     "isbn": "9785170178285",
-     "coverURL": "https://covers.openlibrary.org/b/id/13109300-L.jpg",
-     "totalPages": 719
-    },
-    {
-     "id": "/books/OL39794172M",
-     "title": "Утраченный символ",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2009",
-     "description": "",
-     "isbn": "9785170251957",
-     "coverURL": "https://covers.openlibrary.org/b/id/12904246-L.jpg",
-     "totalPages": 604
-    },
-    {
-     "id": "/books/OL43717571M",
-     "title": "Молчание ягнят",
-     "authors": [
-      "Thomas Harris"
-     ],
-     "publishedDate": "1988",
-     "description": "",
-     "isbn": "9785699585007",
-     "coverURL": "https://covers.openlibrary.org/b/id/15228726-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL26295815M",
-     "title": "Поле смерти",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785699206117",
-     "coverURL": "https://covers.openlibrary.org/b/id/14424762-L.jpg",
-     "totalPages": 500
-    },
-    {
-     "id": "/books/OL23048427M",
-     "title": "Точка обмана",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2001",
-     "description": "",
-     "isbn": "9785170310869",
-     "coverURL": "https://covers.openlibrary.org/b/id/8398101-L.jpg",
-     "totalPages": 559
-    },
-    {
-     "id": "/books/OL27118185M",
-     "title": "Девушка с татуировкой дракона",
-     "authors": [
-      "Stieg Larsson"
-     ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785699383719",
-     "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
-     "totalPages": 576
-    },
-    {
-     "id": "/books/OL37794363M",
-     "title": "Мистер Мерседес",
-     "authors": [
-      "Stephen King",
-      "Stephen king",
-      "Ingah Mikhaʼeli"
-     ],
-     "publishedDate": "2013",
-     "description": "",
-     "isbn": "9785170853120",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654052-L.jpg",
-     "totalPages": 484
-    },
-    {
-     "id": "/books/OL32046827M",
-     "title": "Мёртвая зона",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1979",
-     "description": "",
-     "isbn": "9785770708417",
-     "coverURL": "https://covers.openlibrary.org/b/id/14652746-L.jpg",
-     "totalPages": 426
-    },
-    {
-     "id": "/books/OL12540541M",
-     "title": "Волки Кальи",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785170236459",
-     "coverURL": "https://covers.openlibrary.org/b/id/14656136-L.jpg",
-     "totalPages": 714
-    },
-    {
-     "id": "/books/OL2270254M",
-     "title": "Двадцать тысячь лье под водой",
-     "authors": [
-      "Жюль Верн"
-     ],
-     "publishedDate": "1870",
-     "description": "",
-     "isbn": "9781897093696",
-     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
-     "totalPages": 325
-    },
-    {
-     "id": "/books/OL49348297M",
-     "title": "Біле Ікло",
-     "authors": [
-      "Джек Лондон"
-     ],
-     "publishedDate": "1905",
-     "description": "",
-     "isbn": "9789663122724",
-     "coverURL": "https://covers.openlibrary.org/b/id/14414363-L.jpg",
-     "totalPages": 237
-    },
-    {
-     "id": "/books/OL12539210M",
-     "title": "Мешок с костями",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785170177301",
-     "coverURL": "https://covers.openlibrary.org/b/id/13035742-L.jpg",
-     "totalPages": 608
-    },
-    {
-     "id": "/books/OL38631447M",
-     "title": "Бесплодные земли",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1991",
-     "description": "",
-     "isbn": "9785237014853",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
+     "publishedDate": "2013-08-20",
+     "description": "Все было готово для празднования пятилетнего юбилея супружеской жизни, когда вдруг необъяснимо пропал один из виновников торжества. Остались следы борьбы в доме, кровь, которую явно пытались стереть, - и цепочка «ключей» в игре под названием «охота за сокровищами»; красивая, умная и невероятно изобретательная жена ежегодно устраивала ее для своего обожаемого мужа. И похоже, что эти «ключи» - размещенные ею тут и там странные записки и не менее странные безделушки – дают единственный шанс пролить свет на судьбу исчезнувшей. Вот только не придется ли «охотнику» в процессе поиска раскрыть миру и пару-тройку собственных малосимпатичных тайн?",
+     "isbn": "9785389065185",
+     "coverURL": "https://books.google.com/books/content?id=lb95AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
      "totalPages": 563
+    },
+    {
+     "id": "bay5AAAAQBAJ",
+     "title": "Мизери",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "2012-11-09",
+     "description": "Может ли спасение от верной гибели обернуться таким кошмаром, что даже смерть покажется милосердным даром судьбы? Может. Ибо это произошло с Полом Шелдоном, автором бесконечного сериала книг о злоключениях Мизери. Раненый писатель оказался в руках Энни Уилкс – женщины, потерявшей рассудок на почве его романов. Уединенный домик одержимой бесами фурии превратился в камеру пыток, а существование Пола – в ад, полный боли и ужаса.",
+     "isbn": "9785457206618",
+     "coverURL": "https://books.google.com/books/content?id=bay5AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 460
+    },
+    {
+     "id": "2C85DwAAQBAJ",
+     "title": "Код да Винчи 10+",
+     "authors": [
+      "Дэн Браун"
+     ],
+     "publishedDate": "2017-10-09",
+     "description": "Роберт Лэнгдон, профессор Гарварда, приезжает в Париж, чтобы прочитать лекцию в Американском университете, а еще встретиться с хранителем Лувра Жаком Соньером. Но тем же вечером Роберт узнает, что хранитель мертв и основным подозреваемым в этом деле оказывается он сам. Помочь Роберту сможет только Софи Невё, внучка хранителя, но у них не так много времени, чтобы доказать невиновность Лэнгдона, а главное – разгадать послание, которое Жак Соньер оставил им перед смертью. В противном случае правда, тщательно охраняемая веками, будет утеряна навсегда...",
+     "isbn": "9785040861118",
+     "coverURL": "https://books.google.com/books/content?id=2C85DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 428
+    },
+    {
+     "id": "fhN1CgAAQBAJ",
+     "title": "Девушка в поезде",
+     "authors": [
+      "Пола Хокинс"
+     ],
+     "publishedDate": "2015-08-28",
+     "description": "Джесс и Джейсон. Такие имена дала Рейчел «безупречным» супругам, за жизнью которых она день за днем наблюдает из окна электрички. У них, похоже, есть все, чего совсем недавно лишилась сама Рейчел, – любовь, счастье, благополучие...Но однажды, проезжая мимо, она видит, как в дворике коттеджа, где живут Джесс и Джейсон, происходит нечто странное, загадочное, шокирующее. Всего минута – и поезд опять трогается, но этого достаточно, чтобы идеальная картинка исчезла навсегда.А потом – Джесс пропадает. И Рейчел понимает, что только она, возможно, способна разгадать тайну ее исчезновения. Что делать? Примет ли полиция ее показания всерьез? И надо ли вообще ей вмешиваться в чужую жизнь?",
+     "isbn": "9785457871434",
+     "coverURL": "https://books.google.com/books/content?id=fhN1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 328
+    },
+    {
+     "id": "epW_BQAAQBAJ",
+     "title": "Тайная история",
+     "authors": [
+      "Донна Тартт"
+     ],
+     "publishedDate": "2014-12-08",
+     "description": "Блестящая американская писательница Донна Тартт, лауреат Пулитцеровской премии 2014 года, покорила читателей первым же своим романом “Тайная история”. Книга сразу стала бестселлером. Она переведена на двадцать пять языков и продолжает расходиться многомиллионными тиражами во всем мире. Действие происходит в небольшом колледже в Вермонте, куда девятнадцатилетний Ричард Пейпен приезжает изучать древнегреческий язык. Новые друзья Ричарда – четверо молодых людей и одна девушка – умны, раскованны, богаты и так увлечены античной культурой, что рассматривают себя чуть ли не как особую касту ее хранителей. Их дружба не выдерживает, однако, натиска современного мира. В веселой и сплоченной компании происходит убийство. Пытаясь через много лет осмыслить случившееся, герой по дням воспроизводит свою студенческую жизнь, этапы отношений с однокурсниками и любимой девушкой. Под виртуозным пером Донны Тартт его исповедь превращается в захватывающий психологический триллер.Больше интересных фактов об этой книге, а также о других триллерах, сюжеты которых развиваются в школах и университетах, читайте в ЛитРес: Журнале",
+     "isbn": "9785457673571",
+     "coverURL": "https://books.google.com/books/content?id=epW_BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 753
+    },
+    {
+     "id": "8pXeDwAAQBAJ",
+     "title": "Институт",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "2020-04-20",
+     "description": "Еще недавно у двенадцатилетнего Люка Эллиса была вполне привычная жизнь: школа, обеды с родителями в любимой пиццерии, вечера в компании лучшего друга... Пока одним июньским утром он не просыпается в собственной комнате, вот только в ней нет окон и находится она в тщательно укрытом от всего мира месте под названием «Институт». Здесь над похищенными из разных городов детьми, обладающими даром телепатии или телекинеза, проводят жестокие эксперименты с целью максимально развить их паранормальные способности. Бежать невозможно. Будущее предопределено, и это будущее – загадочная Дальняя половина Института, откуда не возвращался еще никто... Однако Люк не намерен сдаваться. Он уверен: в любой системе есть слабое место и он дождется часа, когда сможет вновь оказаться на свободе...",
+     "isbn": "9785042395772",
+     "coverURL": "https://books.google.com/books/content?id=8pXeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 647
+    },
+    {
+     "id": "zuAWEQAAQBAJ",
+     "title": "Безмолвный пациент",
+     "authors": [
+      "Алекс Михаэлидес"
+     ],
+     "publishedDate": "2024-07-29",
+     "description": "Бестселлер No 1 New York Times. Самая продаваемая книга 2019 года по версии Forbes. Лучший триллер 2019 года по версии читателей на Goodreads. Топ-3 самых продаваемых книг 2019 года на Amazon. Жизнь Алисии Беренсон кажется идеальной. Известная художница вышла замуж за востребованного модного фотографа. Она живет в одном из самых привлекательных и дорогих районов Лондона в роскошном доме с большими окнами, выходящими в парк. Однажды поздним вечером, когда ее муж Габриэль возвращается домой с очередной съемки, Алисия пять раз стреляет ему в лицо. И с тех пор не произносит ни слова. Отказ Алисии говорить или давать какие-либо объяснения будоражит общественное воображение. Тайна делает художницу знаменитой. И в то время как сама она находится на принудительном лечении, цена ее последней работы – автопортрета с единственной надписью по-гречески «АЛКЕСТА» – стремительно растет. Тео Фабер – криминальный психотерапевт. Он долго ждал возможности поработать с Алисией, заставить ее говорить. Но что скрывается за его одержимостью безумной мужеубийцей, и к чему приведут все эти психологические эксперименты? Возможно, к истине, которая угрожает поглотить и его самого... «Самый неожиданным и потрясающий воображение финал за последнее время» – Блейк Крауч «Умное, сложное и напряженное повествование» – Ли Чайлд «Этот острый и умный роман буквально поразил меня – а я уверяю вас, это очень непросто сделать. Благодарность автору. Особая благодарность...» – Джоанн Харрис, автор романа «Шоколад» «Я люблю его так сильно, так сильно, что это меня пугает. Иногда мне кажется... Нет. Такое я писать не стану». (Из дневника Алисии Беренсон.) «Предположительно, миссис Алисия Беренсон убила собственного мужа». (Из сводки полиции Лондона.) «Очень незаурядно». – Дэвид Болдаччи «Идеальный триллер». – А. Дж. Финн «Гениально». – Стивен Фрай «Самый неожиданный и потрясающий воображение финал за последнее время». – Блейк Крауч «Умное, сложное и напряженное повествование». – Ли Чайлд «Этот острый и умный роман буквально поразил меня, – а я уверяю вас, это очень непросто сделать. Благодарность автору. Особая благодарность...» – Джоанн Харрис, автор романа «Шоколад»",
+     "isbn": "9785046639506",
+     "coverURL": "https://books.google.com/books/content?id=zuAWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 303
+    },
+    {
+     "id": "UWIZCgAAQBAJ",
+     "title": "Культурология: Дайджест No4 / 2011",
+     "authors": [
+      "Ирина Галинская"
+     ],
+     "publishedDate": "2018-12-20",
+     "description": "Содержание издания определяют разнообразные материалы по культурологии.",
+     "isbn": "9785457838178",
+     "coverURL": "https://books.google.com/books/content?id=UWIZCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 351
+    },
+    {
+     "id": "0KKDQwAACAAJ",
+     "title": "Метро 2033",
+     "authors": [
+      "Дмитрий Глуховский"
+     ],
+     "publishedDate": "2011",
+     "description": "Na een nucleaire holocaust ligt het Moskou van 2033 in puin en de overlevenden leven als ratten in de Ondergrondse; maar ook daar zijn zij niet veilig.",
+     "isbn": "9785271242939",
+     "coverURL": "https://books.google.com/books/content?id=0KKDQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+     "totalPages": 512
     }
    ]
   },
   "horror": {
    "title": "Ужасы",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/books/OL39811806M",
-     "title": "ОНО",
+     "id": "HiIJDgAAQBAJ",
+     "title": "Сияние",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1986",
-     "description": "",
-     "isbn": "9789669931757",
-     "coverURL": "https://covers.openlibrary.org/b/id/8569284-L.jpg",
-     "totalPages": 1168
+     "publishedDate": "2017-01-31",
+     "description": "...Проходят годы, десятилетия, но потрясающая история писателя Джека Торранса, его сынишки Дэнни, наделенного необычным даром, и поединка с темными силами, обитающими в роскошном отеле «Оверлук», по-прежнему завораживает и держит в неослабевающем напряжении читателей самого разного возраста...",
+     "isbn": "9785040409730",
+     "coverURL": "https://books.google.com/books/content?id=HiIJDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 676
     },
     {
-     "id": "/books/OL26421084M",
-     "title": "Сумерки",
+     "id": "je-mAAAAQBAJ",
+     "title": "Оно",
      "authors": [
-      "Стефани Майер"
+      "Стивен Кинг"
      ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785170546077",
-     "coverURL": "https://covers.openlibrary.org/b/id/12641983-L.jpg",
-     "totalPages": 498
+     "publishedDate": "2012-11-14",
+     "description": "В маленьком провинциальном городке Дерри много лет назад семерым подросткам пришлось столкнуться с кромешным ужасом – живым воплощением ада.Прошли годы... Подростки повзрослели, и ничто, казалось, не предвещало новой беды. Но кошмар прошлого вернулся, неведомая сила повлекла семерых друзей назад, в новую битву со Злом. Ибо в Дерри опять льется кровь и бесследно исчезают люди. Ибо вернулось порождение ночного кошмара, настолько невероятное, что даже не имеет имени...Читайте самый популярный роман С. Кинга в новом переводе без сокращений!",
+     "isbn": "9785457207097",
+     "coverURL": "https://books.google.com/books/content?id=je-mAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 1633
     },
     {
-     "id": "/books/OL45667604M",
-     "title": "Хоббит",
-     "authors": [
-      "J.R.R. Tolkien"
-     ],
-     "publishedDate": "1937",
-     "description": "",
-     "isbn": "9785878600125",
-     "coverURL": "https://covers.openlibrary.org/b/id/14626140-L.jpg",
-     "totalPages": 310
-    },
-    {
-     "id": "/books/OL26435813M",
-     "title": "451 ̊po Farengeitu/451 по Фаренгеиту",
-     "authors": [
-      "Рэй Брэдбери"
-     ],
-     "publishedDate": "1953",
-     "description": "",
-     "isbn": "9788445008546",
-     "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
-     "totalPages": 190
-    },
-    {
-     "id": "/books/OL23058167M",
+     "id": "DbjPEQAAQBAJ",
      "title": "Дракула",
      "authors": [
+      "Брэм Стокер",
       "Bram Stoker"
      ],
-     "publishedDate": "1897",
-     "description": "",
-     "isbn": "9785267002509",
-     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
-     "totalPages": 384
+     "publishedDate": "2024-07-26",
+     "description": "Впервые опубликованный еще в 1897 году роман «Дракула» остается актуальным и по сей день. История вампира из Трансильвании, сплетенная из вымысла и реальных исследований Брэма Стокера, открывает перед нами грани темной и светлой сторон человеческой натуры, а также поднимает тему извечного противостояния добра и зла. «На свете существуют вампиры — у некоторых из нас была печальная возможность убедиться в этом. Но, даже не имей мы собственного горького опыта, для разумных людей свидетельства и учения прошлого достаточно убедительны». Для кого эта книга Для широкого круга читателей. Для поклонников классической литературы.",
+     "isbn": "9785002140398",
+     "coverURL": "https://books.google.com/books/content?id=DbjPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 468
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
+     "id": "Nsa5BgAAQBAJ",
+     "title": "Франкенштейн, или Современный Прометей",
+     "authors": [
+      "Мэри Шелли"
+     ],
+     "publishedDate": "2015-02-19",
+     "description": "Герой романа английской писательницы Мэри Шелли (1797–1851) «Франкенштейн, или Современный Прометей» давно стал нарицательным именем. Увлеченный проблемой оживления материи, он добивается успеха, однако это не приносит счастья ни ему, ни окружающим. Впервые опубликованный в 1818 году, роман М. Шелли вошел в золотой фонд мировой фантастики. Файл электронной книги подготовлен в Агентстве ФТМ, Лтд., 2015.",
+     "isbn": "9785446713752",
+     "coverURL": "https://books.google.com/books/content?id=Nsa5BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 232
+    },
+    {
+     "id": "BFQUEAAAQBAJ",
+     "title": "Призрак дома на холме",
+     "authors": [
+      "Ширли Джексон"
+     ],
+     "publishedDate": "2020-03-25",
+     "description": "Одна из самых известных историй о доме с приведениями, ставшая вдохновением для сериала Netflix.Старинный особняк на холме приносит его обитателям одни несчастья. Никто не рискует здесь не то, что жить, даже оставаться на ночь – говорят, Хилл-хаус стал пристанищем привидений.Но однажды тишину дома нарушает шумная компания: доктор Монтегю, исследователь паранормальных явлений; Теодора, его беззаботная помощница; Элинор, хрупкая девушка, не понаслышке знакомая с полтергейстами; и Люк – будущий наследник Хилл-хауса. Никто даже не подозревает, каким кошмаром обернется их поездка...",
+     "isbn": "9785042419522",
+     "coverURL": "https://books.google.com/books/content?id=BFQUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 220
+    },
+    {
+     "id": "1cqmAAAAQBAJ",
+     "title": "Кэрри",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
+     "publishedDate": "2012-11-07",
+     "description": "«Кэрри». Роман, после публикации которого Стивен Кинг проснулся знаменитым.История затравленной одноклассниками, забитой матерью девушки из маленького городка Касл-Рок. Девушки, в которой дремлет чудовищный по силе дар телекинеза.Роман «Кэрри» не раз становился основой кинофильмов...И вот теперь новая экранизация – «Телекинез» – с Хлоей Грейс Морец и Джулианной Мур в главных ролях!",
+     "isbn": "9785457206250",
+     "coverURL": "https://books.google.com/books/content?id=1cqmAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 232
     },
     {
-     "id": "/books/OL61135107M",
-     "title": "Портрет Дориана Грея",
+     "id": "RQ3QEAAAQBAJ",
+     "title": "Вий (с иллюстрациями от нейросети)",
      "authors": [
-      "Oscar Wilde"
+      "Николай Гоголь"
      ],
-     "publishedDate": "1890",
-     "description": "",
-     "isbn": "9785041039578",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
-     "totalPages": 246
+     "publishedDate": "2023-08-08",
+     "description": "Издание «Вия», в котором гениальность Гоголя встретилась с искусственным интеллектом. Читайте неизменный текст классика и статью, написанную нейросетью, в которой есть всё, что она «думает» о книге. Кроме того, искусственный интеллект подготовил иллюстрации и обложку. Сюжет: Семинарист Хома Брут получает указание отправиться читать молитвы над умершей дочерью богатого сотника. Как ни пытался Хома этого избежать, его заперли его в церкви вместе с покойницей. Увидев лицо молодой девушки, он вздрогнул – это было лицо ведьмы, с которой он недавно столкнулся. Тогда Хоме удалось избавиться от ее чар, но не сейчас...",
+     "isbn": "9785045684811",
+     "coverURL": "https://books.google.com/books/content?id=RQ3QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 297
     },
     {
-     "id": "/books/OL12543685M",
-     "title": "Зеленая миля",
+     "id": "X5Y91Wu0iX8C",
+     "title": "Демонизм. Зверь Апокалипсиса",
      "authors": [
-      "Стивен Кинг"
+      "Любовь Анатольевна Романчук"
      ],
-     "publishedDate": "1996",
-     "description": "",
-     "isbn": "9785237011579",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651978-L.jpg",
-     "totalPages": 465
-    },
-    {
-     "id": "/books/OL38565762M",
-     "title": "Стрелок",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1976",
-     "description": "",
-     "isbn": "9785170770519",
-     "coverURL": "https://covers.openlibrary.org/b/id/12802998-L.jpg",
-     "totalPages": 256
-    },
-    {
-     "id": "/books/OL26647548M",
-     "title": "Новолуние",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170485659",
-     "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
-     "totalPages": 563
-    },
-    {
-     "id": "/books/OL44570103M",
-     "title": "Бессонница",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1994",
-     "description": "",
-     "isbn": "9785170178285",
-     "coverURL": "https://covers.openlibrary.org/b/id/13109300-L.jpg",
-     "totalPages": 719
-    },
-    {
-     "id": "/books/OL48581896M",
-     "title": "Рождественские повести",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1843",
-     "description": "",
-     "isbn": "9785280012752",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364439-L.jpg",
-     "totalPages": 114
-    },
-    {
-     "id": "/books/OL12537634M",
-     "title": "Как писать книги",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785170077779",
-     "coverURL": "https://covers.openlibrary.org/b/id/9255888-L.jpg",
-     "totalPages": 288
-    },
-    {
-     "id": "/books/OL26421370M",
-     "title": "Рассвет",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785170584697",
-     "coverURL": "https://covers.openlibrary.org/b/id/12643356-L.jpg",
-     "totalPages": 756
-    },
-    {
-     "id": "/books/OL43717571M",
-     "title": "Молчание ягнят",
-     "authors": [
-      "Thomas Harris"
-     ],
-     "publishedDate": "1988",
-     "description": "",
-     "isbn": "9785699585007",
-     "coverURL": "https://covers.openlibrary.org/b/id/15228726-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL12540983M",
-     "title": "Долгая прогулка",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1979",
-     "description": "",
-     "isbn": "9785170255481",
-     "coverURL": "https://covers.openlibrary.org/b/id/14653609-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL12543670M",
-     "title": "Ночная смена",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1960",
-     "description": "",
-     "isbn": "9785237008630",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651975-L.jpg",
-     "totalPages": 383
-    },
-    {
-     "id": "/books/OL37794363M",
-     "title": "Мистер Мерседес",
-     "authors": [
-      "Stephen King",
-      "Stephen king",
-      "Ingah Mikhaʼeli"
-     ],
-     "publishedDate": "2013",
-     "description": "",
-     "isbn": "9785170853120",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654052-L.jpg",
-     "totalPages": 484
-    },
-    {
-     "id": "/books/OL32046827M",
-     "title": "Мёртвая зона",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1979",
-     "description": "",
-     "isbn": "9785770708417",
-     "coverURL": "https://covers.openlibrary.org/b/id/14652746-L.jpg",
-     "totalPages": 426
-    },
-    {
-     "id": "/books/OL12540541M",
-     "title": "Волки Кальи",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785170236459",
-     "coverURL": "https://covers.openlibrary.org/b/id/14656136-L.jpg",
-     "totalPages": 714
-    },
-    {
-     "id": "/books/OL31963537M",
-     "title": "Час ведьмовства",
-     "authors": [
-      "Ан Райс"
-     ],
-     "publishedDate": "1990",
-     "description": "",
-     "isbn": "9785699311453",
-     "coverURL": "https://covers.openlibrary.org/b/id/10703213-L.jpg",
-     "totalPages": 965
-    },
-    {
-     "id": "/books/OL12539210M",
-     "title": "Мешок с костями",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785170177301",
-     "coverURL": "https://covers.openlibrary.org/b/id/13035742-L.jpg",
-     "totalPages": 608
-    },
-    {
-     "id": "/books/OL38631447M",
-     "title": "Бесплодные земли",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1991",
-     "description": "",
-     "isbn": "9785237014853",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
-     "totalPages": 563
-    },
-    {
-     "id": "/books/OL26369169M",
-     "title": "Худеющий",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1984",
-     "description": "",
-     "isbn": "9785237012200",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651977-L.jpg",
-     "totalPages": 318
+     "publishedDate": "2012",
+     "description": "В книге исследованы происхождение и метаморфозы образов сатаны, потустороннего царства, Страшного суда, представителей нечистой силы, а также идеи бессмертия души, тайны апокалипсиса и трех шестерок в контексте литературных мифов и научных версий",
+     "isbn": "9785427800433",
+     "coverURL": "https://books.google.com/books/content?id=X5Y91Wu0iX8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 290
     }
    ]
   },
   "historical": {
    "title": "Исторические",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/books/OL32102654M",
-     "title": "Гордость & предубеждение",
+     "id": "RjNGDAAAQBAJ",
+     "title": "Война и Мир. Полное издание в одном томе.",
      "authors": [
-      "Джейн Остин"
+      "Толстой, Л.Н.",
+      "Лев Толстой"
      ],
-     "publishedDate": "1813",
-     "description": "",
-     "isbn": "9785818905679",
-     "coverURL": "https://covers.openlibrary.org/b/id/10759488-L.jpg",
-     "totalPages": 351
+     "publishedDate": "2016-06-21",
+     "description": "Предлагаем вниманию читателей одно из наиболее грандиозных литературных явлений XIX века роман Льва Толстого \"Война и мир\". Пришлось приложить немало усилий, чтобы это художественное полотно, занимающее 4 объёмистых бумажных тома, уместилось на виртуальных страницах одной электронной книги в формате ePub, ничего не потеряв ни в художественной, ни в познавательной части. Более того, теперь этот роман действительно способен войти в каждый дом, в каждый школьный ранец, в каждый студенческий рюкзак. Чем был и остается Лев Толстой для каждого русского человека? \"Л. Н. Толстой был самым ярким представителем русской интеллигенции, и не только в том смысле, что он был гениальный художник, ведущий деятель русской литературы, но и в том, что он чутко сопереживал все вопросы, которыми болела интеллигенция его времени. И интеллигенция, порой расходившаяся с ним в практических и даже моральных выводах, никогда не относилась равнодушно к его личности, к его мысли и деятельности\"(В.Г.Короленко).",
+     "isbn": "9781773130620",
+     "coverURL": "https://books.google.com/books/content?id=RjNGDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 1715
     },
     {
-     "id": "/books/OL23034780M",
-     "title": "Код да Винчи",
+     "id": "x58MAAAAIAAJ",
+     "title": "Унесенные ветром",
      "authors": [
-      "Дэн Браун"
+      "Margaret Mitchell"
      ],
-     "publishedDate": "2003",
+     "publishedDate": "1984",
      "description": "",
-     "isbn": "9785170224579",
-     "coverURL": "https://covers.openlibrary.org/b/id/8396573-L.jpg",
-     "totalPages": 489
+     "isbn": "",
+     "coverURL": "https://books.google.com/books/content?id=x58MAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+     "totalPages": 750
     },
     {
-     "id": "/works/OL166894W",
-     "title": "Преступление и наказание",
+     "id": "KDu1CgAAQBAJ",
+     "title": "Столпы земли",
      "authors": [
-      "Ф.М Достоевский"
+      "Кен Фоллетт"
      ],
-     "publishedDate": "1866",
-     "description": "",
-     "isbn": "9781985707368",
-     "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
-     "totalPages": 520
+     "publishedDate": "2015-10-09",
+     "description": "Роман Кена Фоллетта – грандиозная панорама самых темных лет в истории Англии, когда борьба за престол и междоусобные войны были привычным фоном жизни. Автор разворачивает перед читателем сплетенные в единый клубок истории самых разных людей – от простых ремесленников до графов и членов королевских семей – и следит за своими героями на протяжении более чем полувека. Воссоздан целый мир страстей и преступлений, интриг, тайн, страхов, любви и верности, на фоне которого медленно и величественно разворачивается строительство самого высокого собора в Англии.Книга поражает воображение, держит в напряжении до самой развязки, этому эпическому полотну присущи магнетизм детектива и триллера.",
+     "isbn": "9785457891029",
+     "coverURL": "https://books.google.com/books/content?id=KDu1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 1411
     },
     {
-     "id": "/books/OL60405429M",
-     "title": "Бегущий за ветром",
+     "id": "s4l-EAAAQBAJ",
+     "title": "Тихий Дон",
      "authors": [
-      "Халед Хоссейни"
+      "Михаил Шолохов"
      ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785864716250",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162778-L.jpg",
-     "totalPages": 371
+     "publishedDate": "2022-08-01",
+     "description": "Роман-эпопея Михаила Шолохова «Тихий Дон» – одно из наиболее значительных и масштабных произведений в русской литературы, которое принесло автору Нобелевскую премию и мировую известность; роман был неоднократно экранизирован и переведен на многие языки. Первые три тома вышли в свет в 1928–1932 гг., когда молодому автору не исполнилось и тридцати лет, четвертый том – в 1940-м. Действие «Тихого Дона» разворачивается на фоне переломных событий в истории России – Первой мировой и Гражданской войны, поменявших не только древний уклад жизни донского казачества, но и облик всей страны. В романе в полной мере нашла выражение одна из главных тем шолоховского творчества – война как братоубийственная бойня, противная человеческой природе. «Главный герой его произведений, – писал о Шолохове финский писатель Мартти Ларни, – сама правда… Жизнь он видит и воспринимает как реалистическую драму, в которой главная роль отведена человечности. В этом одно из объяснений его мировой славы».",
+     "isbn": "9785389217911",
+     "coverURL": "https://books.google.com/books/content?id=s4l-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 647
     },
     {
-     "id": "/books/OL35143635M",
+     "id": "8-fRBQAAQBAJ",
+     "title": "Имя розы",
+     "authors": [
+      "Умберто Эко"
+     ],
+     "publishedDate": "2014-12-11",
+     "description": "«Имя розы» – книга с загадкой. В начале ХIV века, вскоре после того, как Данте сочинил «Божественную комедию», в сердце Европы, в бенедиктинском монастыре обнаруживаются убитые. Льется кровь, разверзаются сферы небес. Череда преступлений воспроизводит не английскую считалочку, а провозвестия Апокалипсиса. Сыщик, конечно, англичанин. Он напоминает Шерлока Холмса, а его юный ученик – доктора Ватсона. В жесткой конструкции детектива находится место и ярким фактам истории Средневековья, и перекличкам с историей ХХ века, и рассказам о религиозных конфликтах и бунтах, и трогательной повести о любви, и множеству новых загадок, которые мы, читатели, торопимся разрешить, но хитрый автор неизменно обыгрывает нас... Вплоть до парадоксального и жуткого финала. В формате a4.pdf сохранен издательский макет.",
+     "isbn": "9785457674813",
+     "coverURL": "https://books.google.com/books/content?id=8-fRBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 1074
+    },
+    {
+     "id": "P2ovEQAAQBAJ",
      "title": "Книжный вор",
      "authors": [
       "Маркус Зусак"
      ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 560
+     "publishedDate": "2024-11-05",
+     "description": "Январь 1939 года. Германия. Страна, затаившая дыхание. Никогда еще у смерти не было столько работы. А будет еще больше. Мать везет девятилетнюю Лизель Мемингер и ее младшего брата к приемным родителям под Мюнхен, потому что их отца больше нет – его унесло дыханием чужого и странного слова «коммунист», и в глазах матери девочка видит страх перед такой же судьбой. В дороге смерть навещает мальчика и впервые замечает Лизель. Так девочка оказывается на Химмель-штрассе – Небесной улице. Кто бы ни придумал это название, у него имелось здоровое чувство юмора. Не то чтобы там была сущая преисподняя. Нет. Но и никак не рай. «Книжный вор» – недлинная история, в которой, среди прочего, говорится: об одной девочке; о разных словах; об аккордеонисте; о разных фанатичных немцах; о еврейском драчуне; и о множестве краж. Это книга о силе слов и способности книг вскармливать душу.",
+     "isbn": "9785046905533",
+     "coverURL": "https://books.google.com/books/content?id=P2ovEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 615
     },
     {
-     "id": "/books/OL23058167M",
-     "title": "Дракула",
+     "id": "jpU-AQAAIAAJ",
+     "title": "Роман А.Н. Толстого \"Петр Первый\" в школьном изучении",
      "authors": [
-      "Bram Stoker"
+      "Nina Alekseevna Demidova"
      ],
-     "publishedDate": "1897",
+     "publishedDate": "1971",
      "description": "",
-     "isbn": "9785267002509",
-     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
-     "totalPages": 384
+     "isbn": "",
+     "coverURL": "https://books.google.com/books/content?id=jpU-AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+     "totalPages": 168
     },
     {
-     "id": "/books/OL61135107M",
-     "title": "Портрет Дориана Грея",
+     "id": "jZxoDwAAQBAJ",
+     "title": "Овод",
      "authors": [
-      "Oscar Wilde"
+      "Этель Лилиан Войнич"
      ],
-     "publishedDate": "1890",
-     "description": "",
-     "isbn": "9785041039578",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
-     "totalPages": 246
+     "publishedDate": "2018-08-10",
+     "description": "Вот уже более ста лет роман «Овод» волнует многие поколения читателей, но встречен он был по-разному. Пуританская Англия отнеслась к нему сдержанно. В Америке он вызвал бурю возмущения своим антирелигиозным характером, в России его восторженно приветствовали, в СССР он издавался миллионными тиражами и был включен в школьную программу. Не случайно название романа: оно отсылает нас к Сократу, принявшему смерть за свои убеждения. Главный герой Овод, подобно греческому мудрецу, остается верен идеям, вдохновлявшим его с юности. Овод – это интернациональный тип революционера. В разные эпохи, разными обществами роман воспринимался неоднозначно. Сегодня он вновь может найти своих поклонников.",
+     "isbn": "9785041268008",
+     "coverURL": "https://books.google.com/books/content?id=jZxoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 339
     },
     {
-     "id": "/books/OL32249448M",
-     "title": "Гамлет",
+     "id": "moNXDwAAQBAJ",
+     "title": "Легкое чтение на английском языке. В. Скотт. Айвенго / Sir Walter Scott. Ivanhoe",
      "authors": [
-      "Уильям Шекспир"
+      "Вальтер Скотт"
      ],
-     "publishedDate": "1603",
-     "description": "",
-     "isbn": "9798764491622",
-     "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
-     "totalPages": 192
-    },
-    {
-     "id": "/books/OL48581955M",
-     "title": "Машина времени. Война миров. Рассказы",
-     "authors": [
-      "H. G. Wells"
-     ],
-     "publishedDate": "1895",
-     "description": "",
-     "isbn": "9798695669329",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
-     "totalPages": 120
-    },
-    {
-     "id": "/books/OL48111135M",
-     "title": "Возлюбленная",
-     "authors": [
-      "Toni Morrison"
-     ],
-     "publishedDate": "1987",
-     "description": "",
-     "isbn": "9785699874958",
-     "coverURL": "https://covers.openlibrary.org/b/id/14342722-L.jpg",
-     "totalPages": 321
-    },
-    {
-     "id": "/books/OL36691602M",
-     "title": "Мальчик в полосатой пижаме",
-     "authors": [
-      "John Boyne"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785864716632",
-     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
-     "totalPages": 216
-    },
-    {
-     "id": "/books/OL53638929M",
-     "title": "Повесть о двух городах",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1800",
-     "description": "",
-     "isbn": "9785389011335",
-     "coverURL": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
-     "totalPages": 388
-    },
-    {
-     "id": "/books/OL34898577M",
-     "title": "Приключения Гекльберри Финна",
-     "authors": [
-      "М.Твен"
-     ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781519764362",
-     "coverURL": "https://covers.openlibrary.org/b/id/15182329-L.jpg",
-     "totalPages": 346
-    },
-    {
-     "id": "/books/OL26785132M",
-     "title": "Бойня номер пять, или Крестовый поход детей",
-     "authors": [
-      "Курт Воннегут"
-     ],
-     "publishedDate": "1956",
-     "description": "",
-     "isbn": "9785352003725",
-     "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 203
-    },
-    {
-     "id": "/works/OL267096W",
-     "title": "Анна Каренина",
-     "authors": [
-      "Лев Толстой"
-     ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781417933228",
-     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
-     "totalPages": 660
-    },
-    {
-     "id": "/books/OL50983593M",
-     "title": "Сидхартха",
-     "authors": [
-      "Hermann Hesse"
-     ],
-     "publishedDate": "1922",
-     "description": "",
-     "isbn": "9785413012178",
-     "coverURL": "https://covers.openlibrary.org/b/id/14575459-L.jpg",
-     "totalPages": 140
-    },
-    {
-     "id": "/books/OL12545159M",
-     "title": "Остров Сокровищ",
-     "authors": [
-      "Robert Louis Stevenson"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9785329001181",
-     "coverURL": "https://covers.openlibrary.org/b/id/14551555-L.jpg",
-     "totalPages": 248
-    },
-    {
-     "id": "/books/OL38564331M",
-     "title": "Чувство и чувствительность",
-     "authors": [
-      "Джейн Остин"
-     ],
-     "publishedDate": "1811",
-     "description": "",
-     "isbn": "9785389067844",
-     "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL45170658M",
-     "title": "Большие надежды",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1861",
-     "description": "",
-     "isbn": "9785170695010",
-     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
-     "totalPages": 482
-    },
-    {
-     "id": "/works/OL21025633W",
-     "title": "Записки изъ подполья",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1864",
-     "description": "",
-     "isbn": "9781983676925",
-     "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
-     "totalPages": 132
-    },
-    {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9785519719841",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
-    },
-    {
-     "id": "/books/OL48581896M",
-     "title": "Рождественские повести",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1843",
-     "description": "",
-     "isbn": "9785280012752",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364439-L.jpg",
-     "totalPages": 114
-    },
-    {
-     "id": "/books/OL39794172M",
-     "title": "Утраченный символ",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2009",
-     "description": "",
-     "isbn": "9785170251957",
-     "coverURL": "https://covers.openlibrary.org/b/id/12904246-L.jpg",
-     "totalPages": 604
-    },
-    {
-     "id": "/books/OL23092310M",
-     "title": "Путушествия Гулливера",
-     "authors": [
-      "Д. Свифт"
-     ],
-     "publishedDate": "1726",
-     "description": "",
-     "isbn": "9785180010346",
-     "coverURL": "https://covers.openlibrary.org/b/id/12728853-L.jpg",
-     "totalPages": 278
+     "publishedDate": "2018-04-23",
+     "description": "Захватывающий рассказ о приключениях благородного английского рыцаря в славные времена правления короля Ричарда Львиное Сердце адаптирован в настоящем издании по методу Ильи Франка: снабжен транскрипцией, дословным переводом на русский язык и необходимым лексико-грамматическим комментарием.Уникальность метода заключается в том, что запоминание слов и выражений происходит за счет их повторяемости, без заучивания и необходимости использовать словарь.Пособие способствует эффективному освоению языка, может служить дополнением к учебной программе.Для широкого круга лиц, изучающих английский язык и интересующихся английской культурой.",
+     "isbn": "9785041118693",
+     "coverURL": "https://books.google.com/books/content?id=moNXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 348
     }
    ]
   },
   "youngAdult": {
    "title": "Young Adult",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/books/OL37079366M",
+     "id": "8UOyAAAAQBAJ",
      "title": "Голодные игры",
      "authors": [
       "Сьюзен Коллинз"
      ],
-     "publishedDate": "2008",
-     "description": "",
-     "isbn": "9785271415203",
-     "coverURL": "https://covers.openlibrary.org/b/id/12646529-L.jpg",
-     "totalPages": 399
+     "publishedDate": "2012-04-12",
+     "description": "Книга-сенсация, ставшая международным бестселлером и удостоенная множества литературных наград! Эти парень и девушка знакомы с детства и еще могут полюбить друг друга, но им придется стать врагами... По жребию они должны участвовать в страшных Голодных играх, где выживает только один – сильнейший. Пока в жестоком квесте остаются хотя бы какие-то участники, Китнисс и Пит могут защищать друг друга и сражаться вместе. Но рано или поздно кому-то из них придется пожертвовать жизнью ради любимого... Таков закон Голодных игр. Закон, который не нарушался еще никогда!",
+     "isbn": "9785457176003",
+     "coverURL": "https://books.google.com/books/content?id=8UOyAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 316
     },
     {
-     "id": "/books/OL26421084M",
-     "title": "Сумерки",
+     "id": "CVdAAQAAQBAJ",
+     "title": "Виноваты звезды",
+     "authors": [
+      "Джон Грин"
+     ],
+     "publishedDate": "2013-10-08",
+     "description": "Подростки, страдающие от тяжелой болезни, не собираются сдаваться. Они по-прежнему остаются подростками – ядовитыми, неугомонными, взрывными, бунтующими, равно готовыми и к ненависти, и к любви. Хейзел и Огастус бросают вызов судьбе. Они влюблены друг в друга, их терзает не столько нависшая над ними тень смерти, сколько обычная ревность, злость и непонимание. Они – вместе. Сейчас – вместе. Но что их ждет впереди?",
+     "isbn": "9785457450189",
+     "coverURL": "https://books.google.com/books/content?id=CVdAAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 246
+    },
+    {
+     "id": "4fV7BwAAQBAJ",
+     "title": "Четыре. История дивергента",
+     "authors": [
+      "Вероника Рот"
+     ],
+     "publishedDate": "2015-03-19",
+     "description": "Перед вами приквел к культовой трилогии-антиутопии о выживании подростков и взрослых в экспериментальной реальности. В сборник вошли четыре рассказа: «Перешедший», «Неофит», «Сын», «Предатель», а также дополнительный бонус для фанатов – «Эксклюзивные сцены из “Дивергента”, рассказанные от лица Тобиаса». Главный герой книги, Тобиас Итон по прозвищу «Четыре», сын деспота Маркуса из фракции Альтруистов, станет в недалеком будущем наставником, а потом и парнем мятежной Трис. Но пока персонажи находятся только в самом начале пути, матрица еще не раскручивается, а Тобиас уже проявляет характер. Отчаявшийся парень пытается вырваться на свободу и сбежать от лицемера-отца. В итоге Тобиас выбирает не фракцию Альтруистов, как положено ему по наследству, а экстремальное Лихачество. Но найдет ли он здесь убежище и спасение от самого себя?.. Впервые на русском языке!",
+     "isbn": "9785457714182",
+     "coverURL": "https://books.google.com/books/content?id=4fV7BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 237
+    },
+    {
+     "id": "WCKzEAAAQBAJ",
+     "title": "Разрезающий лабиринт",
+     "authors": [
+      "Джеймс Дэшнер"
+     ],
+     "publishedDate": "2023-03-09",
+     "description": "Cо времен битвы отважных глэйдеров с ПОРОКом прошло 73 года. Потомки Томаса, Минхо и других героев Лабиринта живут на островах, занимаются натуральным хозяйством, разводят овец, ловят рыбу, работают в кузнице. Но однажды из внешнего мира, оставшегося в памяти лишь в виде пугающих легенд, прибывает корабль. На палубе разбросаны трупы, а единственный выживший член команды обращается к островитянам с просьбой о помощи. Нескольким подросткам, в чьих жилах течет кровь предков-глэйдеров, предстоит отправиться в путешествие. Если бы они только знали, с кем и с чем им предстоит столкнуться...",
+     "isbn": "9785045292504",
+     "coverURL": "https://books.google.com/books/content?id=WCKzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 272
+    },
+    {
+     "id": "If3vDQAAQBAJ",
+     "title": "Сумерки / Жизнь и смерть: Сумерки. Переосмысление (сборник)",
      "authors": [
       "Стефани Майер"
      ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785170546077",
-     "coverURL": "https://covers.openlibrary.org/b/id/12641983-L.jpg",
-     "totalPages": 498
+     "publishedDate": "2022-04-19",
+     "description": "Уникальное «двойное» издание, в котором одна и та же история рассказывается по-разному.Первая часть – знаменитые «Сумерки» в новом переводе. А вот вторая – новый проект Стефани Майер, полная «перезагрузка» культового романа!Вы хотите узнать, что было бы, если бы Белла была юношей, а Эдвард – девушкой?Итак, в скучный городок Форкс переезжает юный Бофорт Свон, которому предстоит встретить таинственную красавицу Эдит Каллен, и эта встреча изменит его жизнь навсегда...",
+     "isbn": "9785040386444",
+     "coverURL": "https://books.google.com/books/content?id=If3vDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 998
     },
     {
-     "id": "/books/OL29554500M",
-     "title": "Гарри Поттер и Дары Смерти",
-     "authors": [
-      "Джоан Роулинг"
-     ],
-     "publishedDate": "2007",
-     "description": "",
-     "isbn": "9785389077928",
-     "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
-     "totalPages": 703
-    },
-    {
-     "id": "/books/OL45667604M",
-     "title": "Хоббит",
-     "authors": [
-      "J.R.R. Tolkien"
-     ],
-     "publishedDate": "1937",
-     "description": "",
-     "isbn": "9785878600125",
-     "coverURL": "https://covers.openlibrary.org/b/id/14626140-L.jpg",
-     "totalPages": 310
-    },
-    {
-     "id": "/books/OL35143635M",
-     "title": "Книжный вор",
-     "authors": [
-      "Маркус Зусак"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 560
-    },
-    {
-     "id": "/books/OL60959064M",
-     "title": "Хорошо быть тихоней",
-     "authors": [
-      "Stephen Chbosky"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785389061606",
-     "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
-     "totalPages": 231
-    },
-    {
-     "id": "/books/OL45119801M",
+     "id": "X8_uEQAAQBAJ",
      "title": "Шестерка воронов",
      "authors": [
-      "Leigh Bardugo"
+      "Ли Бардуго"
      ],
-     "publishedDate": "2015",
-     "description": "",
-     "isbn": "9785171366162",
-     "coverURL": "https://covers.openlibrary.org/b/id/13122069-L.jpg",
-     "totalPages": 512
+     "publishedDate": "2026-06-08",
+     "description": "Банды, акулы, чёрные перчатки, скрывающие тайну, – добро пожаловать в Кеттердам, где Каз Бреккер знает всё о всех, а его команда берётся за дело, на кону которого не только деньги, но и секрет, способный перевернуть мир. Кеттердам – шумный центр международной торговли, где по сходной цене можно купить все, и лучше других это знает юный гений преступного мира Каз Бреккер. Ему выпадает шанс на ограбление века, которое может сделать его невообразимо богатым. Но один он не справится... Узник, обуреваемый жаждой мести. Стрелок, который любит испытывать судьбу. Беглец из высших слоев общества. Шпионка, известная под кличкой Призрак. Девушка из магического ордена Гришей с необычным даром. Вор с талантом выходить сухим из воды. Шесть опасных изгоев. Одно невозможное похищение.",
+     "isbn": "9785049196730",
+     "coverURL": "https://books.google.com/books/content?id=X8_uEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 534
     },
     {
-     "id": "/books/OL51160247M",
-     "title": "Описание В конце они оба умрут",
+     "id": "rPFVDwAAQBAJ",
+     "title": "Тень и кость",
      "authors": [
-      "Adam Silvera"
+      "Ли Бардуго"
      ],
-     "publishedDate": "2017",
-     "description": "",
-     "isbn": "9785604219669",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588800-L.jpg",
-     "totalPages": 373
+     "publishedDate": "2018-04-17",
+     "description": "Окруженная врагами, некогда великая страна Равка разделена Тенистым Каньоном – полосой непроницаемой темноты, кишащей монстрами, которые жаждут человеческой плоти. И теперь судьба нации в руках одинокой девушки Алины Старковой. Алина не ждала слишком многого от жизни. Оставшись сиротой в результате приграничной войны, она уверена только в одном человеке – своем лучшем друге по имени Мал. Когда на Мала нападают волькры, в девушке пробуждается магическая сила такой мощи, что становится ясно: она способна спасти всю страну. Алину увозят в королевский дворец, где будут тренировать как одну из гришей – представителей элитного сообщества магов во главе с загадочным Дарклингом. Ей предстоит столкнуться с тайнами гришей... и своего собственного сердца. Больше интересных фактов об этой книге и ее экранизации читайте в ЛитРес: Журнале Теперь у ЛитРес есть группа в vk и канал в telegram, – там мы рассказываем о самом интересном, что находим в российском и зарубежном янг эдалте! Делимся интересными новинками и рассказываем о том, что уже вышло, а ещё общаемся с авторами и сами собираем интересные факты о любимых сериях. Подписывайтесь, чтобы найти единомышленников или друзей для совместных чтений!",
+     "isbn": "9785041077730",
+     "coverURL": "https://books.google.com/books/content?id=rPFVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 272
     },
     {
-     "id": "/books/OL32249448M",
-     "title": "Гамлет",
+     "id": "qoxZswEACAAJ",
+     "title": "Гарри Поттер и философский камень",
      "authors": [
-      "Уильям Шекспир"
-     ],
-     "publishedDate": "1603",
-     "description": "",
-     "isbn": "9798764491622",
-     "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
-     "totalPages": 192
-    },
-    {
-     "id": "/books/OL24609733M",
-     "title": "Имя ветра",
-     "authors": [
-      "Patrick Rothfuss",
-      "Marc Simonetti"
-     ],
-     "publishedDate": "2007",
-     "description": "",
-     "isbn": "9785699399376",
-     "coverURL": "https://covers.openlibrary.org/b/id/6692522-L.jpg",
-     "totalPages": 736
-    },
-    {
-     "id": "/books/OL36691602M",
-     "title": "Мальчик в полосатой пижаме",
-     "authors": [
-      "John Boyne"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785864716632",
-     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
-     "totalPages": 216
-    },
-    {
-     "id": "/books/OL27138268M",
-     "title": "Сойка-пересмешница",
-     "authors": [
-      "Сьюзен Коллинз"
-     ],
-     "publishedDate": "2010",
-     "description": "",
-     "isbn": "9785271424557",
-     "coverURL": "https://covers.openlibrary.org/b/id/15168538-L.jpg",
-     "totalPages": 424
-    },
-    {
-     "id": "/books/OL26647548M",
-     "title": "Новолуние",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170485659",
-     "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
-     "totalPages": 563
-    },
-    {
-     "id": "/books/OL45170658M",
-     "title": "Большие надежды",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1861",
-     "description": "",
-     "isbn": "9785170695010",
-     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
-     "totalPages": 482
-    },
-    {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9785519719841",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
-    },
-    {
-     "id": "/books/OL26916424M",
-     "title": "Затмение",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170563333",
-     "coverURL": "https://covers.openlibrary.org/b/id/11749200-L.jpg",
-     "totalPages": 629
-    },
-    {
-     "id": "/books/OL26421370M",
-     "title": "Рассвет",
-     "authors": [
-      "Стефани Майер"
+      "J. K. Rowling"
      ],
      "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785170584697",
-     "coverURL": "https://covers.openlibrary.org/b/id/12643356-L.jpg",
-     "totalPages": 756
-    },
-    {
-     "id": "/books/OL23092310M",
-     "title": "Путушествия Гулливера",
-     "authors": [
-      "Д. Свифт"
-     ],
-     "publishedDate": "1726",
-     "description": "",
-     "isbn": "9785180010346",
-     "coverURL": "https://covers.openlibrary.org/b/id/12728853-L.jpg",
-     "totalPages": 278
-    },
-    {
-     "id": "/books/OL45064803M",
-     "title": "Бессердечная",
-     "authors": [
-      "Марисса Мейер"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785171393007",
-     "coverURL": "https://covers.openlibrary.org/b/id/13120910-L.jpg",
-     "totalPages": 510
-    },
-    {
-     "id": "/books/OL2270254M",
-     "title": "Двадцать тысячь лье под водой",
-     "authors": [
-      "Жюль Верн"
-     ],
-     "publishedDate": "1870",
-     "description": "",
-     "isbn": "9781897093696",
-     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
-     "totalPages": 325
-    },
-    {
-     "id": "/books/OL26421032M",
-     "title": "Чудесный нож роман",
-     "authors": [
-      "Philip Pullman"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785353015260",
-     "coverURL": "https://covers.openlibrary.org/b/id/15173010-L.jpg",
-     "totalPages": 350
-    },
-    {
-     "id": "/books/OL37035450M",
-     "title": "Янтарный телескоп",
-     "authors": [
-      "Philip Pullman"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785353017264",
-     "coverURL": "https://covers.openlibrary.org/b/id/12614573-L.jpg",
-     "totalPages": 536
-    },
-    {
-     "id": "/books/OL51160249M",
-     "title": "Что, если это мы",
-     "authors": [
-      "Becky Albertalli",
-      "Adam Silvera"
-     ],
-     "publishedDate": "2018",
-     "description": "",
-     "isbn": "9785604360668",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588805-L.jpg",
-     "totalPages": 443
-    },
-    {
-     "id": "/books/OL31889800M",
-     "title": "Приключения Тома Сойера / Приключения Гекльберри Финна",
-     "authors": [
-      "М.Твен"
-     ],
-     "publishedDate": "1922",
-     "description": "",
-     "isbn": "9785170176250",
-     "coverURL": "https://covers.openlibrary.org/b/id/10641599-L.jpg",
-     "totalPages": 448
+     "description": "Harry Potter thinks he is an ordinary boy until he is rescued by an owl, taken to Hogwarts School of Witchcraft and Wizardry, learns to play Quiddich, and engages in a deadly duel. The reason: Harry is a wizard.",
+     "isbn": "9785845105127",
+     "coverURL": "https://books.google.com/books/content?id=qoxZswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+     "totalPages": 381
     }
    ]
   },
   "biography": {
    "title": "Биографии",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/books/OL26772752M",
+     "id": "xSWOMjMSzi8C",
      "title": "Стив Джобс",
      "authors": [
-      "Walter Isaacson"
+      "Уолтер Айзексон"
      ],
-     "publishedDate": "2011",
-     "description": "",
-     "isbn": "9785271393785",
-     "coverURL": "https://covers.openlibrary.org/b/id/8423876-L.jpg",
-     "totalPages": 665
+     "publishedDate": "2011-12-22",
+     "description": "В основу этой биографии легли беседы с самим Стивом Джобсом, а также с его родственниками, друзьями, врагами, соперниками и коллегами. Джобс никак не контролировал автора. Он откровенно отвечал на все вопросы и ждал такой же честности от остальных. Это рассказ о жизни, полной падений и взлетов, о сильном человеке и талантливом бизнесмене, который одним из первых понял: чтобы добиться успеха в XXI веке, нужно соединить креативность и технологии.",
+     "isbn": "9785457174825",
+     "coverURL": "https://books.google.com/books/content?id=xSWOMjMSzi8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 856
     },
     {
-     "id": "/books/OL26138027M",
-     "title": "Автобиография йога",
+     "id": "9x9bDwAAQBAJ",
+     "title": "Дневник Анны Франк",
      "authors": [
-      "Yogananda Paramahansa"
+      "Анна Франк, Ари Фольман, Дэвид Полонски"
      ],
-     "publishedDate": "1946",
-     "description": "",
-     "isbn": "9780876120996",
-     "coverURL": "https://covers.openlibrary.org/b/id/7797465-L.jpg",
-     "totalPages": 514
+     "publishedDate": "",
+     "description": "Графический роман создан Ари Фольманом и Дэвидом Полонски — сценаристом и художником номинированного на «Оскар» и получившего «Золотой глобус» мультфильма «Вальс с Баширом». К 2019 году Ари и Дэвид готовят мультфильм по «Дневнику». Адаптацию одобрил Фонд Анны Франк, который курирует издания по всему миру.",
+     "isbn": "9785001174325",
+     "coverURL": "https://books.google.com/books/content?id=9x9bDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 154
     },
     {
-     "id": "/works/OL267096W",
-     "title": "Анна Каренина",
+     "id": "6Sm5DwAAQBAJ",
+     "title": "Becoming. Моя история",
      "authors": [
-      "Лев Толстой"
+      "Мишель Обама"
      ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781417933228",
-     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
-     "totalPages": 660
+     "publishedDate": "2019-10-25",
+     "description": "Искренние и вдохновляющие мемуары бывшей первой леди США. Мишель Обама делится сокровенными моментами своего брака – когда она пыталась балансировать между работой и личной жизнью, а также стремительно развивающейся политической карьерой мужа. Мы становимся свидетелями приватных бесед супругов, идем плечом к плечу с автором по великолепным залам Белого дома и сопровождаем Мишель Обаму в поездках по всей стране. «Перед первой леди Америка предстает без прикрас. Я бывала на аукционах в частных домах, больше похожих на музеи, где стояли ванны из драгоценных камней. Видела семьи, которые потеряли все в урагане Катрина и были до слез благодарны получить в дар хотя бы работающие холодильник и плиту. Я встречала лицемеров и лгунов. Но также встречала и учителей, жен военнослужащих и многих других людей, настолько сильных духом, что я с трудом верила своим глазам». Рассказывая свою историю честно и смело, автор заставляет каждого из нас задуматься: кто я и какова моя история? В формате a4.pdf сохранен издательский макет книги.",
+     "isbn": "9785041927813",
+     "coverURL": "https://books.google.com/books/content?id=6Sm5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 637
     },
     {
-     "id": "/books/OL26433730M",
-     "title": "Коли подих стає повітрям",
+     "id": "Q91bEQAAQBAJ",
+     "title": "Илон Маск. Уолтер Айзексон. Кратко",
      "authors": [
-      "Paul Kalanithi"
+      "Культур-Мультур"
      ],
-     "publishedDate": "2016",
-     "description": "",
-     "isbn": "9786171222021",
-     "coverURL": "https://covers.openlibrary.org/b/id/8145796-L.jpg",
-     "totalPages": 232
+     "publishedDate": "2025-05-06",
+     "description": "«Эта книга – сокращенный пересказ произведения Walter Isaacson «Elon Musk».Используя лингвистические нейросети, мы значительно уменьшили объем текста, сохранив все основные идеи.От автора биографий Стива Джобса и других бестселлеров, это удивительно интимная история самого увлекательного и противоречивого новатора нашей эпохи – провидца, нарушающего правила, который помог привести мир к эре электромобилей, частных космических исследований и искусственного интеллекта. О, и захватил Twitter.Когда Илон Маск был ребенком в Южной Африке, его регулярно избивали хулиганы. Однажды группа столкнула его с бетонных ступеней и пинала его, пока его лицо не превратилось в опухший шар плоти. Он пролежал в больнице неделю. Но физические шрамы были незначительными по сравнению с эмоциональными, нанесенными его отцом, инженером, мошенником и харизматичным фантазером.Влияние отца на его психику будет сохраняться. Он превратился в жесткого, но уязвимого мужчину-ребенка, склонного к резким перепадам настроения Джекила и Хайда, с чрезвычайно высокой терпимостью к риску, тягой к драме, эпическим чувством миссии и маниакальной интенсивностью, которая была бессердечной и порой разрушительной.В начале 2022 года – после года, отмеченного запуском SpaceX тридцати одной ракеты на орбиту, продажей Tesla миллиона автомобилей и его становлением самым богатым человеком на Земле – Маск с сожалением говорил о своей тяге к разжиганию драм. «Мне нужно изменить свое мышление, чтобы не находиться в кризисном режиме, в котором он пребывал около четырнадцати лет, или, возможно, большую часть моей жизни», – сказал он.Это был задумчивый комментарий, а не новогоднее решение. Даже когда он это говорил, он тайно скупал акции Twitter, главной игровой площадки мира. На протяжении многих лет, когда он оказывался в темном месте, его разум возвращался к издевательствам на игровой площадке. Теперь у него появился шанс стать владельцем игровой площадки.В течение двух лет Айзексон следовал за Маском, посещал его встречи, ходил с ним по его заводам и часами брал у него интервью, его семье, друзьям, коллегам и противникам. Результатом стала откровенная внутренняя история, наполненная удивительными историями о триумфах и потрясениях, которая затрагивает вопросы о том, какие демоны движут Маском, а также что нужно для стимулирования инноваций и прогресса?»",
+     "isbn": "9785047543291",
+     "coverURL": "https://books.google.com/books/content?id=Q91bEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 53
     },
     {
-     "id": "/books/OL12537634M",
-     "title": "Как писать книги",
+     "id": "yDlaEQAAQBAJ",
+     "title": "Путь к мечте. Секреты исполнения желаний",
      "authors": [
-      "Стивен Кинг"
+      "Инга Бергман"
      ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785170077779",
-     "coverURL": "https://covers.openlibrary.org/b/id/9255888-L.jpg",
-     "totalPages": 288
+     "publishedDate": "2025-04-28",
+     "description": "Эта книга — ваш ключ к воплощению своих желаний без выгорания и потери радости жизни. Она научит превращать туманные мечты в чёткие цели, находить радость в каждом шаге и адаптироваться к любым вызовам. Практические упражнения, включая мощную технику визуализации, помогут ясно увидеть ваш путь и сделать первый шаг уже сегодня. Вы узнаете, как поддерживать мотивацию, выстраивать устойчивые привычки и праздновать успехи, чтобы двигаться вперёд с лёгкостью. Книга вдохновит вас расти, сохраняя гармонию, и даст инструменты для создания жизни, полной смысла и достижений. Откройте её и начните свой путь к мечте прямо сейчас!",
+     "isbn": "9785047518619",
+     "coverURL": "https://books.google.com/books/content?id=yDlaEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 222
     },
     {
-     "id": "/books/OL23092310M",
-     "title": "Путушествия Гулливера",
+     "id": "VtcmEAAAQBAJ",
+     "title": "ПОЭТИКА РОМАНА АГАТЫ КРИСТИ «РОЗА И ТИС». Исследовательская работа",
      "authors": [
-      "Д. Свифт"
+      "Оксана Ткаченко"
      ],
-     "publishedDate": "1726",
-     "description": "",
-     "isbn": "9785180010346",
-     "coverURL": "https://covers.openlibrary.org/b/id/12728853-L.jpg",
-     "totalPages": 278
+     "publishedDate": "2021-03-31",
+     "description": "Исследование посвящено роману, написанному известной всем королевой детектива Агатой Кристи под псевдонимом Мэри Вестмакотт. Внимательный читатель обнаружит много отголосков из личной биографии самой писательницы. Книга будет интересна как широкому кругу читателей, так и студентам филологических факультетов, а так же переводчикам.",
+     "isbn": "9785043383150",
+     "coverURL": "https://books.google.com/books/content?id=VtcmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 132
     },
     {
-     "id": "/books/OL61135097M",
-     "title": "Божественная комедия",
+     "id": "EQFFDwAAQBAJ",
+     "title": "Моя краткая история. Автобиография",
      "authors": [
-      "Dante Alighieri"
+      "Стивен Хокинг"
      ],
-     "publishedDate": "1472",
-     "description": "",
-     "isbn": "9785389058675",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162608-L.jpg",
-     "totalPages": 503
+     "publishedDate": "2017-12-30",
+     "description": "Стивен Хокинг долгое время откладывал создание автобиографической книги, потому как свою популяризаторскую миссию считал куда более важной. Однако с годами число людей, желающих записать его историю вместо него самого, росло. Так и родились эти записки – из желания соблюсти границы личного пространства. Автор без обиняков рассказывает о своей жизни, семье, своей болезни и своей науке. Он дает ответы на многие – даже неудобные и личные – вопросы, которые ему только доводилось слышать. Значительное место и в реальной жизни, и на этих страницах занимает астрофизика. В формате a4.pdf сохранен издательский макет.",
+     "isbn": "9785040943234",
+     "coverURL": "https://books.google.com/books/content?id=EQFFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 132
     },
     {
-     "id": "/books/OL12534864M",
-     "title": "The Jungle Book / Книга Джунглей",
+     "id": "4pnGDwAAQBAJ",
+     "title": "Принципы лидера",
      "authors": [
-      "Rudyard Kipling"
+      "Джон Хеннесси"
      ],
-     "publishedDate": "1893",
-     "description": "",
-     "isbn": "9785050063137",
-     "coverURL": "https://covers.openlibrary.org/b/id/3344204-L.jpg",
-     "totalPages": 192
+     "publishedDate": "",
+     "description": "Джон Хеннесси — ученый и предприниматель, президент Стэнфорда и крестный отец Кремниевой долины — щедро делится уроками, которые он извлек, пройдя по пути лидерства, сделав головокружительную научную карьеру и состоявшись как предприниматель.",
+     "isbn": "9785001464297",
+     "coverURL": "https://books.google.com/books/content?id=4pnGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 242
     },
     {
-     "id": "/works/OL10215W",
-     "title": "Мы",
+     "id": "C8wWAQAAMAAJ",
+     "title": "Воспоминания об А.Д. Сахарове",
      "authors": [
-      "Евгений Иванович Замятин"
+      "Vladimir Ilʹich Kogan"
      ],
-     "publishedDate": "1924",
+     "publishedDate": "1996",
      "description": "",
-     "isbn": "9780241458761",
-     "coverURL": "https://covers.openlibrary.org/b/id/5484189-L.jpg",
-     "totalPages": 224
-    },
-    {
-     "id": "/works/OL272388W",
-     "title": "Архипелаг ГУЛАГ",
-     "authors": [
-      "Александр Солженицын"
-     ],
-     "publishedDate": "1970",
-     "description": "",
-     "isbn": "9780060912802",
-     "coverURL": "https://covers.openlibrary.org/b/id/12715912-L.jpg",
-     "totalPages": 577
-    },
-    {
-     "id": "/books/OL32353977M",
-     "title": "Цветы Зла",
-     "authors": [
-      "Charles Baudelaire"
-     ],
-     "publishedDate": "1855",
-     "description": "",
-     "isbn": "9781019369418",
-     "coverURL": "https://covers.openlibrary.org/b/id/12953987-L.jpg",
-     "totalPages": 282
-    },
-    {
-     "id": "/books/OL27153693M",
-     "title": "Бенджамин Франклин",
-     "authors": [
-      "Walter Isaacson",
-      "Boyd Gaines",
-      "Nelson Runger"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785916576726",
-     "coverURL": "https://covers.openlibrary.org/b/id/541092-L.jpg",
-     "totalPages": 590
+     "isbn": "",
+     "coverURL": "https://books.google.com/books/content?id=C8wWAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+     "totalPages": 40
     }
    ]
   },
   "psychology": {
    "title": "Психология",
-   "source": "openlibrary",
+   "source": "curated",
    "books": [
     {
-     "id": "/works/OL166894W",
-     "title": "Преступление и наказание",
+     "id": "fQcLEQAAQBAJ",
+     "title": "Игры, в которые играют люди. Психология человеческих взаимоотношений",
      "authors": [
-      "Ф.М Достоевский"
+      "Эрик Берн"
      ],
-     "publishedDate": "1866",
-     "description": "",
-     "isbn": "9781985707368",
-     "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
-     "totalPages": 520
+     "publishedDate": "2024-05-29",
+     "description": "Эрик Леннард Берн – одна из ключевых фигур в современной психологии, создатель оригинального направления в психотерапии – «транзактного анализа», рассматривающего игру в качестве основы человеческих взаимоотношений. Разработка этой теории принесла ученому мировую известность.Книга «Игры, в которые играют люди»:• 48 ЛЕТ является абсолютным бестселлером по человеческим взаимоотношениям.• Входит в мировой ТОП-5 самых популярных книг по психологии.Эта книга поможет вам:• Наладить семейные отношения.• Понять мотивы собственных и чужих поступков.• Научиться избегать конфликтов с окружающими.Вы найдете:• Сценарии игр, в которые люди бессознательно играют каждый день.• Соответствие игр жизненным ситуациям, в которых они разыгрываются.• Стратегии антиигр, с помощью которых можно освободиться от привычного поведения.«Любой человек имеет черты маленького ребенка» – Эрик Берн.",
+     "isbn": "9785046437133",
+     "coverURL": "https://books.google.com/books/content?id=fQcLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 225
     },
     {
-     "id": "/books/OL60959064M",
-     "title": "Хорошо быть тихоней",
+     "id": "A5dZAgAAQBAJ",
+     "title": "Думай медленно... Решай быстро",
      "authors": [
-      "Stephen Chbosky"
+      "Даниэль Канеман"
      ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785389061606",
-     "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
-     "totalPages": 231
+     "publishedDate": "2013-12-15",
+     "description": "Наши действия и поступки определены нашими мыслями. Но всегда ли мы контролируем наше мышление? Нобелевский лауреат Даниэль Канеман объясняет, почему мы подчас совершаем нерациональные поступки и как мы принимаем неверные решения. У нас имеется две системы мышления. «Медленное» мышление включается, когда мы решаем задачу или выбираем товар в магазине. Обычно нам кажется, что мы уверенно контролируем эти процессы, но не будем забывать, что позади нашего сознания в фоновом режиме постоянно работает «быстрое» мышление – автоматическое, мгновенное и неосознаваемое...",
+     "isbn": "9785457519237",
+     "coverURL": "https://books.google.com/books/content?id=A5dZAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 783
     },
     {
-     "id": "/books/OL23058167M",
-     "title": "Дракула",
+     "id": "FKHcEQAAQBAJ",
+     "title": "Дар психотерапии",
      "authors": [
-      "Bram Stoker"
+      "Ирвин Дэвид Ялом"
      ],
-     "publishedDate": "1897",
-     "description": "",
-     "isbn": "9785267002509",
-     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
-     "totalPages": 384
+     "publishedDate": "2026-04-24",
+     "description": "Эту книгу Ялом прежде всего адресует психотерапевтам и студентам-психологам, чей профессиональный путь только начинается. В ней он выступает для них опытным и доброжелательным наставником, раскрывающим секреты профессии. Вместо догм и напыщенности – простые и ясные советы, которые избавят молодых специалистов от неуверенности в работе и помогут установить доверительный контакт с клиентом. Это идеи настолько личные, субъективные и оригинальные, что вряд ли читатель встретится с ними где-нибудь еще. В формате PDF A4 сохранен издательский макет книги.",
+     "isbn": "9785049253211",
+     "coverURL": "https://books.google.com/books/content?id=FKHcEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 313
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
+     "id": "0MUvEQAAQBAJ",
+     "title": "ВЕСЬ ЛАБКОВСКИЙ в одной книге. Хочу и буду. Люблю и понимаю. Привет из детства",
      "authors": [
-      "Стивен Кинг"
+      "Михаил Лабковский"
      ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 422
+     "publishedDate": "2024-11-07",
+     "description": "Впервые под одной обложкой – три бестселлера самого известного психолога в России Михаила Лабковского. «ХОЧУ И БУДУ» – одна из самых продаваемых русскоязычных книг в мире. За 8 лет только в России ее купили более 3 000 000 раз. В книге Михаил объясняет, как полюбить себя и перестать зависеть от чужого мнения и оценки. Почему нас влечет к определенному типу партнеров и как «переключить» себя на здоровые отношения. Как воспитать счастливых детей со здоровой психикой, перестать думать и вести себя как жертва, а также понять, чего на самом деле хочется от жизни. Он так же подробно рассказывает о своих ставших знаменитыми 6 правилах счастливой жизни. Следуя им каждый день, вы будете вести себя как уверенный, самодостаточный и ориентированный на свои желания человек – и в итоге так себя и почувствуете! «ЛЮБЛЮ И ПОНИМАЮ» – книга о том, как превратить воспитание из «второй работы, за которую не платят» – в процесс естественный, понятный и, главное, доставляющий радость и детям и взрослым. В ней автор затрагивает множество важных вопросов. Как реагировать на трехлетнего бунтаря? Что делать, если малыш не хочет ходить в сад? Как выбрать школу? Что гораздо важнее оценок? Не выпускает телефон из рук – это нормально? Можно ли наказывать детей? Как помочь подростку, если он переживает, но ничего не рассказывает? Михаил объясняет, почему ребенок так себя ведет, и учит воспитывать с любовью, без которой вырасти здоровым и счастливым человеком просто невозможно. «ПРИВЕТ ИЗ ДЕТСТВА» – это книга-путешествие в прошлое, к моментам, которые повлияли на всю вашу жизнь. Михаил Лабковский уверен: чтобы изменить сценарий, по которому вы сейчас живете, нужно вернуться в детство и понять, почему родители так себя вели. Осознать, что мама и папа были холодны, потому что их самих недолюбили и любить они так и не научились. Агрессивны – из-за своих проблем с психикой. Критиковали, потому что сами в себя не верили, а, значит, не верили и в вас. И вы тут ни при чем. Вы можете оставить все это в прошлом. Пишите свой сценарий. Сами решайте, кто вы, что за человек. Уходите от всего, что делает вас несчастными. И поможет вам в этом книга «Привет из детства».",
+     "isbn": "9785046905410",
+     "coverURL": "https://books.google.com/books/content?id=0MUvEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 789
     },
     {
-     "id": "/books/OL61135107M",
-     "title": "Портрет Дориана Грея",
+     "id": "rb_PEQAAQBAJ",
+     "title": "Гибкое сознание. Новый взгляд на психологию развития взрослых и детей",
      "authors": [
-      "Oscar Wilde"
+      "Кэрол Дуэк"
      ],
-     "publishedDate": "1890",
-     "description": "",
-     "isbn": "9785041039578",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
-     "totalPages": 246
+     "publishedDate": "2025-02-03",
+     "description": "Всемирно известный психолог Кэрол Дуэк, не одно десятилетие изучающая проблематику успехов и достижений, открыла и научно доказала влияние внутренних установок на личность. Из этой книги вы узнаете, как установка на данность обрекает людей на провал, а установка на рост — открывает путь к самореализации, выстраиванию успешной карьеры и налаживанию счастливых взаимоотношений с окружающими в любом возрасте. А еще — как можно привить такую установку и себе, и другим. Книга будет интересна не только родителям, преподавателям и тренерам, но и всем, кто занимается управлением людьми или нацелен на личностный рост.",
+     "isbn": "9785001952138",
+     "coverURL": "https://books.google.com/books/content?id=rb_PEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 429
     },
     {
-     "id": "/books/OL22926722M",
-     "title": "Основание",
+     "id": "Tm1ODgAAQBAJ",
+     "title": "Человек в поисках смысла. Виктор Франкл (обзор)",
      "authors": [
-      "Isaac Asimov"
+      "Том Батлер-Боудон"
      ],
-     "publishedDate": "1951",
-     "description": "",
-     "isbn": "9780007270422",
-     "coverURL": "https://covers.openlibrary.org/b/id/15177609-L.jpg",
-     "totalPages": 240
+     "publishedDate": "2016-06-21",
+     "description": "Книга «Человек в поисках смысла» в формате 10-минутного чтения: обзоры лучших книг, только самое важное и полезное. Виктор Франкл защитил две докторские степени по медицине и философии в Венском университете, выступал с лекциями в Гарварде и других университетах США, а также провел более пятидесяти выездных лекций на территории всей Америки. Франкл написал более тридцати книг, также получил 28 почетных наград. А о нем и его логотерапии было написано около 145 книг и 1400 журнальных статей. ЦИТАТА: «Мы были благодарны судьбе уже за малейшее облегчение, за то, что какая-то новая неприятность могла случиться, но не случилась. Мы радовались, например, если вечером, перед сном, ничто не помешало нам заняться уничтожением вшей. Конечно, само по себе это не такое уж удовольствие, тем более что раздеваться донага приходилось в нетопленом бараке, где с потолка (внутри помещения!) свисали сосульки».",
+     "isbn": "9785040146598",
+     "coverURL": "https://books.google.com/books/content?id=Tm1ODgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 18
     },
     {
-     "id": "/books/OL48581955M",
-     "title": "Машина времени. Война миров. Рассказы",
+     "id": "Uxh9DwAAQBAJ",
+     "title": "Не рычите на собаку! Книга о дрессировке людей, животных и самого себя",
      "authors": [
-      "H. G. Wells"
+      "Карен Прайор"
      ],
-     "publishedDate": "1895",
-     "description": "",
-     "isbn": "9798695669329",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
-     "totalPages": 120
+     "publishedDate": "2018-12-01",
+     "description": "Проверенный временем бестселлер. Уникальная книга, которая способна сделать ваши взаимоотношения с любым человеком, животным и даже самим собой гораздо лучше. Карен Прайор предлагает гениально простую и эффективную методику, которая поможет вам научить кого угодно поступать так, как вам хочется. Речь не идёт о коварных манипуляциях, гипнозе и полном подчинении воли. Речь идёт о положительном подкреплении – самом надёжном и действенном способе влиять на поведение других.Вы узнаете, как заставить супруга раз и навсегда перестать ворчать; как научить трёхлетнего ребёнка вести себя прилично; как объяснить кошке, что не надо залезать на кухонный стол; как сподвигнуть начальника регулярно повышать вам зарплату; как улучшить свои собственные результаты в любой деятельности – от занятий спортом до сочинения стихов или избавиться от вредных привычек с помощью положительного подкрепления.В формате a4.pdf сохранен издательский макет.Книга также выходит в альтернативном оформлении: https://www.litres.ru/book/karen-prayor/ne-rychite-na-sobaku-kniga-o-dressirovke-ludey-zhivotnyh-i-sa-70740136/https://www.litres.ru/book/karen-prayor/ne-rychite-na-sobaku-kniga-o-dressirovke-ludey-zhivotnyh-i-sa-70740175/https://www.litres.ru/book/karen-prayor/ne-rychite-na-sobaku-kniga-o-dressirovke-ludey-zhivotnyh-i-sa-70740190/",
+     "isbn": "9785041448387",
+     "coverURL": "https://books.google.com/books/content?id=Uxh9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 286
     },
     {
-     "id": "/books/OL24609733M",
-     "title": "Имя ветра",
+     "id": "3FoSEQAAQBAJ",
+     "title": "Токсичные родители",
      "authors": [
-      "Patrick Rothfuss",
-      "Marc Simonetti"
+      "Сьюзан Форвард",
+      "Крейг Бак"
      ],
-     "publishedDate": "2007",
-     "description": "",
-     "isbn": "9785699399376",
-     "coverURL": "https://covers.openlibrary.org/b/id/6692522-L.jpg",
-     "totalPages": 736
-    },
-    {
-     "id": "/works/OL21025633W",
-     "title": "Записки изъ подполья",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1864",
-     "description": "",
-     "isbn": "9781983676925",
-     "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
-     "totalPages": 132
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9781936136148",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
-    },
-    {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9785519719841",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
-    },
-    {
-     "id": "/books/OL27142898M",
-     "title": "На пятьдесят оттенков темнее",
-     "authors": [
-      "E. L. James"
-     ],
-     "publishedDate": "2011",
-     "description": "",
-     "isbn": "9785699590162",
-     "coverURL": "https://covers.openlibrary.org/b/id/14566714-L.jpg",
-     "totalPages": 590
-    },
-    {
-     "id": "/books/OL12584491M",
-     "title": "Алиса в Стране Чудес / Алиса в Зазеркалье",
-     "authors": [
-      "Lewis Carroll"
-     ],
-     "publishedDate": "1889",
-     "description": "",
-     "isbn": "9785699106516",
-     "coverURL": "https://covers.openlibrary.org/b/id/12188449-L.jpg",
-     "totalPages": 277
-    },
-    {
-     "id": "/books/OL43717571M",
-     "title": "Молчание ягнят",
-     "authors": [
-      "Thomas Harris"
-     ],
-     "publishedDate": "1988",
-     "description": "",
-     "isbn": "9785699585007",
-     "coverURL": "https://covers.openlibrary.org/b/id/15228726-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL43352509M",
-     "title": "Пятьдесят оттенков свободы",
-     "authors": [
-      "E. L. James"
-     ],
-     "publishedDate": "2011",
-     "description": "",
-     "isbn": "9785699791934",
-     "coverURL": "https://covers.openlibrary.org/b/id/14566725-L.jpg",
-     "totalPages": 640
-    },
-    {
-     "id": "/books/OL23021178M",
-     "title": "Искупление",
-     "authors": [
-      "Ian McEwan"
-     ],
-     "publishedDate": "2001",
-     "description": "",
-     "isbn": "9785170092062",
-     "coverURL": "https://covers.openlibrary.org/b/id/8381084-L.jpg",
-     "totalPages": 384
+     "publishedDate": "2023-11-13",
+     "description": "Все (или почти все) родители время от времени не оправдывают наших ожиданий. Однако Сьюзан Форвард не смягчает ударов, когда речь заходит о людях, чьи недостатки наносят тяжелую психологическую травму детям. Ее живая, откровенная книга помогает свести на нет родительские манипуляции авторитетом, чувством вины и прочими «убийцами» чувства собственного достоинства. Эта книга для всех, кто хочет справиться с болью детства, а главное – идти дальше, выйти за рамки паттернов разочаровывающих взаимоотношений, укоренившихся в родительском доме. Не надо винить себя за то, что было с вами в прошлом. Вы можете изменить свою жизнь прямо сейчас! Достаточно прочесть эту книгу, и вам откроется совершенно новый мир – мир уверенности в себе, эмоциональной независимости и большой внутренней силы.",
+     "isbn": "9785446118816",
+     "coverURL": "https://books.google.com/books/content?id=3FoSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 435
     }
    ]
   },
