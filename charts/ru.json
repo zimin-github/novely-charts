@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-09T08:50:09Z",
+ "generatedAt": "2026-09-10T08:46:14Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -230,7 +230,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781985707368",
+     "isbn": "9783492204019",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -337,16 +337,16 @@
      "totalPages": 350
     },
     {
-     "id": "GEatEAAAQBAJ",
-     "title": "Череда многоточий. Итог за 5 лет",
+     "id": "etNgEQAAQBAJ",
+     "title": "Свои книги среди чужих",
      "authors": [
-      "Антон Боровиков"
+      "Вера Анучина"
      ],
-     "publishedDate": "2023-02-09",
-     "description": "Пять лет назад совершенно неожиданно – прежде всего для себя самого – начал писать короткие рассказы и новеллы. А с осени 2017 начал с этими рассказами выступать, ведь опыт театральный, как и, кстати, литературный сродни сильнейшей зависимости – попробовав, уже, как говорили классики, за уши не оттащишь. Тем более если встретил более-менее благодарный прием. Где-то два года назад к рассказам в моем, так сказать, портфолио присоединились статьи о книгах, музыке и фильмах. Уже больше двух лет веду свой литературный паблик. Время – жутко коварная вещь. Только сейчас, осенью 2022, я понял, а ведь уже пять лет прошло. И вот – перед вами полный итог моей пятилетней работы.Мне кажется, читать короткие тексты удобнее – ну не понравился, перешел к следующему, чай, не роман.",
-     "isbn": "9785045280051",
-     "coverURL": "https://books.google.com/books/content?id=GEatEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-     "totalPages": 626
+     "publishedDate": "2025-05-28",
+     "description": "Это книга о книгах — да, ещё одна. Но без филологических терминов, спойлеров и длинных рецензий. Здесь вы не найдёте разбора сюжетной арки в третьем акте или сравнения автора с постмодернистами Балкан. Только честный ответ на главный вопрос: читать или не читать. Здесь собрано 9 лет ведения книжного блога, произведения, пропущенные через себя. Иногда переосмысленные с течением времени, иногда - открытые заново. И если мой вкус вам подойдёт, вы получите надёжную навигацию в книжном море. Если нет — ну что ж, хотя бы обложка получилась симпатичная.",
+     "isbn": "9785047622149",
+     "coverURL": "https://books.google.com/books/content?id=etNgEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 265
     },
     {
      "id": "SMzFEAAAQBAJ",
@@ -626,7 +626,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798695669329",
+     "isbn": "9798735146254",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -758,7 +758,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781985707368",
+     "isbn": "9783492204019",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1052,7 +1052,7 @@
      ],
      "publishedDate": "1876",
      "description": "",
-     "isbn": "9788499309040",
+     "isbn": "9780141199610",
      "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
      "totalPages": 660
     },
@@ -1067,6 +1067,18 @@
      "isbn": "9785170485659",
      "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
      "totalPages": 563
+    },
+    {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9781467778084",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
     },
     {
      "id": "/books/OL38564331M",
@@ -1091,18 +1103,6 @@
      "isbn": "9785699675333",
      "coverURL": "https://covers.openlibrary.org/b/id/15087704-L.jpg",
      "totalPages": 597
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9781936136148",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
     },
     {
      "id": "/books/OL26916424M",
@@ -1298,7 +1298,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781985707368",
+     "isbn": "9783492204019",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1334,7 +1334,7 @@
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781081208691",
+     "isbn": "9781689174060",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1346,7 +1346,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798695669329",
+     "isbn": "9798735146254",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -1382,7 +1382,7 @@
      ],
      "publishedDate": "1876",
      "description": "",
-     "isbn": "9788499309040",
+     "isbn": "9780141199610",
      "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
      "totalPages": 660
     },
@@ -1411,16 +1411,16 @@
      "totalPages": 248
     },
     {
-     "id": "/books/OL15445384M",
-     "title": "Заводной Апельсин",
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
      "authors": [
-      "Энтони Бёрджесс"
+      "Ф.М Достоевский"
      ],
-     "publishedDate": "1962",
+     "publishedDate": "1880",
      "description": "",
-     "isbn": "9785280023703",
-     "coverURL": "https://covers.openlibrary.org/b/id/14431060-L.jpg",
-     "totalPages": 192
+     "isbn": "9781467778084",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
     },
     {
      "id": "/books/OL38564331M",
@@ -1433,6 +1433,18 @@
      "isbn": "9785389067844",
      "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
      "totalPages": 352
+    },
+    {
+     "id": "/books/OL15445384M",
+     "title": "Заводной Апельсин",
+     "authors": [
+      "Энтони Бёрджесс"
+     ],
+     "publishedDate": "1962",
+     "description": "",
+     "isbn": "9785280023703",
+     "coverURL": "https://covers.openlibrary.org/b/id/14431060-L.jpg",
+     "totalPages": 192
     },
     {
      "id": "/books/OL45170658M",
@@ -1457,18 +1469,6 @@
      "isbn": "9781983676925",
      "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
      "totalPages": 132
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9781936136148",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
     },
     {
      "id": "/books/OL25480166M",
@@ -1802,7 +1802,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798695669329",
+     "isbn": "9798735146254",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -1894,6 +1894,18 @@
      "totalPages": 256
     },
     {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9781467778084",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
+    },
+    {
      "id": "/books/OL15445384M",
      "title": "Заводной Апельсин",
      "authors": [
@@ -1904,18 +1916,6 @@
      "isbn": "9785280023703",
      "coverURL": "https://covers.openlibrary.org/b/id/14431060-L.jpg",
      "totalPages": 192
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9781936136148",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
     },
     {
      "id": "/books/OL59121051M",
@@ -2583,7 +2583,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781985707368",
+     "isbn": "9783492204019",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -2643,7 +2643,7 @@
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781081208691",
+     "isbn": "9781689174060",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2655,7 +2655,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798695669329",
+     "isbn": "9798735146254",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2672,18 +2672,6 @@
      "totalPages": 321
     },
     {
-     "id": "/books/OL36691602M",
-     "title": "Мальчик в полосатой пижаме",
-     "authors": [
-      "John Boyne"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785864716632",
-     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
-     "totalPages": 216
-    },
-    {
      "id": "/books/OL53638929M",
      "title": "Повесть о двух городах",
      "authors": [
@@ -2694,6 +2682,18 @@
      "isbn": "9785389011335",
      "coverURL": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
      "totalPages": 388
+    },
+    {
+     "id": "/books/OL36691602M",
+     "title": "Мальчик в полосатой пижаме",
+     "authors": [
+      "John Boyne"
+     ],
+     "publishedDate": "2006",
+     "description": "",
+     "isbn": "9785864716632",
+     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
+     "totalPages": 216
     },
     {
      "id": "/books/OL34898577M",
@@ -2727,7 +2727,7 @@
      ],
      "publishedDate": "1876",
      "description": "",
-     "isbn": "9788499309040",
+     "isbn": "9780141199610",
      "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
      "totalPages": 660
     },
@@ -2949,7 +2949,7 @@
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781081208691",
+     "isbn": "9781689174060",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -3173,7 +3173,7 @@
      ],
      "publishedDate": "1876",
      "description": "",
-     "isbn": "9788499309040",
+     "isbn": "9780141199610",
      "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
      "totalPages": 660
     },
@@ -3301,7 +3301,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781985707368",
+     "isbn": "9783492204019",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3373,7 +3373,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798695669329",
+     "isbn": "9798735146254",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -3391,6 +3391,18 @@
      "totalPages": 736
     },
     {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9781467778084",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
+    },
+    {
      "id": "/works/OL21025633W",
      "title": "Записки изъ подполья",
      "authors": [
@@ -3401,18 +3413,6 @@
      "isbn": "9781983676925",
      "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
      "totalPages": 132
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9781936136148",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
     },
     {
      "id": "/books/OL25480166M",
@@ -3512,7 +3512,7 @@
      ],
      "publishedDate": "1956",
      "description": "",
-     "isbn": "9780671424145",
+     "isbn": "9781671746077",
      "coverURL": "https://covers.openlibrary.org/b/id/12098360-L.jpg",
      "totalPages": 244
     },
