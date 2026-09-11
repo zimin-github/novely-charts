@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-10T08:46:14Z",
+ "generatedAt": "2026-09-11T08:44:49Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -694,7 +694,7 @@
      "description": "",
      "isbn": "9785050023971",
      "coverURL": "https://covers.openlibrary.org/b/id/14338259-L.jpg",
-     "totalPages": 432
+     "totalPages": 434
     },
     {
      "id": "/books/OL38565762M",
@@ -806,7 +806,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9785519719841",
+     "isbn": "9788131944578",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1423,18 +1423,6 @@
      "totalPages": 821
     },
     {
-     "id": "/books/OL38564331M",
-     "title": "Чувство и чувствительность",
-     "authors": [
-      "Джейн Остин"
-     ],
-     "publishedDate": "1811",
-     "description": "",
-     "isbn": "9785389067844",
-     "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
-     "totalPages": 352
-    },
-    {
      "id": "/books/OL15445384M",
      "title": "Заводной Апельсин",
      "authors": [
@@ -1445,6 +1433,18 @@
      "isbn": "9785280023703",
      "coverURL": "https://covers.openlibrary.org/b/id/14431060-L.jpg",
      "totalPages": 192
+    },
+    {
+     "id": "/books/OL38564331M",
+     "title": "Чувство и чувствительность",
+     "authors": [
+      "Джейн Остин"
+     ],
+     "publishedDate": "1811",
+     "description": "",
+     "isbn": "9785389067844",
+     "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
+     "totalPages": 352
     },
     {
      "id": "/books/OL45170658M",
@@ -1478,7 +1478,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9785519719841",
+     "isbn": "9788131944578",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1879,7 +1879,7 @@
      "description": "",
      "isbn": "9785050023971",
      "coverURL": "https://covers.openlibrary.org/b/id/14338259-L.jpg",
-     "totalPages": 432
+     "totalPages": 434
     },
     {
      "id": "/books/OL38565762M",
@@ -2799,7 +2799,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9785519719841",
+     "isbn": "9788131944578",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -3022,7 +3022,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9785519719841",
+     "isbn": "9788131944578",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -3422,7 +3422,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9785519719841",
+     "isbn": "9788131944578",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
