@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-13T09:17:49Z",
+ "generatedAt": "2026-09-14T09:42:13Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -112,7 +112,7 @@
      "description": "",
      "isbn": "9785389077928",
      "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
-     "totalPages": 703
+     "totalPages": 701
     },
     {
      "id": "/books/OL9044529M",
@@ -484,7 +484,7 @@
      "description": "",
      "isbn": "9785389077928",
      "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
-     "totalPages": 703
+     "totalPages": 701
     },
     {
      "id": "/books/OL9044529M",
@@ -2879,7 +2879,7 @@
      "description": "",
      "isbn": "9785389077928",
      "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
-     "totalPages": 703
+     "totalPages": 701
     },
     {
      "id": "/books/OL45667604M",
