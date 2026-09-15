@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-14T09:42:13Z",
+ "generatedAt": "2026-09-15T09:17:05Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -2152,18 +2152,6 @@
      "totalPages": 559
     },
     {
-     "id": "/books/OL27118185M",
-     "title": "Девушка с татуировкой дракона",
-     "authors": [
-      "Stieg Larsson"
-     ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785699383719",
-     "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
-     "totalPages": 576
-    },
-    {
      "id": "/books/OL37794363M",
      "title": "Мистер Мерседес",
      "authors": [
@@ -2176,6 +2164,18 @@
      "isbn": "9785170853120",
      "coverURL": "https://covers.openlibrary.org/b/id/14654052-L.jpg",
      "totalPages": 484
+    },
+    {
+     "id": "/books/OL27118185M",
+     "title": "Девушка с татуировкой дракона",
+     "authors": [
+      "Stieg Larsson"
+     ],
+     "publishedDate": "2005",
+     "description": "",
+     "isbn": "9785699383719",
+     "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
+     "totalPages": 576
     },
     {
      "id": "/books/OL32046827M",
@@ -2247,7 +2247,7 @@
      "description": "",
      "isbn": "9785237014853",
      "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
-     "totalPages": 563
+     "totalPages": 566
     }
    ]
   },
@@ -2531,7 +2531,7 @@
      "description": "",
      "isbn": "9785237014853",
      "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
-     "totalPages": 563
+     "totalPages": 566
     },
     {
      "id": "/books/OL26369169M",
