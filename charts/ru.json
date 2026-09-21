@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-20T09:09:45Z",
+ "generatedAt": "2026-09-21T09:45:36Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -64,7 +64,7 @@
      "description": "",
      "isbn": "9785271415203",
      "coverURL": "https://covers.openlibrary.org/b/id/12646529-L.jpg",
-     "totalPages": 399
+     "totalPages": 397
     },
     {
      "id": "/books/OL29554503M",
@@ -337,16 +337,16 @@
      "totalPages": 350
     },
     {
-     "id": "etNgEQAAQBAJ",
-     "title": "Свои книги среди чужих",
+     "id": "GEatEAAAQBAJ",
+     "title": "Череда многоточий. Итог за 5 лет",
      "authors": [
-      "Вера Анучина"
+      "Антон Боровиков"
      ],
-     "publishedDate": "2025-05-28",
-     "description": "Это книга о книгах — да, ещё одна. Но без филологических терминов, спойлеров и длинных рецензий. Здесь вы не найдёте разбора сюжетной арки в третьем акте или сравнения автора с постмодернистами Балкан. Только честный ответ на главный вопрос: читать или не читать. Здесь собрано 9 лет ведения книжного блога, произведения, пропущенные через себя. Иногда переосмысленные с течением времени, иногда - открытые заново. И если мой вкус вам подойдёт, вы получите надёжную навигацию в книжном море. Если нет — ну что ж, хотя бы обложка получилась симпатичная.",
-     "isbn": "9785047622149",
-     "coverURL": "https://books.google.com/books/content?id=etNgEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-     "totalPages": 265
+     "publishedDate": "2023-02-09",
+     "description": "Пять лет назад совершенно неожиданно – прежде всего для себя самого – начал писать короткие рассказы и новеллы. А с осени 2017 начал с этими рассказами выступать, ведь опыт театральный, как и, кстати, литературный сродни сильнейшей зависимости – попробовав, уже, как говорили классики, за уши не оттащишь. Тем более если встретил более-менее благодарный прием. Где-то два года назад к рассказам в моем, так сказать, портфолио присоединились статьи о книгах, музыке и фильмах. Уже больше двух лет веду свой литературный паблик. Время – жутко коварная вещь. Только сейчас, осенью 2022, я понял, а ведь уже пять лет прошло. И вот – перед вами полный итог моей пятилетней работы.Мне кажется, читать короткие тексты удобнее – ну не понравился, перешел к следующему, чай, не роман.",
+     "isbn": "9785045280051",
+     "coverURL": "https://books.google.com/books/content?id=GEatEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 626
     },
     {
      "id": "SMzFEAAAQBAJ",
@@ -448,7 +448,7 @@
      "description": "",
      "isbn": "9785271415203",
      "coverURL": "https://covers.openlibrary.org/b/id/12646529-L.jpg",
-     "totalPages": 399
+     "totalPages": 397
     },
     {
      "id": "/books/OL29554503M",
@@ -806,7 +806,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9788131944578",
+     "isbn": "9781537456157",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -878,7 +878,7 @@
      ],
      "publishedDate": "1889",
      "description": "",
-     "isbn": "9781407193250",
+     "isbn": "9798532051270",
      "coverURL": "https://covers.openlibrary.org/b/id/15216700-L.jpg",
      "totalPages": 156
     },
@@ -1201,18 +1201,6 @@
      "totalPages": 510
     },
     {
-     "id": "/books/OL23066517M",
-     "title": "Любовь во время чумы",
-     "authors": [
-      "Габриэль Гарсиа Маркес"
-     ],
-     "publishedDate": "1980",
-     "description": "",
-     "isbn": "9785901354018",
-     "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
-     "totalPages": 134
-    },
-    {
      "id": "/books/OL34902791M",
      "title": "Кандид",
      "authors": [
@@ -1223,6 +1211,18 @@
      "isbn": "9781635376036",
      "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
      "totalPages": 152
+    },
+    {
+     "id": "/books/OL23066517M",
+     "title": "Любовь во время чумы",
+     "authors": [
+      "Габриэль Гарсиа Маркес"
+     ],
+     "publishedDate": "1980",
+     "description": "",
+     "isbn": "9785901354018",
+     "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
+     "totalPages": 134
     },
     {
      "id": "/books/OL61135097M",
@@ -1478,7 +1478,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9788131944578",
+     "isbn": "9781537456157",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1684,7 +1684,7 @@
      "description": "",
      "isbn": "9785271415203",
      "coverURL": "https://covers.openlibrary.org/b/id/12646529-L.jpg",
-     "totalPages": 399
+     "totalPages": 397
     },
     {
      "id": "/books/OL26421084M",
@@ -2424,18 +2424,6 @@
      "totalPages": 756
     },
     {
-     "id": "/books/OL43717571M",
-     "title": "Молчание ягнят",
-     "authors": [
-      "Thomas Harris"
-     ],
-     "publishedDate": "1988",
-     "description": "",
-     "isbn": "9785699585007",
-     "coverURL": "https://covers.openlibrary.org/b/id/15228726-L.jpg",
-     "totalPages": 352
-    },
-    {
      "id": "/books/OL12540983M",
      "title": "Долгая прогулка",
      "authors": [
@@ -2445,6 +2433,18 @@
      "description": "",
      "isbn": "9785170255481",
      "coverURL": "https://covers.openlibrary.org/b/id/14653609-L.jpg",
+     "totalPages": 352
+    },
+    {
+     "id": "/books/OL43717571M",
+     "title": "Молчание ягнят",
+     "authors": [
+      "Thomas Harris"
+     ],
+     "publishedDate": "1988",
+     "description": "",
+     "isbn": "9785699585007",
+     "coverURL": "https://covers.openlibrary.org/b/id/15228726-L.jpg",
      "totalPages": 352
     },
     {
@@ -2799,7 +2799,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9788131944578",
+     "isbn": "9781537456157",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -2855,7 +2855,7 @@
      "description": "",
      "isbn": "9785271415203",
      "coverURL": "https://covers.openlibrary.org/b/id/12646529-L.jpg",
-     "totalPages": 399
+     "totalPages": 397
     },
     {
      "id": "/books/OL26421084M",
@@ -3034,7 +3034,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9788131944578",
+     "isbn": "9781537456157",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -3422,7 +3422,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9788131944578",
+     "isbn": "9781537456157",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
