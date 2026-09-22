@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-21T09:45:36Z",
+ "generatedAt": "2026-09-22T09:10:22Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -182,7 +182,7 @@
      ],
      "publishedDate": "1953",
      "description": "",
-     "isbn": "9780965020596",
+     "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
      "totalPages": 189
     },
@@ -1730,7 +1730,7 @@
      ],
      "publishedDate": "1953",
      "description": "",
-     "isbn": "9780965020596",
+     "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
      "totalPages": 189
     },
@@ -2299,7 +2299,7 @@
      ],
      "publishedDate": "1953",
      "description": "",
-     "isbn": "9780965020596",
+     "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
      "totalPages": 189
     },
