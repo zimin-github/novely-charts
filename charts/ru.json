@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-22T09:10:22Z",
+ "generatedAt": "2026-09-23T09:10:43Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -184,7 +184,7 @@
      "description": "",
      "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
-     "totalPages": 189
+     "totalPages": 188
     },
     {
      "id": "/books/OL29554502M",
@@ -230,7 +230,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9783492204019",
+     "isbn": "9781015439030",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -337,16 +337,16 @@
      "totalPages": 350
     },
     {
-     "id": "GEatEAAAQBAJ",
-     "title": "Череда многоточий. Итог за 5 лет",
+     "id": "etNgEQAAQBAJ",
+     "title": "Свои книги среди чужих",
      "authors": [
-      "Антон Боровиков"
+      "Вера Анучина"
      ],
-     "publishedDate": "2023-02-09",
-     "description": "Пять лет назад совершенно неожиданно – прежде всего для себя самого – начал писать короткие рассказы и новеллы. А с осени 2017 начал с этими рассказами выступать, ведь опыт театральный, как и, кстати, литературный сродни сильнейшей зависимости – попробовав, уже, как говорили классики, за уши не оттащишь. Тем более если встретил более-менее благодарный прием. Где-то два года назад к рассказам в моем, так сказать, портфолио присоединились статьи о книгах, музыке и фильмах. Уже больше двух лет веду свой литературный паблик. Время – жутко коварная вещь. Только сейчас, осенью 2022, я понял, а ведь уже пять лет прошло. И вот – перед вами полный итог моей пятилетней работы.Мне кажется, читать короткие тексты удобнее – ну не понравился, перешел к следующему, чай, не роман.",
-     "isbn": "9785045280051",
-     "coverURL": "https://books.google.com/books/content?id=GEatEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-     "totalPages": 626
+     "publishedDate": "2025-05-28",
+     "description": "Это книга о книгах — да, ещё одна. Но без филологических терминов, спойлеров и длинных рецензий. Здесь вы не найдёте разбора сюжетной арки в третьем акте или сравнения автора с постмодернистами Балкан. Только честный ответ на главный вопрос: читать или не читать. Здесь собрано 9 лет ведения книжного блога, произведения, пропущенные через себя. Иногда переосмысленные с течением времени, иногда - открытые заново. И если мой вкус вам подойдёт, вы получите надёжную навигацию в книжном море. Если нет — ну что ж, хотя бы обложка получилась симпатичная.",
+     "isbn": "9785047622149",
+     "coverURL": "https://books.google.com/books/content?id=etNgEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+     "totalPages": 265
     },
     {
      "id": "SMzFEAAAQBAJ",
@@ -638,7 +638,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798735146254",
+     "isbn": "9781986383172",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -758,7 +758,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9783492204019",
+     "isbn": "9781015439030",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1298,7 +1298,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9783492204019",
+     "isbn": "9781015439030",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1330,11 +1330,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781691367412",
+     "isbn": "9781101100349",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1346,7 +1346,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798735146254",
+     "isbn": "9781986383172",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -1732,7 +1732,7 @@
      "description": "",
      "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
-     "totalPages": 189
+     "totalPages": 188
     },
     {
      "id": "/books/OL38231252M",
@@ -1814,7 +1814,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798735146254",
+     "isbn": "9781986383172",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2301,7 +2301,7 @@
      "description": "",
      "isbn": "9783257801804",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
-     "totalPages": 189
+     "totalPages": 188
     },
     {
      "id": "/books/OL23058167M",
@@ -2583,7 +2583,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9783492204019",
+     "isbn": "9781015439030",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -2639,11 +2639,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781691367412",
+     "isbn": "9781101100349",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2655,7 +2655,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798735146254",
+     "isbn": "9781986383172",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2957,11 +2957,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781691367412",
+     "isbn": "9781101100349",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -3301,7 +3301,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9783492204019",
+     "isbn": "9781015439030",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3373,7 +3373,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798735146254",
+     "isbn": "9781986383172",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
