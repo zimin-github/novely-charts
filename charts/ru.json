@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-23T09:10:43Z",
+ "generatedAt": "2026-09-24T09:06:59Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -230,7 +230,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781015439030",
+     "isbn": "9798634707273",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -638,7 +638,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781986383172",
+     "isbn": "9781605972299",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -758,7 +758,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781015439030",
+     "isbn": "9798634707273",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1298,7 +1298,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781015439030",
+     "isbn": "9798634707273",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1330,11 +1330,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781101100349",
+     "isbn": "9798455148224",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1346,7 +1346,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781986383172",
+     "isbn": "9781605972299",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -1814,7 +1814,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781986383172",
+     "isbn": "9781605972299",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2583,7 +2583,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781015439030",
+     "isbn": "9798634707273",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -2639,11 +2639,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781101100349",
+     "isbn": "9798455148224",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2655,7 +2655,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781986383172",
+     "isbn": "9781605972299",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2957,11 +2957,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9781101100349",
+     "isbn": "9798455148224",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -3151,7 +3151,7 @@
      "description": "",
      "isbn": "9785271393785",
      "coverURL": "https://covers.openlibrary.org/b/id/8423876-L.jpg",
-     "totalPages": 665
+     "totalPages": 664
     },
     {
      "id": "/books/OL26138027M",
@@ -3245,7 +3245,7 @@
      ],
      "publishedDate": "1924",
      "description": "",
-     "isbn": "9780241458761",
+     "isbn": "9781513204802",
      "coverURL": "https://covers.openlibrary.org/b/id/5484189-L.jpg",
      "totalPages": 224
     },
@@ -3301,7 +3301,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781015439030",
+     "isbn": "9798634707273",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3373,7 +3373,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781986383172",
+     "isbn": "9781605972299",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -3502,7 +3502,7 @@
      "description": "",
      "isbn": "9785271393785",
      "coverURL": "https://covers.openlibrary.org/b/id/8423876-L.jpg",
-     "totalPages": 665
+     "totalPages": 664
     },
     {
      "id": "/books/OL35286003M",
