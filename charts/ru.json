@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-30T10:26:32Z",
+ "generatedAt": "2026-10-01T10:53:19Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -1898,6 +1898,18 @@
      "totalPages": 559
     },
     {
+     "id": "/books/OL27118185M",
+     "title": "Девушка с татуировкой дракона",
+     "authors": [
+      "Stieg Larsson"
+     ],
+     "publishedDate": "2005",
+     "description": "",
+     "isbn": "9785699383719",
+     "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
+     "totalPages": 576
+    },
+    {
      "id": "/books/OL26295815M",
      "title": "Поле смерти",
      "authors": [
@@ -1922,18 +1934,6 @@
      "isbn": "9785170853120",
      "coverURL": "https://covers.openlibrary.org/b/id/14654052-L.jpg",
      "totalPages": 484
-    },
-    {
-     "id": "/books/OL27118185M",
-     "title": "Девушка с татуировкой дракона",
-     "authors": [
-      "Stieg Larsson"
-     ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785699383719",
-     "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
-     "totalPages": 576
     },
     {
      "id": "/books/OL32046827M",
