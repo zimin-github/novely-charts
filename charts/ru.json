@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-02T10:27:56Z",
+ "generatedAt": "2026-10-03T09:49:59Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -936,18 +936,6 @@
      "totalPages": 660
     },
     {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9780451523884",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
-    },
-    {
      "id": "/books/OL26647548M",
      "title": "Новолуние",
      "authors": [
@@ -958,6 +946,18 @@
      "isbn": "9785170485659",
      "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
      "totalPages": 563
+    },
+    {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9780451523884",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
     },
     {
      "id": "/books/OL38564331M",
@@ -2785,18 +2785,6 @@
      "totalPages": 482
     },
     {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9781537456157",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
-    },
-    {
      "id": "/books/OL26916424M",
      "title": "Затмение",
      "authors": [
@@ -2807,6 +2795,18 @@
      "isbn": "9785170563333",
      "coverURL": "https://covers.openlibrary.org/b/id/11749200-L.jpg",
      "totalPages": 629
+    },
+    {
+     "id": "/books/OL25480166M",
+     "title": "Оливер Твист",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1822",
+     "description": "",
+     "isbn": "9781537456157",
+     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
+     "totalPages": 414
     },
     {
      "id": "/books/OL26421370M",
