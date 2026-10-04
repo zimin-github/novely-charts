@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-03T09:49:59Z",
+ "generatedAt": "2026-10-04T10:33:26Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -517,7 +517,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781605972299",
+     "isbn": "9781790777457",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -685,7 +685,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9781537456157",
+     "isbn": "9798779251754",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1080,6 +1080,18 @@
      "totalPages": 510
     },
     {
+     "id": "/books/OL61135097M",
+     "title": "Божественная комедия",
+     "authors": [
+      "Dante Alighieri"
+     ],
+     "publishedDate": "1472",
+     "description": "",
+     "isbn": "9785389058675",
+     "coverURL": "https://covers.openlibrary.org/b/id/15162608-L.jpg",
+     "totalPages": 503
+    },
+    {
      "id": "/books/OL34902791M",
      "title": "Кандид",
      "authors": [
@@ -1102,18 +1114,6 @@
      "isbn": "9785901354018",
      "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
      "totalPages": 134
-    },
-    {
-     "id": "/books/OL61135097M",
-     "title": "Божественная комедия",
-     "authors": [
-      "Dante Alighieri"
-     ],
-     "publishedDate": "1472",
-     "description": "",
-     "isbn": "9785389058675",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162608-L.jpg",
-     "totalPages": 503
     },
     {
      "id": "/books/OL2270254M",
@@ -1209,11 +1209,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9798455148224",
+     "isbn": "9788489163478",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1225,7 +1225,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781605972299",
+     "isbn": "9781790777457",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -1302,18 +1302,6 @@
      "totalPages": 821
     },
     {
-     "id": "/books/OL45170658M",
-     "title": "Большие надежды",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1861",
-     "description": "",
-     "isbn": "9785170695010",
-     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
-     "totalPages": 482
-    },
-    {
      "id": "/books/OL38564331M",
      "title": "Чувство и чувствительность",
      "authors": [
@@ -1324,6 +1312,18 @@
      "isbn": "9785389067844",
      "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
      "totalPages": 352
+    },
+    {
+     "id": "/books/OL45170658M",
+     "title": "Большие надежды",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1861",
+     "description": "",
+     "isbn": "9785170695010",
+     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
+     "totalPages": 482
     },
     {
      "id": "/books/OL15445384M",
@@ -1357,7 +1357,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9781537456157",
+     "isbn": "9798779251754",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1572,7 +1572,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781605972299",
+     "isbn": "9781790777457",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2397,11 +2397,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9798455148224",
+     "isbn": "9788489163478",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2413,7 +2413,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781605972299",
+     "isbn": "9781790777457",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -2514,18 +2514,6 @@
      "totalPages": 248
     },
     {
-     "id": "/books/OL45170658M",
-     "title": "Большие надежды",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1861",
-     "description": "",
-     "isbn": "9785170695010",
-     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
-     "totalPages": 482
-    },
-    {
      "id": "/books/OL38564331M",
      "title": "Чувство и чувствительность",
      "authors": [
@@ -2536,6 +2524,18 @@
      "isbn": "9785389067844",
      "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
      "totalPages": 352
+    },
+    {
+     "id": "/books/OL45170658M",
+     "title": "Большие надежды",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1861",
+     "description": "",
+     "isbn": "9785170695010",
+     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
+     "totalPages": 482
     },
     {
      "id": "/works/OL21025633W",
@@ -2557,7 +2557,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9781537456157",
+     "isbn": "9798779251754",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -2715,11 +2715,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9798455148224",
+     "isbn": "9788489163478",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2785,6 +2785,18 @@
      "totalPages": 482
     },
     {
+     "id": "/books/OL25480166M",
+     "title": "Оливер Твист",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1822",
+     "description": "",
+     "isbn": "9798779251754",
+     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
+     "totalPages": 414
+    },
+    {
      "id": "/books/OL26916424M",
      "title": "Затмение",
      "authors": [
@@ -2795,18 +2807,6 @@
      "isbn": "9785170563333",
      "coverURL": "https://covers.openlibrary.org/b/id/11749200-L.jpg",
      "totalPages": 629
-    },
-    {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9781537456157",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
     },
     {
      "id": "/books/OL26421370M",
@@ -3131,7 +3131,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9781605972299",
+     "isbn": "9781790777457",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
@@ -3180,7 +3180,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9781537456157",
+     "isbn": "9798779251754",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
