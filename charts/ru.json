@@ -1,6 +1,15 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-05T11:21:56Z",
+ "generatedAt": "2026-10-05T15:57:16Z",
+ "attribution": {
+  "dataSource": "Open Library (Internet Archive)",
+  "dataSourceURL": "https://openlibrary.org/",
+  "dataLicence": "CC0 — https://openlibrary.org/developers/api",
+  "coverImages": "Referenced by URL from covers.openlibrary.org; not copied.",
+  "curatedShelves": "Shelves marked \"curated\" are Novely's own editorial lists; their editions are resolved through Open Library.",
+  "googleBooks": "Not present. Google Books is called live by the app, per reader action, with Google's attribution on screen; none of its data is cached or republished here.",
+  "contact": "app.zimin@gmail.com"
+ },
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -295,11 +304,6 @@
      "totalPages": 384
     }
    ]
-  },
-  "newReleases": {
-   "title": "Новые книги",
-   "source": "curated",
-   "books": []
   },
   "fantasy": {
    "title": "Фэнтези",
@@ -1410,11 +1414,6 @@
      "totalPages": 278
     }
    ]
-  },
-  "nonFiction": {
-   "title": "Нон-фикшн",
-   "source": "curated",
-   "books": []
   },
   "scienceFiction": {
    "title": "Фантастика",

@@ -6,32 +6,74 @@ Why this exists
 Novely's Discover shelves used to call Open Library directly from the phone.
 Open Library is an Internet Archive host and is unreachable from a number of
 networks — including whole countries — so those readers saw an empty screen
-through no fault of their own. Google Books, the other candidate, has no chart
-endpoint at all and ignores `langRestrict=ru` on subject queries.
+through no fault of their own. Running the fetch on a build server instead
+fixes that: the server reaches Open Library, and every reader only ever talks
+to one static file that any CDN can serve.
 
-Running the fetch on a build server instead of on the phone fixes both:
-the server reaches Open Library, and every reader only ever talks to one static
-file that any CDN can serve.
+What this file may and may not republish
+----------------------------------------
+Everything in `charts/ru.json` is published on the open web, so this script is
+a *republisher*, not just a client. That draws a line through the middle of it:
+
+* **Open Library** — catalogue data is released by the Internet Archive into
+  the public domain (CC0), and cover images are referenced by URL from
+  covers.openlibrary.org rather than copied. Republishing a list of works with
+  their titles, authors and cover URLs is what that data is for.
+* **Google Books** — is not republishable. Its API terms do not grant the right
+  to store its content and serve it onward from somebody else's domain, and a
+  nightly job writing Google's titles, descriptions, cover URLs and volume ids
+  into a public file is exactly that: the API used as an uncontrolled bulk
+  backend. It is also impossible to attribute properly from a static file,
+  because the volume's Google Books link — which their branding terms require
+  next to their data — was not even carried through.
+
+  So Google Books was removed from this builder entirely. The app still calls
+  Google Books live, per reader action, with Google's attribution and link on
+  screen; nothing Google returns is cached on a server or published.
+
+See REPUBLISHING.md for the full account of what this feed contains and on what
+basis.
 
 Output: charts/ru.json — see SCHEMA_VERSION for the contract the app expects.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import pathlib
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
 
 SCHEMA_VERSION = 1
-USER_AGENT = "NovelyCharts/1.0 (+https://github.com/zimin-github/novely-charts)"
-GOOGLE_KEY = os.environ.get("GOOGLE_BOOKS_KEY", "")
+
+# Open Library asks API clients to identify the application and leave an address
+# a human can write to; an anonymous User-Agent is what gets an IP blocked. The
+# address is an environment variable so a fork identifies its own maintainer.
+CONTACT_EMAIL = os.environ.get("NOVELY_CONTACT_EMAIL", "app.zimin@gmail.com")
+USER_AGENT = (
+    "NovelyCharts/2.0 (+https://github.com/zimin-github/novely-charts; "
+    f"{CONTACT_EMAIL})"
+)
+
 OUTPUT = pathlib.Path(__file__).parent / "charts" / "ru.json"
 BOOKS_PER_SHELF = 24
+
+# Minimum gap between two requests to the same host, and the cache's lifetime.
+#
+# The old script fired its requests as fast as the runner could open sockets,
+# including a thread pool against an unauthenticated endpoint, and the seeds
+# repeat heavily across genres — "Атомные привычки" is in three of them — so the
+# same query was asked several times per run. One request a second, answered
+# from a local cache where possible, is a fraction of the traffic for the same
+# output.
+MIN_REQUEST_INTERVAL = 1.0
+CACHE_DIR = pathlib.Path(__file__).parent / ".cache"
+CACHE_TTL = 12 * 60 * 60
 
 # Genre slugs must match DiscoverGenre.rawValue in the app.
 GENRES = {
@@ -217,26 +259,93 @@ def log(message: str) -> None:
     print(message, file=sys.stderr, flush=True)
 
 
-def get_json(url: str, timeout: int = 30, retries: int = 4):
-    """Fetches JSON, backing off on rate limits.
+_last_request_at: dict[str, float] = {}
 
-    Unauthenticated Google Books calls from a CI runner share an IP with every
-    other project on the platform, so a burst of requests reliably earns a 429.
-    Retrying with a widening delay turns that from a failed build into a slower
-    one; an API key removes it almost entirely.
+
+def _throttle(host: str) -> None:
+    """Keeps at least `MIN_REQUEST_INTERVAL` between requests to one host."""
+    previous = _last_request_at.get(host)
+    if previous is not None:
+        wait = MIN_REQUEST_INTERVAL - (time.monotonic() - previous)
+        if wait > 0:
+            time.sleep(wait)
+    _last_request_at[host] = time.monotonic()
+
+
+def _cache_path(url: str) -> pathlib.Path:
+    return CACHE_DIR / (hashlib.sha1(url.encode("utf-8")).hexdigest() + ".json")
+
+
+def _cached(url: str):
+    path = _cache_path(url)
+    try:
+        if time.time() - path.stat().st_mtime > CACHE_TTL:
+            return None
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def _store(url: str, payload) -> None:
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        _cache_path(url).write_text(
+            json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+        )
+    except OSError:
+        pass
+
+
+def _retry_after_seconds(error: urllib.error.HTTPError, fallback: float) -> float:
+    """`Retry-After` is either seconds or an HTTP date; both are honoured.
+
+    A rate-limited client that keeps knocking at its own pace is how an IP gets
+    blocked, so when the server says how long to wait, that is the wait.
     """
-    delay = 2.0
+    header = (error.headers.get("Retry-After") or "").strip()
+    if not header:
+        return fallback
+    try:
+        return max(float(header), 1.0)
+    except ValueError:
+        pass
+    try:
+        from email.utils import parsedate_to_datetime
+
+        return max((parsedate_to_datetime(header).timestamp() - time.time()), 1.0)
+    except (TypeError, ValueError, OverflowError):
+        return fallback
+
+
+def get_json(url: str, timeout: int = 30, retries: int = 4):
+    """Fetches JSON: cached, throttled, and backing off when told to.
+
+    Three things, none of which this did before. The cache means a seed that
+    appears in three genres is fetched once. The throttle means the whole run is
+    a steady trickle rather than a burst. And a 429 is answered with the pause
+    the server asked for instead of a delay this script picked.
+    """
+    cached = _cached(url)
+    if cached is not None:
+        return cached
+
+    host = urllib.parse.urlparse(url).netloc
+    delay = 5.0
     for attempt in range(retries):
+        _throttle(host)
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
-                return json.load(response)
+                payload = json.load(response)
+            _store(url, payload)
+            return payload
         except urllib.error.HTTPError as error:
-            rate_limited = error.code in (429, 403)
+            rate_limited = error.code in (429, 403, 503)
             if not rate_limited or attempt == retries - 1:
                 raise
-            log(f"  {error.code} — retrying in {delay:.0f}s")
-            time.sleep(delay)
+            wait = _retry_after_seconds(error, delay)
+            log(f"  {error.code} — waiting {wait:.0f}s before retrying")
+            time.sleep(wait)
             delay *= 2
     raise RuntimeError("unreachable")
 
@@ -257,136 +366,19 @@ def is_publishable(book: dict) -> bool:
     return not any(marker in lowered for marker in JUNK_MARKERS)
 
 
-# --- Google Books -----------------------------------------------------------
-
-def google_search(
-    query: str, limit: int = 5, order: str = "relevance", start: int = 0
-) -> list[dict]:
-    params = {
-        "q": query,
-        "maxResults": limit,
-        "startIndex": start,
-        "orderBy": order,
-        "printType": "books",
-        "projection": "full",
-        "langRestrict": "ru",
-    }
-    if GOOGLE_KEY:
-        params["key"] = GOOGLE_KEY
-    url = "https://www.googleapis.com/books/v1/volumes?" + urllib.parse.urlencode(params)
-    try:
-        return get_json(url).get("items") or []
-    except Exception as error:  # noqa: BLE001 - a dead source must not fail the build
-        log(f"  google error for {query!r}: {error}")
-        return []
-
-
-def to_book(item: dict) -> dict | None:
-    info = item.get("volumeInfo") or {}
-    language = info.get("language")
-    if language not in (None, "ru"):
-        return None
-    images = info.get("imageLinks") or {}
-    # Deliberately NOT rewriting zoom=1 -> zoom=2: Google answers that with a
-    # broken 300x48 sliver for a sizeable share of volumes.
-    cover = (
-        images.get("extraLarge") or images.get("large") or images.get("medium")
-        or images.get("thumbnail") or images.get("smallThumbnail") or ""
-    ).replace("http://", "https://")
-    if not cover:
-        return None
-    identifiers = info.get("industryIdentifiers") or []
-    isbn = ""
-    for wanted in ("ISBN_13", "ISBN_10"):
-        match = next((i["identifier"] for i in identifiers if i.get("type") == wanted), None)
-        if match:
-            isbn = match
-            break
-    return {
-        "id": item.get("id", ""),
-        "title": info.get("title", ""),
-        "authors": info.get("authors") or [],
-        "publishedDate": info.get("publishedDate", ""),
-        "description": info.get("description", ""),
-        "isbn": isbn,
-        "coverURL": cover,
-        "totalPages": info.get("pageCount") or 0,
-    }
-
-
-# Google Books subject terms per shelf.
+# --- Google Books: deliberately absent ---------------------------------------
 #
-# Google has no chart endpoint, which is why Open Library was used for the
-# rankings in the first place. But `subject:` plus `orderBy=newest` is still a
-# genuine, automatically-updating view of what is being published in Russian —
-# and unlike Open Library it answers from anywhere, every time. That makes it
-# the right middle tier: not a popularity chart, but not a hand-written list
-# that only changes when somebody remembers to edit this file either.
-GOOGLE_SUBJECTS = {
-    "popular": "художественная литература",
-    "newReleases": "современная проза",
-    "fantasy": "фэнтези",
-    "mystery": "детектив",
-    "romance": "любовный роман",
-    "classics": "классическая литература",
-    "nonFiction": "саморазвитие",
-    "scienceFiction": "научная фантастика",
-    "thriller": "триллер",
-    "horror": "ужасы",
-    "historical": "исторический роман",
-    "youngAdult": "young adult",
-    "biography": "биография",
-    "psychology": "психология",
-    "business": "бизнес",
-}
-
-
-def google_chart(slug: str) -> list[dict]:
-    """A shelf assembled from Google's subject index.
-
-    Two orderings, deliberately. `newest` on its own drags in a great deal of
-    self-published filler that happens to have been uploaded yesterday;
-    `relevance` on its own returns the same twenty books every day and the
-    shelf stops looking alive. Newest first, then relevance to fill out what
-    the filters discarded.
-    """
-    subject = GOOGLE_SUBJECTS.get(slug)
-    if not subject:
-        return []
-
-    books: list[dict] = []
-    seen: set[str] = set()
-    for order, pages in (("newest", 3), ("relevance", 2)):
-        for page in range(pages):
-            if len(books) >= BOOKS_PER_SHELF:
-                break
-            items = google_search(
-                f'subject:"{subject}"', limit=40, order=order, start=page * 40
-            )
-            if not items:
-                break
-            for item in items:
-                book = to_book(item)
-                if not book or not is_publishable(book):
-                    continue
-                surname = book["authors"][0].split()[-1].lower() if book["authors"] else ""
-                key = f"{book['title'].lower()}|{surname}"
-                if key in seen:
-                    continue
-                seen.add(key)
-                books.append(book)
-    return books
-
-
-def resolve_seed(seed: tuple[str, str]) -> dict | None:
-    title, author = seed
-    for query in (f'intitle:"{title}" inauthor:"{author}"', f"{title} {author}"):
-        for item in google_search(query):
-            book = to_book(item)
-            if book and is_publishable(book):
-                return book
-    return None
-
+# `google_search`, `to_book`, `google_chart`, `resolve_seed` and the
+# `GOOGLE_SUBJECTS` table used to live here. They fetched Google Books volumes
+# and wrote their titles, authors, descriptions, published dates, ISBNs, page
+# counts and cover URLs into `charts/ru.json`, which is then served publicly
+# from GitHub Pages — a nightly bulk copy of one service's catalogue
+# republished from another domain, with no link back to the volume on Google
+# Books and no attribution of any kind in the payload.
+#
+# Nothing here calls Google Books any more, and `GOOGLE_BOOKS_KEY` is no longer
+# read. The app calls Google Books live, when a reader searches, and shows
+# Google's attribution and link beside the results. See REPUBLISHING.md.
 
 # --- Open Library -----------------------------------------------------------
 
@@ -542,6 +534,29 @@ def live_chart(slug: str, config: dict) -> list[dict]:
     return [book for book in books if book and is_publishable(book)]
 
 
+def resolve_seed(seed: tuple[str, str]) -> dict | None:
+    """Finds a curated seed's Russian edition in Open Library.
+
+    This used to go to Google Books, which answered a title-and-author query
+    better — but a seed resolved through Google is a Google Books volume, and
+    the result of this function is written into a public file. Open Library's
+    data can be republished; Google's cannot. Where a seed does not resolve it
+    is dropped, so the shelf comes back shorter rather than carrying something
+    this feed has no right to serve.
+    """
+    title, author = seed
+    queries = [
+        f'title:"{title}" author:"{author}" language:rus',
+        f"{title} {author} language:rus",
+    ]
+    for query in queries:
+        for doc in openlibrary_docs(query, limit=5):
+            book = openlibrary_to_book(doc)
+            if book and is_publishable(book):
+                return book
+    return None
+
+
 # --- Build ------------------------------------------------------------------
 
 def build_shelf(slug: str, config: dict) -> dict:
@@ -549,24 +564,19 @@ def build_shelf(slug: str, config: dict) -> dict:
     books = live_chart(slug, config)
     source = "openlibrary"
 
-    # Open Library ranks by reading activity, which is the better shelf when it
-    # answers — but it is an Internet Archive host and for months at a time it
-    # has not answered at all, which left every shelf on the hand-written seeds
-    # and the app honestly reporting that the chart was unavailable. Google's
-    # subject index is not a ranking, but it *is* current and it always
-    # replies, so it goes in front of the seeds rather than behind them.
+    # Open Library ranks by reading activity, which is the shelf worth having
+    # when it answers — but it is an Internet Archive host and for months at a
+    # time it has not answered at all. The middle tier used to be Google's
+    # subject index; it is gone (see the note above), because this file is
+    # published and Google's data may not be. What is left is Novely's own
+    # curated list, resolved through Open Library, and the app labels it as
+    # Novely's own rather than as anybody's chart.
     if len(books) < 6:
-        log(f"{slug}: live chart returned {len(books)}, trying Google subject index")
-        books = google_chart(slug)
-        source = "googlebooks"
-
-    if len(books) < 6:
-        log(f"{slug}: Google returned {len(books)}, falling back to curated seeds")
-        # Two at a time, not six. Six parallel workers against an
-        # unauthenticated endpoint is what triggers the rate limiting in the
-        # first place, and these seeds are not worth building fast.
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            resolved = list(pool.map(resolve_seed, config["seeds"]))
+        log(f"{slug}: live chart returned {len(books)}, falling back to curated seeds")
+        # Sequential, not a thread pool: `get_json` throttles per host, and
+        # firing these in parallel against an unauthenticated endpoint is what
+        # earned the rate limiting in the first place.
+        resolved = [resolve_seed(seed) for seed in config["seeds"]]
         books = [book for book in resolved if book]
         source = "curated"
 
@@ -584,15 +594,48 @@ def build_shelf(slug: str, config: dict) -> dict:
 
 
 def main() -> int:
-    shelves = {slug: build_shelf(slug, config) for slug, config in GENRES.items()}
+    built = {slug: build_shelf(slug, config) for slug, config in GENRES.items()}
+    # A shelf with nothing in it is left out of the feed rather than published
+    # empty, and `newReleases` and `nonFiction` are left out every time: Open
+    # Library holds no Russian editions for their seeds to resolve against, so
+    # both shelves resolve to nothing. See README, "Чего в фиде нет".
+    #
+    # The app fills an omitted always-visible shelf itself, live through Google
+    # Books, and credits it as Novely's own selection — see
+    # `fillShelvesMissingFromFeed` in GoogleBooksService. Publishing the key
+    # with an empty list instead would be worse than leaving it out: the app
+    # would read the shelf as present-and-empty and `DiscoverView` hides a
+    # genre with no books, so «Новые книги» would simply disappear.
+    shelves = {slug: shelf for slug, shelf in built.items() if shelf["books"]}
+    for slug in built.keys() - shelves.keys():
+        log(f"{slug}: no publishable books, leaving the shelf out of the feed")
 
-    if all(not shelf["books"] for shelf in shelves.values()):
+    if not shelves:
         log("ERROR: every shelf is empty — refusing to publish an empty feed")
         return 1
 
     payload = {
         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        # States in the file itself where its contents came from and on what
+        # basis, so the question can be answered by whoever opens the feed
+        # rather than only by reading this repository.
+        "attribution": {
+            "dataSource": "Open Library (Internet Archive)",
+            "dataSourceURL": "https://openlibrary.org/",
+            "dataLicence": "CC0 — https://openlibrary.org/developers/api",
+            "coverImages": "Referenced by URL from covers.openlibrary.org; not copied.",
+            "curatedShelves": (
+                "Shelves marked \"curated\" are Novely's own editorial lists; "
+                "their editions are resolved through Open Library."
+            ),
+            "googleBooks": (
+                "Not present. Google Books is called live by the app, per reader "
+                "action, with Google's attribution on screen; none of its data is "
+                "cached or republished here."
+            ),
+            "contact": CONTACT_EMAIL,
+        },
         "shelves": shelves,
     }
 
