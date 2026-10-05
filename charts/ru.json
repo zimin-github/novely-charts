@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-04T10:33:26Z",
+ "generatedAt": "2026-10-05T11:21:56Z",
  "shelves": {
   "popular": {
    "title": "Популярное",
@@ -936,6 +936,18 @@
      "totalPages": 660
     },
     {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9781609421496",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
+    },
+    {
      "id": "/books/OL26647548M",
      "title": "Новолуние",
      "authors": [
@@ -946,18 +958,6 @@
      "isbn": "9785170485659",
      "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
      "totalPages": 563
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9780451523884",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
     },
     {
      "id": "/books/OL38564331M",
@@ -1297,7 +1297,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780451523884",
+     "isbn": "9781609421496",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1671,7 +1671,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780451523884",
+     "isbn": "9781609421496",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -3156,7 +3156,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9780451523884",
+     "isbn": "9781609421496",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
