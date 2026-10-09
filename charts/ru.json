@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-08T11:13:10Z",
+ "generatedAt": "2026-10-09T11:12:03Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -160,18 +160,6 @@
      "totalPages": 672
     },
     {
-     "id": "/books/OL36631910M",
-     "title": "Маленький принц",
-     "authors": [
-      "Antoine de Saint-Exupéry"
-     ],
-     "publishedDate": "1943",
-     "description": "",
-     "isbn": "9785882156922",
-     "coverURL": "https://covers.openlibrary.org/b/id/12525191-L.jpg",
-     "totalPages": 96
-    },
-    {
      "id": "/books/OL26931153M",
      "title": "Этим летом я стала красивой",
      "authors": [
@@ -182,6 +170,18 @@
      "isbn": "9785171001605",
      "coverURL": "https://covers.openlibrary.org/b/id/8783502-L.jpg",
      "totalPages": 272
+    },
+    {
+     "id": "/books/OL36631910M",
+     "title": "Маленький принц",
+     "authors": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "publishedDate": "1943",
+     "description": "",
+     "isbn": "9785882156922",
+     "coverURL": "https://covers.openlibrary.org/b/id/12525191-L.jpg",
+     "totalPages": 96
     },
     {
      "id": "/books/OL26435813M",
@@ -266,6 +266,42 @@
      "isbn": "9785864716250",
      "coverURL": "https://covers.openlibrary.org/b/id/15162778-L.jpg",
      "totalPages": 371
+    },
+    {
+     "id": "/books/OL35143635M",
+     "title": "Книжный вор",
+     "authors": [
+      "Маркус Зусак"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785699528110",
+     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
+     "totalPages": 560
+    },
+    {
+     "id": "/books/OL60959064M",
+     "title": "Хорошо быть тихоней",
+     "authors": [
+      "Stephen Chbosky"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785389061606",
+     "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
+     "totalPages": 231
+    },
+    {
+     "id": "/books/OL23058167M",
+     "title": "Дракула",
+     "authors": [
+      "Bram Stoker"
+     ],
+     "publishedDate": "1897",
+     "description": "",
+     "isbn": "9785267002509",
+     "coverURL": "https://covers.openlibrary.org/b/id/13376165-L.jpg",
+     "totalPages": 384
     }
    ]
   },
