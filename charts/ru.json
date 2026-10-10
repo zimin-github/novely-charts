@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-09T11:12:03Z",
+ "generatedAt": "2026-10-10T10:29:12Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -160,18 +160,6 @@
      "totalPages": 672
     },
     {
-     "id": "/books/OL26931153M",
-     "title": "Этим летом я стала красивой",
-     "authors": [
-      "Jenny Han"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785171001605",
-     "coverURL": "https://covers.openlibrary.org/b/id/8783502-L.jpg",
-     "totalPages": 272
-    },
-    {
      "id": "/books/OL36631910M",
      "title": "Маленький принц",
      "authors": [
@@ -182,6 +170,18 @@
      "isbn": "9785882156922",
      "coverURL": "https://covers.openlibrary.org/b/id/12525191-L.jpg",
      "totalPages": 96
+    },
+    {
+     "id": "/books/OL26931153M",
+     "title": "Этим летом я стала красивой",
+     "authors": [
+      "Jenny Han"
+     ],
+     "publishedDate": "2000",
+     "description": "",
+     "isbn": "9785171001605",
+     "coverURL": "https://covers.openlibrary.org/b/id/8783502-L.jpg",
+     "totalPages": 272
     },
     {
      "id": "/books/OL26435813M",
@@ -689,7 +689,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9798779251754",
+     "isbn": "9798719475431",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -1213,11 +1213,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9788489163478",
+     "isbn": "9798793792165",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -1361,7 +1361,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9798779251754",
+     "isbn": "9798719475431",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -2396,11 +2396,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9788489163478",
+     "isbn": "9798793792165",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2556,7 +2556,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9798779251754",
+     "isbn": "9798719475431",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -2714,11 +2714,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Уильям Шекспир"
+      "Вильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9788489163478",
+     "isbn": "9798793792165",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2791,7 +2791,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9798779251754",
+     "isbn": "9798719475431",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
@@ -3179,7 +3179,7 @@
      ],
      "publishedDate": "1822",
      "description": "",
-     "isbn": "9798779251754",
+     "isbn": "9798719475431",
      "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
      "totalPages": 414
     },
