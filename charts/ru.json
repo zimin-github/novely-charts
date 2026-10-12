@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-11T10:41:14Z",
+ "generatedAt": "2026-10-12T11:45:51Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -268,18 +268,6 @@
      "totalPages": 371
     },
     {
-     "id": "/books/OL35143635M",
-     "title": "Книжный вор",
-     "authors": [
-      "Маркус Зусак"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 560
-    },
-    {
      "id": "/books/OL60959064M",
      "title": "Хорошо быть тихоней",
      "authors": [
@@ -290,6 +278,18 @@
      "isbn": "9785389061606",
      "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
      "totalPages": 231
+    },
+    {
+     "id": "/books/OL35143635M",
+     "title": "Книжный вор",
+     "authors": [
+      "Маркус Зусак"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785699528110",
+     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
+     "totalPages": 560
     },
     {
      "id": "/books/OL23058167M",
@@ -2651,18 +2651,6 @@
      "totalPages": 310
     },
     {
-     "id": "/books/OL35143635M",
-     "title": "Книжный вор",
-     "authors": [
-      "Маркус Зусак"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 560
-    },
-    {
      "id": "/books/OL60959064M",
      "title": "Хорошо быть тихоней",
      "authors": [
@@ -2673,6 +2661,18 @@
      "isbn": "9785389061606",
      "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
      "totalPages": 231
+    },
+    {
+     "id": "/books/OL35143635M",
+     "title": "Книжный вор",
+     "authors": [
+      "Маркус Зусак"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785699528110",
+     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
+     "totalPages": 560
     },
     {
      "id": "/books/OL45119801M",
