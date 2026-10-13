@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-12T11:45:51Z",
+ "generatedAt": "2026-10-13T11:32:11Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -239,7 +239,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798634707273",
+     "isbn": "9780192823588",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -641,7 +641,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798634707273",
+     "isbn": "9780192823588",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -947,7 +947,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9781609421496",
+     "isbn": "9788572325912",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1181,7 +1181,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798634707273",
+     "isbn": "9780192823588",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -1301,7 +1301,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9781609421496",
+     "isbn": "9788572325912",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -1670,7 +1670,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9781609421496",
+     "isbn": "9788572325912",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
@@ -2340,7 +2340,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798634707273",
+     "isbn": "9780192823588",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3058,7 +3058,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9798634707273",
+     "isbn": "9780192823588",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -3155,7 +3155,7 @@
      ],
      "publishedDate": "1880",
      "description": "",
-     "isbn": "9781609421496",
+     "isbn": "9788572325912",
      "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
      "totalPages": 821
     },
