@@ -62,6 +62,13 @@ USER_AGENT = (
 
 OUTPUT = pathlib.Path(__file__).parent / "charts" / "ru.json"
 BOOKS_PER_SHELF = 24
+# Сколько книг спрашиваем у каталога на жанр, прежде чем раскладывать.
+#
+# Было 60 — ровно с запасом на отсев. Но запрос по предмету возвращает на все
+# жанры во многом одни и те же популярные книги, и когда книга достаётся одной
+# полке, остальным нужно откуда-то брать следующую. Без глубины «Фэнтези»
+# после развода дублей осталось бы пять книг из двадцати четырёх.
+CANDIDATE_LIMIT = 150
 
 # Minimum gap between two requests to the same host, and the cache's lifetime.
 #
@@ -395,7 +402,7 @@ OPENLIBRARY_FIELDS = ",".join([
 ])
 
 
-def openlibrary_docs(query: str, sort: str | None = None, limit: int = 60) -> list[dict]:
+def openlibrary_docs(query: str, sort: str | None = None, limit: int = CANDIDATE_LIMIT) -> list[dict]:
     params = {
         "q": query,
         "lang": "ru",
@@ -589,12 +596,60 @@ def build_shelf(slug: str, config: dict) -> dict:
             seen.add(key)
             unique.append(book)
 
-    log(f"{slug}: {len(unique)} books from {source}")
-    return {"title": config["title"], "source": source, "books": unique[:BOOKS_PER_SHELF]}
+    log(f"{slug}: {len(unique)} candidates from {source}")
+    # Полка возвращается целиком, без обрезки: сколько из неё возьмут, решает
+    # раскладка в `main` — она же следит, чтобы одна книга не стояла на восьми
+    # полках сразу.
+    return {"title": config["title"], "source": source, "books": unique}
+
+
+def book_key(book: dict) -> str:
+    """Книга как одна строка: название плюс фамилия первого автора."""
+    surname = (book["authors"][0].split()[-1].lower() if book.get("authors") else "")
+    return f"{book['title'].lower()}|{surname}"
+
+
+def place_across_shelves(built: dict) -> dict:
+    """Разводит книги по полкам: одна книга — одна жанровая полка.
+
+    Запрос по предмету возвращает на каждый жанр во многом один и тот же
+    список: «Дракула» приходила и в «Ужасы», и в «Фэнтези», и в «Историю», и
+    даже в «Психологию» — восемь полок на одну книгу, и читатель, листая
+    «Открытия», видел одни и те же обложки под разными заголовками.
+
+    «Популярное» остаётся как есть: это не жанр, а витрина, и книга имеет
+    право быть и популярной, и фэнтези. Всё остальное получает книгу в
+    единоличное владение.
+
+    Полки разбираются от самой бедной к самой богатой. У «Бизнеса» кандидатов
+    десяток, у «Фэнтези» — полторы сотни; если богатые выбирают первыми, они
+    забирают общие книги, и бедная полка остаётся пустой. Наоборот — каждому
+    хватает.
+    """
+    popular = built.get("popular")
+    used = {book_key(book) for book in popular["books"][:BOOKS_PER_SHELF]} if popular else set()
+    if popular:
+        popular["books"] = popular["books"][:BOOKS_PER_SHELF]
+
+    genres = [slug for slug in built if slug != "popular"]
+    for slug in sorted(genres, key=lambda slug: len(built[slug]["books"])):
+        kept = []
+        for book in built[slug]["books"]:
+            key = book_key(book)
+            if key in used:
+                continue
+            kept.append(book)
+            used.add(key)
+            if len(kept) == BOOKS_PER_SHELF:
+                break
+        log(f"{slug}: {len(kept)} books after placing")
+        built[slug]["books"] = kept
+    return built
 
 
 def main() -> int:
     built = {slug: build_shelf(slug, config) for slug, config in GENRES.items()}
+    built = place_across_shelves(built)
     # A shelf with nothing in it is left out of the feed rather than published
     # empty, and `newReleases` and `nonFiction` are left out every time: Open
     # Library holds no Russian editions for their seeds to resolve against, so
