@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-15T05:09:06Z",
+ "generatedAt": "2026-10-15T08:59:43Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -2779,6 +2779,18 @@
      "totalPages": 246
     },
     {
+     "id": "/books/OL48581955M",
+     "title": "Машина времени. Война миров. Рассказы",
+     "authors": [
+      "H. G. Wells"
+     ],
+     "publishedDate": "1895",
+     "description": "",
+     "isbn": "9798520062998",
+     "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
+     "totalPages": 120
+    },
+    {
      "id": "/books/OL22926722M",
      "title": "Основание",
      "authors": [
@@ -2789,18 +2801,6 @@
      "isbn": "9780007270422",
      "coverURL": "https://covers.openlibrary.org/b/id/15177609-L.jpg",
      "totalPages": 240
-    },
-    {
-     "id": "/books/OL48581955M",
-     "title": "Машина времени. Война миров. Рассказы",
-     "authors": [
-      "H. G. Wells"
-     ],
-     "publishedDate": "1895",
-     "description": "",
-     "isbn": "9781790777457",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
-     "totalPages": 120
     },
     {
      "id": "/books/OL24609733M",
