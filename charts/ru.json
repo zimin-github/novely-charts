@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-20T09:16:56Z",
+ "generatedAt": "2026-10-21T09:13:00Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -191,9 +191,9 @@
      ],
      "publishedDate": "1953",
      "description": "",
-     "isbn": "9781973404439",
+     "isbn": "9788496822962",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
-     "totalPages": 188
+     "totalPages": 190
     },
     {
      "id": "/books/OL29554502M",
@@ -556,7 +556,7 @@
      "description": "",
      "isbn": "9785237008630",
      "coverURL": "https://covers.openlibrary.org/b/id/14651975-L.jpg",
-     "totalPages": 383
+     "totalPages": 384
     },
     {
      "id": "/books/OL26295815M",
@@ -780,6 +780,18 @@
      "isbn": "9785171041557",
      "coverURL": "https://covers.openlibrary.org/b/id/10830339-L.jpg",
      "totalPages": 432
+    },
+    {
+     "id": "/works/OL267096W",
+     "title": "Анна Каренина",
+     "authors": [
+      "Толстой, Лев"
+     ],
+     "publishedDate": "1876",
+     "description": "",
+     "isbn": "9780553138641",
+     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
+     "totalPages": 660
     },
     {
      "id": "/books/OL28118234M",
@@ -1036,18 +1048,6 @@
      "isbn": "9780099541554",
      "coverURL": "https://covers.openlibrary.org/b/id/1045432-L.jpg",
      "totalPages": 559
-    },
-    {
-     "id": "/books/OL37814101M",
-     "title": "Американская трагедия",
-     "authors": [
-      "Теодор Драйзер"
-     ],
-     "publishedDate": "1900",
-     "description": "",
-     "isbn": "9785699890989",
-     "coverURL": "https://covers.openlibrary.org/b/id/12717903-L.jpg",
-     "totalPages": 784
     }
    ]
   },
@@ -1675,6 +1675,18 @@
      "totalPages": 246
     },
     {
+     "id": "/books/OL37814101M",
+     "title": "Американская трагедия",
+     "authors": [
+      "Теодор Драйзер"
+     ],
+     "publishedDate": "1900",
+     "description": "",
+     "isbn": "9785699890989",
+     "coverURL": "https://covers.openlibrary.org/b/id/12717903-L.jpg",
+     "totalPages": 784
+    },
+    {
      "id": "/books/OL45991366M",
      "title": "Джек Ричер, или Личный интерес",
      "authors": [
@@ -1879,18 +1891,6 @@
      "totalPages": 416
     },
     {
-     "id": "/books/OL35324189M",
-     "title": "Мельмот Скиталец",
-     "authors": [
-      "Charles Robert Maturin"
-     ],
-     "publishedDate": "1820",
-     "description": "",
-     "isbn": "9785699337705",
-     "coverURL": "https://covers.openlibrary.org/b/id/12138560-L.jpg",
-     "totalPages": 416
-    },
-    {
      "id": "/books/OL22997387M",
      "title": "Дом у кладбища",
      "authors": [
@@ -1901,6 +1901,18 @@
      "isbn": "9785862184303",
      "coverURL": "https://covers.openlibrary.org/b/id/3950063-L.jpg",
      "totalPages": 528
+    },
+    {
+     "id": "/books/OL35324189M",
+     "title": "Мельмот Скиталец",
+     "authors": [
+      "Charles Robert Maturin"
+     ],
+     "publishedDate": "1820",
+     "description": "",
+     "isbn": "9785699337705",
+     "coverURL": "https://covers.openlibrary.org/b/id/12138560-L.jpg",
+     "totalPages": 416
     },
     {
      "id": "/books/OL32162386M",
@@ -2068,6 +2080,18 @@
      "totalPages": 248
     },
     {
+     "id": "/works/OL166925W",
+     "title": "Идиот",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1874",
+     "description": "",
+     "isbn": "9781909115439",
+     "coverURL": "https://covers.openlibrary.org/b/id/11226648-L.jpg",
+     "totalPages": 620
+    },
+    {
      "id": "/books/OL42893467M",
      "title": "Мастер и Маргарита",
      "authors": [
@@ -2078,18 +2102,6 @@
      "isbn": "9785998500695",
      "coverURL": "https://covers.openlibrary.org/b/id/14494863-L.jpg",
      "totalPages": 439
-    },
-    {
-     "id": "/works/OL166925W",
-     "title": "Идиот",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1874",
-     "description": "",
-     "isbn": "9783250102571",
-     "coverURL": "https://covers.openlibrary.org/b/id/11226648-L.jpg",
-     "totalPages": 620
     },
     {
      "id": "/books/OL47259673M",
@@ -2491,18 +2503,6 @@
      "totalPages": 514
     },
     {
-     "id": "/works/OL267096W",
-     "title": "Анна Каренина",
-     "authors": [
-      "Лев Толстой"
-     ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781420976113",
-     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
-     "totalPages": 660
-    },
-    {
      "id": "/books/OL26433730M",
      "title": "Коли подих стає повітрям",
      "authors": [
@@ -2786,7 +2786,7 @@
      ],
      "publishedDate": "1895",
      "description": "",
-     "isbn": "9798520062998",
+     "isbn": "9781986517072",
      "coverURL": "https://covers.openlibrary.org/b/id/14364508-L.jpg",
      "totalPages": 120
     },
