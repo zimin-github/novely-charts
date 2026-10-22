@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-21T09:13:00Z",
+ "generatedAt": "2026-10-22T09:15:53Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -268,6 +268,18 @@
      "totalPages": 371
     },
     {
+     "id": "/books/OL35143635M",
+     "title": "Книжный вор",
+     "authors": [
+      "Маркус Зусак"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785699528110",
+     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
+     "totalPages": 559
+    },
+    {
      "id": "/books/OL60959064M",
      "title": "Хорошо быть тихоней",
      "authors": [
@@ -278,18 +290,6 @@
      "isbn": "9785389061606",
      "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
      "totalPages": 231
-    },
-    {
-     "id": "/books/OL35143635M",
-     "title": "Книжный вор",
-     "authors": [
-      "Маркус Зусак"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 560
     },
     {
      "id": "/books/OL23058167M",
@@ -334,7 +334,7 @@
      "description": "",
      "isbn": "9785170066339",
      "coverURL": "https://covers.openlibrary.org/b/id/14517836-L.jpg",
-     "totalPages": 424
+     "totalPages": 423
     },
     {
      "id": "/books/OL9039627M",
@@ -578,7 +578,7 @@
      ],
      "publishedDate": "1889",
      "description": "",
-     "isbn": "9798532051270",
+     "isbn": "9781797568881",
      "coverURL": "https://covers.openlibrary.org/b/id/15216700-L.jpg",
      "totalPages": 156
     },
@@ -854,18 +854,6 @@
      "totalPages": 629
     },
     {
-     "id": "/books/OL22957228M",
-     "title": "Ребекка",
-     "authors": [
-      "Д. Дюморье"
-     ],
-     "publishedDate": "1938",
-     "description": "",
-     "isbn": "9785859650132",
-     "coverURL": "https://covers.openlibrary.org/b/id/14543878-L.jpg",
-     "totalPages": 386
-    },
-    {
      "id": "/books/OL48581896M",
      "title": "Рождественские повести",
      "authors": [
@@ -876,6 +864,18 @@
      "isbn": "9785280012752",
      "coverURL": "https://covers.openlibrary.org/b/id/14364439-L.jpg",
      "totalPages": 114
+    },
+    {
+     "id": "/books/OL22957228M",
+     "title": "Ребекка",
+     "authors": [
+      "Д. Дюморье"
+     ],
+     "publishedDate": "1938",
+     "description": "",
+     "isbn": "9785859650132",
+     "coverURL": "https://covers.openlibrary.org/b/id/14543878-L.jpg",
+     "totalPages": 386
     },
     {
      "id": "/books/OL27142898M",
@@ -938,18 +938,6 @@
      "totalPages": 510
     },
     {
-     "id": "/books/OL34902791M",
-     "title": "Кандид",
-     "authors": [
-      "Вольтер"
-     ],
-     "publishedDate": "1746",
-     "description": "",
-     "isbn": "9781635376036",
-     "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
-     "totalPages": 152
-    },
-    {
      "id": "/books/OL23066517M",
      "title": "Любовь во время чумы",
      "authors": [
@@ -960,6 +948,18 @@
      "isbn": "9785901354018",
      "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
      "totalPages": 134
+    },
+    {
+     "id": "/books/OL34902791M",
+     "title": "Кандид",
+     "authors": [
+      "Вольтер"
+     ],
+     "publishedDate": "1746",
+     "description": "",
+     "isbn": "9781635376036",
+     "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
+     "totalPages": 152
     },
     {
      "id": "/books/OL2270254M",
@@ -1013,16 +1013,16 @@
      "id": "/works/OL267174W",
      "title": "Смерть Ивана Ильича",
      "authors": [
-      "Лев Толстой",
+      "Leo Tolstoy",
       "Anthony Briggs",
       "Anthony Horvath",
       "Zinc Read"
      ],
      "publishedDate": "1887",
      "description": "",
-     "isbn": "9781520595719",
+     "isbn": "9781520631035",
      "coverURL": "https://covers.openlibrary.org/b/id/419697-L.jpg",
-     "totalPages": 92
+     "totalPages": 93
     },
     {
      "id": "/books/OL35418073M",
@@ -1768,13 +1768,7 @@
      "id": "/books/OL52097612M",
      "title": "Ееземля; Herland (Russian Edition)",
      "authors": [
-      "Charlotte Perkins Gilman",
-      "Alex Goody",
-      "Eva Kumar",
-      "Evelynn D. Smith",
-      "Chavdar Georgiev",
-      "Booking",
-      "Aurora Irvine"
+      "Charlotte Perkins Gilman"
      ],
      "publishedDate": "1915",
      "description": "",
@@ -2223,11 +2217,11 @@
      "id": "/books/OL32249448M",
      "title": "Гамлет",
      "authors": [
-      "Вильям Шекспир"
+      "Уильям Шекспир"
      ],
      "publishedDate": "1603",
      "description": "",
-     "isbn": "9798793792165",
+     "isbn": "9789650100650",
      "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
      "totalPages": 192
     },
@@ -2549,6 +2543,18 @@
      "isbn": "9785389058675",
      "coverURL": "https://covers.openlibrary.org/b/id/15162608-L.jpg",
      "totalPages": 503
+    },
+    {
+     "id": "/books/OL39485124M",
+     "title": "Прощай, оружие!",
+     "authors": [
+      "Эрнест Хемингуэй"
+     ],
+     "publishedDate": "1929",
+     "description": "",
+     "isbn": "9785170989898",
+     "coverURL": "https://covers.openlibrary.org/b/id/12890382-L.jpg",
+     "totalPages": 332
     },
     {
      "id": "/books/OL12534864M",
@@ -3015,7 +3021,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781511760768",
+     "isbn": "9781086879612",
      "coverURL": "https://covers.openlibrary.org/b/id/3293339-L.jpg",
      "totalPages": 166
     },
