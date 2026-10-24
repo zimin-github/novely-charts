@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-23T09:12:25Z",
+ "generatedAt": "2026-10-24T08:49:05Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -227,7 +227,7 @@
      ],
      "publishedDate": "1866",
      "description": "",
-     "isbn": "9781542049306",
+     "isbn": "9798594001114",
      "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
      "totalPages": 520
     },
@@ -950,6 +950,18 @@
      "totalPages": 134
     },
     {
+     "id": "/books/OL2270254M",
+     "title": "Двадцать тысячь лье под водой",
+     "authors": [
+      "Жюль Верн"
+     ],
+     "publishedDate": "1870",
+     "description": "",
+     "isbn": "9781459011700",
+     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
+     "totalPages": 325
+    },
+    {
      "id": "/books/OL34902791M",
      "title": "Кандид",
      "authors": [
@@ -960,18 +972,6 @@
      "isbn": "9781635376036",
      "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
      "totalPages": 152
-    },
-    {
-     "id": "/books/OL2270254M",
-     "title": "Двадцать тысячь лье под водой",
-     "authors": [
-      "Жюль Верн"
-     ],
-     "publishedDate": "1870",
-     "description": "",
-     "isbn": "9781897093696",
-     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
-     "totalPages": 325
     },
     {
      "id": "/books/OL12584722M",
@@ -986,6 +986,18 @@
      "totalPages": 546
     },
     {
+     "id": "/books/OL48577768M",
+     "title": "Госпожа Бовари",
+     "authors": [
+      "Гюстав Флобер"
+     ],
+     "publishedDate": "1856",
+     "description": "",
+     "isbn": "9781798728543",
+     "coverURL": "https://covers.openlibrary.org/b/id/14362476-L.jpg",
+     "totalPages": 351
+    },
+    {
      "id": "/books/OL38631447M",
      "title": "Бесплодные земли",
      "authors": [
@@ -996,18 +1008,6 @@
      "isbn": "9785237014853",
      "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
      "totalPages": 566
-    },
-    {
-     "id": "/books/OL48577768M",
-     "title": "Госпожа Бовари",
-     "authors": [
-      "Гюстав Флобер"
-     ],
-     "publishedDate": "1856",
-     "description": "",
-     "isbn": "9781512405613",
-     "coverURL": "https://covers.openlibrary.org/b/id/14362476-L.jpg",
-     "totalPages": 351
     },
     {
      "id": "/works/OL267174W",
@@ -2059,7 +2059,7 @@
      "description": "",
      "isbn": "9785413012178",
      "coverURL": "https://covers.openlibrary.org/b/id/14575459-L.jpg",
-     "totalPages": 138
+     "totalPages": 139
     },
     {
      "id": "/books/OL30680274M",
