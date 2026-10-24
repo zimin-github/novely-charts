@@ -43,6 +43,7 @@ import hashlib
 import json
 import os
 import pathlib
+import random
 import sys
 import time
 import urllib.error
@@ -609,7 +610,36 @@ def book_key(book: dict) -> str:
     return f"{book['title'].lower()}|{surname}"
 
 
-def place_across_shelves(built: dict) -> dict:
+# Сколько книг в начале полки стоят на месте — верх чарта, самые читаемые.
+ANCHORED_BOOKS = 6
+# Из скольких лучших кандидатов полка добирает остальное. Глубже — уже
+# случайные книги жанра, а не чарт; мельче — каждый день те же двадцать.
+ROTATION_POOL = 72
+
+
+def rotation_day() -> str:
+    """Сегодняшний день UTC; `NOVELY_CHARTS_DAY` подменяет его в проверках."""
+    return os.environ.get("NOVELY_CHARTS_DAY") or time.strftime("%Y-%m-%d", time.gmtime())
+
+
+def rotate_daily(books: list[dict], slug: str, day: str) -> list[dict]:
+    """Каждый день — другие книги под неизменным верхом.
+
+    Чарт Open Library сортирует по `readinglog`, накопительному счётчику за всё
+    время, и от сборки к сборке почти не двигается: за десять ночей двенадцать
+    полок из четырнадцати не изменились ни на одну книгу, и «Открытия»
+    читались как застывшие. Теперь первые `ANCHORED_BOOKS` остаются на месте,
+    а остальные места полки каждый день заново тянутся из `ROTATION_POOL`
+    лучших кандидатов. Перемешивание зависит только от дня и полки — все
+    читатели в один день видят одно и то же, и сборка воспроизводима.
+    """
+    head, pool, reserve = books[:ANCHORED_BOOKS], books[ANCHORED_BOOKS:ROTATION_POOL], books[ROTATION_POOL:]
+    pool = list(pool)
+    random.Random(f"{day}:{slug}").shuffle(pool)
+    return head + pool + reserve
+
+
+def place_across_shelves(built: dict, day: str | None = None) -> dict:
     """Разводит книги по полкам: одна книга — одна жанровая полка.
 
     Запрос по предмету возвращает на каждый жанр во многом один и тот же
@@ -626,6 +656,10 @@ def place_across_shelves(built: dict) -> dict:
     забирают общие книги, и бедная полка остаётся пустой. Наоборот — каждому
     хватает.
     """
+    day = day or rotation_day()
+    for slug, shelf in built.items():
+        shelf["books"] = rotate_daily(shelf["books"], slug, day)
+
     popular = built.get("popular")
     used = {book_key(book) for book in popular["books"][:BOOKS_PER_SHELF]} if popular else set()
     if popular:
