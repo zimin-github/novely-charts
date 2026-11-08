@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-07T10:56:13Z",
+ "generatedAt": "2026-11-08T11:08:03Z",
  "attribution": {
   "dataSource": "Open Library (Internet Archive)",
   "dataSourceURL": "https://openlibrary.org/",
@@ -88,118 +88,6 @@
      "totalPages": 339
     },
     {
-     "id": "/books/OL34009968M",
-     "title": "Кладбище домашних животных",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785170770861",
-     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
-     "totalPages": 423
-    },
-    {
-     "id": "/books/OL22926722M",
-     "title": "Основание",
-     "authors": [
-      "Isaac Asimov"
-     ],
-     "publishedDate": "1951",
-     "description": "",
-     "isbn": "9780380380756",
-     "coverURL": "https://covers.openlibrary.org/b/id/15177609-L.jpg",
-     "totalPages": 240
-    },
-    {
-     "id": "/books/OL27184115M",
-     "title": "Дом Аида",
-     "authors": [
-      "Рик Риордан"
-     ],
-     "publishedDate": "2013",
-     "description": "",
-     "isbn": "9785699675333",
-     "coverURL": "https://covers.openlibrary.org/b/id/15087704-L.jpg",
-     "totalPages": 597
-    },
-    {
-     "id": "/books/OL61131157M",
-     "title": "Задача трёх тел",
-     "authors": [
-      "刘慈欣",
-      "Vincent Schmitt",
-      "Gwennaël Gaffric",
-      "Marc Simonetti"
-     ],
-     "publishedDate": "2008",
-     "description": "",
-     "isbn": "9785041619015",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162422-L.jpg",
-     "totalPages": 416
-    },
-    {
-     "id": "/books/OL26647548M",
-     "title": "Новолуние",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170485659",
-     "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
-     "totalPages": 563
-    },
-    {
-     "id": "/books/OL53638929M",
-     "title": "Повесть о двух городах",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1800",
-     "description": "",
-     "isbn": "9785389011335",
-     "coverURL": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
-     "totalPages": 388
-    },
-    {
-     "id": "/works/OL267096W",
-     "title": "Анна Каренина",
-     "authors": [
-      "Толстой, Лев"
-     ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781497516816",
-     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
-     "totalPages": 660
-    },
-    {
-     "id": "/books/OL48111135M",
-     "title": "Возлюбленная",
-     "authors": [
-      "Toni Morrison"
-     ],
-     "publishedDate": "1987",
-     "description": "",
-     "isbn": "9785699874958",
-     "coverURL": "https://covers.openlibrary.org/b/id/14342722-L.jpg",
-     "totalPages": 321
-    },
-    {
-     "id": "/books/OL35143635M",
-     "title": "Книжный вор",
-     "authors": [
-      "Markus Zusak",
-      "Alexandra Ernst"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699528110",
-     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
-     "totalPages": 556
-    },
-    {
      "id": "/books/OL26435813M",
      "title": "451 ̊po Farengeitu/451 по Фаренгеиту",
      "authors": [
@@ -210,54 +98,6 @@
      "isbn": "9780812973570",
      "coverURL": "https://covers.openlibrary.org/b/id/8149285-L.jpg",
      "totalPages": 190
-    },
-    {
-     "id": "/books/OL26457807M",
-     "title": "Игра Эндера",
-     "authors": [
-      "Orson Scott Card"
-     ],
-     "publishedDate": "1985",
-     "description": "",
-     "isbn": "9785389065819",
-     "coverURL": "https://covers.openlibrary.org/b/id/8186417-L.jpg",
-     "totalPages": 330
-    },
-    {
-     "id": "/books/OL27138268M",
-     "title": "Сойка-пересмешница",
-     "authors": [
-      "Сьюзен Коллинз"
-     ],
-     "publishedDate": "2010",
-     "description": "",
-     "isbn": "9785271424557",
-     "coverURL": "https://covers.openlibrary.org/b/id/15168538-L.jpg",
-     "totalPages": 424
-    },
-    {
-     "id": "/books/OL26354654M",
-     "title": "Парк Юрского периода",
-     "authors": [
-      "Michael Crichton"
-     ],
-     "publishedDate": "1990",
-     "description": "",
-     "isbn": "9785040072491",
-     "coverURL": "https://covers.openlibrary.org/b/id/8748992-L.jpg",
-     "totalPages": 455
-    },
-    {
-     "id": "/books/OL21898446M",
-     "title": "Две твердыни",
-     "authors": [
-      "J.R.R. Tolkien"
-     ],
-     "publishedDate": "1954",
-     "description": "",
-     "isbn": "9785050023971",
-     "coverURL": "https://covers.openlibrary.org/b/id/14338259-L.jpg",
-     "totalPages": 434
     },
     {
      "id": "/books/OL26772752M",
@@ -272,40 +112,197 @@
      "totalPages": 664
     },
     {
-     "id": "/books/OL38565762M",
-     "title": "Стрелок",
+     "id": "/books/OL27184115M",
+     "title": "Дом Аида",
+     "authors": [
+      "Рик Риордан"
+     ],
+     "publishedDate": "2013",
+     "description": "",
+     "isbn": "9785699675333",
+     "coverURL": "https://covers.openlibrary.org/b/id/15087704-L.jpg",
+     "totalPages": 597
+    },
+    {
+     "id": "/books/OL24609733M",
+     "title": "Имя ветра",
+     "authors": [
+      "Patrick Rothfuss",
+      "Marc Simonetti"
+     ],
+     "publishedDate": "2007",
+     "description": "",
+     "isbn": "9785699399376",
+     "coverURL": "https://covers.openlibrary.org/b/id/6692522-L.jpg",
+     "totalPages": 736
+    },
+    {
+     "id": "/books/OL61135107M",
+     "title": "Портрет Дориана Грея",
+     "authors": [
+      "Oscar Wilde"
+     ],
+     "publishedDate": "1890",
+     "description": "",
+     "isbn": "9785041039578",
+     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
+     "totalPages": 246
+    },
+    {
+     "id": "/books/OL26785132M",
+     "title": "Бойня номер пять, или Крестовый поход детей",
+     "authors": [
+      "Курт Воннегут"
+     ],
+     "publishedDate": "1956",
+     "description": "",
+     "isbn": "9785352003725",
+     "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
+     "totalPages": 203
+    },
+    {
+     "id": "/books/OL60405429M",
+     "title": "Бегущий за ветром",
+     "authors": [
+      "Халед Хоссейни"
+     ],
+     "publishedDate": "2003",
+     "description": "",
+     "isbn": "9785864716250",
+     "coverURL": "https://covers.openlibrary.org/b/id/15162778-L.jpg",
+     "totalPages": 371
+    },
+    {
+     "id": "/books/OL12543685M",
+     "title": "Зеленая миля",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1976",
+     "publishedDate": "1996",
      "description": "",
-     "isbn": "9785170770519",
-     "coverURL": "https://covers.openlibrary.org/b/id/12802998-L.jpg",
-     "totalPages": 255
+     "isbn": "9785237011579",
+     "coverURL": "https://covers.openlibrary.org/b/id/14651978-L.jpg",
+     "totalPages": 465
     },
     {
-     "id": "/books/OL26931142M",
-     "title": "Сто лет одиночества",
+     "id": "/books/OL60959064M",
+     "title": "Хорошо быть тихоней",
      "authors": [
-      "Габриэль Гарсиа Маркес"
+      "Stephen Chbosky"
      ],
-     "publishedDate": "1967",
+     "publishedDate": "1999",
      "description": "",
-     "isbn": "9785171041557",
-     "coverURL": "https://covers.openlibrary.org/b/id/10830339-L.jpg",
-     "totalPages": 432
+     "isbn": "9785389061606",
+     "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
+     "totalPages": 231
     },
     {
-     "id": "/books/OL36691602M",
-     "title": "Мальчик в полосатой пижаме",
+     "id": "/books/OL50983593M",
+     "title": "Сидхартха",
      "authors": [
-      "John Boyne"
+      "Hermann Hesse"
      ],
-     "publishedDate": "2006",
+     "publishedDate": "1922",
      "description": "",
-     "isbn": "9785864716632",
-     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
-     "totalPages": 216
+     "isbn": "9785413012178",
+     "coverURL": "https://covers.openlibrary.org/b/id/14575459-L.jpg",
+     "totalPages": 139
+    },
+    {
+     "id": "/books/OL45170658M",
+     "title": "Большие надежды",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1861",
+     "description": "",
+     "isbn": "9785170695010",
+     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
+     "totalPages": 482
+    },
+    {
+     "id": "/books/OL27064170M",
+     "title": "И вспыхнет пламя",
+     "authors": [
+      "Сьюзен Коллинз"
+     ],
+     "publishedDate": "2009",
+     "description": "",
+     "isbn": "9785170671281",
+     "coverURL": "https://covers.openlibrary.org/b/id/15168032-L.jpg",
+     "totalPages": 400
+    },
+    {
+     "id": "/books/OL29554500M",
+     "title": "Гарри Поттер и Дары Смерти",
+     "authors": [
+      "Джоан Роулинг"
+     ],
+     "publishedDate": "2007",
+     "description": "",
+     "isbn": "9785389077928",
+     "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
+     "totalPages": 701
+    },
+    {
+     "id": "/books/OL45667604M",
+     "title": "Хоббит",
+     "authors": [
+      "J.R.R. Tolkien"
+     ],
+     "publishedDate": "1937",
+     "description": "",
+     "isbn": "9785878600125",
+     "coverURL": "https://covers.openlibrary.org/b/id/14626140-L.jpg",
+     "totalPages": 310
+    },
+    {
+     "id": "/books/OL32931032M",
+     "title": "Говори",
+     "authors": [
+      "Laurie Halse Anderson"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785389085176",
+     "coverURL": "https://covers.openlibrary.org/b/id/11551802-L.jpg",
+     "totalPages": 219
+    },
+    {
+     "id": "/books/OL45119801M",
+     "title": "Шестерка воронов",
+     "authors": [
+      "Leigh Bardugo"
+     ],
+     "publishedDate": "2015",
+     "description": "",
+     "isbn": "9785171366162",
+     "coverURL": "https://covers.openlibrary.org/b/id/13122069-L.jpg",
+     "totalPages": 512
+    },
+    {
+     "id": "/books/OL26931153M",
+     "title": "Этим летом я стала красивой",
+     "authors": [
+      "Jenny Han"
+     ],
+     "publishedDate": "2000",
+     "description": "",
+     "isbn": "9785171001605",
+     "coverURL": "https://covers.openlibrary.org/b/id/8783502-L.jpg",
+     "totalPages": 272
+    },
+    {
+     "id": "/books/OL9044529M",
+     "title": "Гарри Поттер и узник Азкабана",
+     "authors": [
+      "Джоан Роулинг"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785353003700",
+     "coverURL": "https://covers.openlibrary.org/b/id/12728909-L.jpg",
+     "totalPages": 416
     }
    ]
   },
@@ -313,6 +310,92 @@
    "title": "Фэнтези",
    "source": "openlibrary",
    "books": [
+    {
+     "id": "/books/OL9039627M",
+     "title": "Возвращение короля",
+     "authors": [
+      "J.R.R. Tolkien"
+     ],
+     "publishedDate": "1950",
+     "description": "",
+     "isbn": "9785040019014",
+     "coverURL": "https://covers.openlibrary.org/b/id/9293483-L.jpg",
+     "totalPages": 499
+    },
+    {
+     "id": "/books/OL41429639M",
+     "title": "Чернильное сердце",
+     "authors": [
+      "Cornelia Funke"
+     ],
+     "publishedDate": "2003",
+     "description": "",
+     "isbn": "9785389032118",
+     "coverURL": "https://covers.openlibrary.org/b/id/14367259-L.jpg",
+     "totalPages": 548
+    },
+    {
+     "id": "/books/OL40463375M",
+     "title": "Момо",
+     "authors": [
+      "Michael Ende"
+     ],
+     "publishedDate": "1973",
+     "description": "",
+     "isbn": "9785942788568",
+     "coverURL": "https://covers.openlibrary.org/b/id/14547708-L.jpg",
+     "totalPages": 269
+    },
+    {
+     "id": "/books/OL22106946M",
+     "title": "Гарри Поттер и Кубок огня",
+     "authors": [
+      "Джоан Роулинг"
+     ],
+     "publishedDate": "2000",
+     "description": "",
+     "isbn": "9785353005797",
+     "coverURL": "https://covers.openlibrary.org/b/id/8128254-L.jpg",
+     "totalPages": 672
+    },
+    {
+     "id": "/books/OL38221278M",
+     "title": "Буря мечей",
+     "authors": [
+      "Джордж Мартин"
+     ],
+     "publishedDate": "2000",
+     "description": "",
+     "isbn": "9785170762088",
+     "coverURL": "https://covers.openlibrary.org/b/id/12769251-L.jpg",
+     "totalPages": 992
+    },
+    {
+     "id": "/books/OL27233223M",
+     "title": "Гарри Поттер и проклятое дитя. Части первая и вторая",
+     "authors": [
+      "Jack Thorne",
+      "John Tiffany",
+      "J. K. Rowling"
+     ],
+     "publishedDate": "2001",
+     "description": "",
+     "isbn": "9785389120426",
+     "coverURL": "https://covers.openlibrary.org/b/id/15156814-L.jpg",
+     "totalPages": 336
+    },
+    {
+     "id": "/books/OL36631910M",
+     "title": "Маленький принц",
+     "authors": [
+      "Antoine de Saint-Exupéry"
+     ],
+     "publishedDate": "1943",
+     "description": "",
+     "isbn": "9785882156922",
+     "coverURL": "https://covers.openlibrary.org/b/id/12525191-L.jpg",
+     "totalPages": 96
+    },
     {
      "id": "/books/OL35676080M",
      "title": "Сказки Барда Бидля",
@@ -326,16 +409,28 @@
      "totalPages": 127
     },
     {
-     "id": "/books/OL38221278M",
-     "title": "Буря мечей",
+     "id": "/books/OL37867693M",
+     "title": "Ночная стража",
      "authors": [
-      "Джордж Мартин"
+      "Terry Pratchett"
      ],
-     "publishedDate": "2000",
+     "publishedDate": "2002",
      "description": "",
-     "isbn": "9785170762088",
-     "coverURL": "https://covers.openlibrary.org/b/id/12769251-L.jpg",
-     "totalPages": 992
+     "isbn": "9785699522392",
+     "coverURL": "https://covers.openlibrary.org/b/id/14649312-L.jpg",
+     "totalPages": 400
+    },
+    {
+     "id": "/books/OL48583960M",
+     "title": "Сказки",
+     "authors": [
+      "Г.К.Андерсен"
+     ],
+     "publishedDate": "1850",
+     "description": "",
+     "isbn": "9787805673387",
+     "coverURL": "https://covers.openlibrary.org/b/id/14365209-L.jpg",
+     "totalPages": 277
     },
     {
      "id": "/books/OL12537451M",
@@ -351,30 +446,6 @@
      "totalPages": 423
     },
     {
-     "id": "/books/OL37867693M",
-     "title": "Ночная стража",
-     "authors": [
-      "Terry Pratchett"
-     ],
-     "publishedDate": "2002",
-     "description": "",
-     "isbn": "9785699522392",
-     "coverURL": "https://covers.openlibrary.org/b/id/14649312-L.jpg",
-     "totalPages": 400
-    },
-    {
-     "id": "/books/OL40463375M",
-     "title": "Момо",
-     "authors": [
-      "Michael Ende"
-     ],
-     "publishedDate": "1973",
-     "description": "",
-     "isbn": "9785942788568",
-     "coverURL": "https://covers.openlibrary.org/b/id/14547708-L.jpg",
-     "totalPages": 269
-    },
-    {
      "id": "/books/OL26305820M",
      "title": "Санта-Хрякус",
      "authors": [
@@ -385,66 +456,6 @@
      "isbn": "9785699091959",
      "coverURL": "https://covers.openlibrary.org/b/id/14646150-L.jpg",
      "totalPages": 383
-    },
-    {
-     "id": "/books/OL49799734M",
-     "title": "Цвет волшебства",
-     "authors": [
-      "Terry Pratchett"
-     ],
-     "publishedDate": "1983",
-     "description": "",
-     "isbn": "9785040079957",
-     "coverURL": "https://covers.openlibrary.org/b/id/14647238-L.jpg",
-     "totalPages": 239
-    },
-    {
-     "id": "/books/OL41429639M",
-     "title": "Чернильное сердце",
-     "authors": [
-      "Cornelia Funke"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785389032118",
-     "coverURL": "https://covers.openlibrary.org/b/id/14367259-L.jpg",
-     "totalPages": 548
-    },
-    {
-     "id": "/books/OL48583960M",
-     "title": "Сказки",
-     "authors": [
-      "Г.К.Андерсен"
-     ],
-     "publishedDate": "1850",
-     "description": "",
-     "isbn": "9787805673387",
-     "coverURL": "https://covers.openlibrary.org/b/id/14365209-L.jpg",
-     "totalPages": 277
-    },
-    {
-     "id": "/books/OL36631910M",
-     "title": "Маленький принц",
-     "authors": [
-      "Antoine de Saint-Exupéry"
-     ],
-     "publishedDate": "1943",
-     "description": "",
-     "isbn": "9785882156922",
-     "coverURL": "https://covers.openlibrary.org/b/id/12525191-L.jpg",
-     "totalPages": 96
-    },
-    {
-     "id": "/books/OL22106946M",
-     "title": "Гарри Поттер и Кубок огня",
-     "authors": [
-      "Джоан Роулинг"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785353005797",
-     "coverURL": "https://covers.openlibrary.org/b/id/8128254-L.jpg",
-     "totalPages": 672
     },
     {
      "id": "/books/OL12584915M",
@@ -459,30 +470,16 @@
      "totalPages": 378
     },
     {
-     "id": "/books/OL9039627M",
-     "title": "Возвращение короля",
+     "id": "/books/OL49799734M",
+     "title": "Цвет волшебства",
      "authors": [
-      "J.R.R. Tolkien"
+      "Terry Pratchett"
      ],
-     "publishedDate": "1950",
+     "publishedDate": "1983",
      "description": "",
-     "isbn": "9785040019014",
-     "coverURL": "https://covers.openlibrary.org/b/id/9293483-L.jpg",
-     "totalPages": 499
-    },
-    {
-     "id": "/books/OL27233223M",
-     "title": "Гарри Поттер и проклятое дитя. Части первая и вторая",
-     "authors": [
-      "Jack Thorne",
-      "John Tiffany",
-      "J. K. Rowling"
-     ],
-     "publishedDate": "2001",
-     "description": "",
-     "isbn": "9785389120426",
-     "coverURL": "https://covers.openlibrary.org/b/id/15156814-L.jpg",
-     "totalPages": 336
+     "isbn": "9785040079957",
+     "coverURL": "https://covers.openlibrary.org/b/id/14647238-L.jpg",
+     "totalPages": 239
     }
    ]
   },
@@ -503,6 +500,18 @@
      "totalPages": 640
     },
     {
+     "id": "/works/OL166894W",
+     "title": "Преступление и наказание",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1866",
+     "description": "",
+     "isbn": "9798827153894",
+     "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
+     "totalPages": 520
+    },
+    {
      "id": "/books/OL23034780M",
      "title": "Код да Винчи",
      "authors": [
@@ -513,18 +522,6 @@
      "isbn": "9785170224579",
      "coverURL": "https://covers.openlibrary.org/b/id/8396573-L.jpg",
      "totalPages": 489
-    },
-    {
-     "id": "/works/OL166894W",
-     "title": "Преступление и наказание",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1866",
-     "description": "",
-     "isbn": "9798594001114",
-     "coverURL": "https://covers.openlibrary.org/b/id/9411873-L.jpg",
-     "totalPages": 520
     },
     {
      "id": "/books/OL26384183M",
@@ -551,64 +548,16 @@
      "totalPages": 240
     },
     {
-     "id": "/books/OL12543685M",
-     "title": "Зеленая миля",
+     "id": "/books/OL26295815M",
+     "title": "Поле смерти",
      "authors": [
-      "Стивен Кинг"
+      "Lee Child"
      ],
-     "publishedDate": "1996",
+     "publishedDate": "1997",
      "description": "",
-     "isbn": "9785237011579",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651978-L.jpg",
-     "totalPages": 465
-    },
-    {
-     "id": "/books/OL40280916M",
-     "title": "Почему не Эванс?",
-     "authors": [
-      "Агата Кристи"
-     ],
-     "publishedDate": "1934",
-     "description": "",
-     "isbn": "9785699812738",
-     "coverURL": "https://covers.openlibrary.org/b/id/12996475-L.jpg",
-     "totalPages": 254
-    },
-    {
-     "id": "/books/OL51479503M",
-     "title": "Убийство по-джентльменски",
-     "authors": [
-      "Джон Ле Карре"
-     ],
-     "publishedDate": "1962",
-     "description": "",
-     "isbn": "9785170962105",
-     "coverURL": "https://covers.openlibrary.org/b/id/14600121-L.jpg",
-     "totalPages": 176
-    },
-    {
-     "id": "/books/OL27144540M",
-     "title": "Я - посланник",
-     "authors": [
-      "Маркус Зусак"
-     ],
-     "publishedDate": "2002",
-     "description": "",
-     "isbn": "9785699584321",
-     "coverURL": "https://covers.openlibrary.org/b/id/15268502-L.jpg",
-     "totalPages": 384
-    },
-    {
-     "id": "/books/OL25480166M",
-     "title": "Оливер Твист",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1822",
-     "description": "",
-     "isbn": "9780371944028",
-     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
-     "totalPages": 414
+     "isbn": "9785699206117",
+     "coverURL": "https://covers.openlibrary.org/b/id/14424762-L.jpg",
+     "totalPages": 500
     },
     {
      "id": "/books/OL26421370M",
@@ -623,40 +572,29 @@
      "totalPages": 756
     },
     {
-     "id": "/books/OL32945600M",
-     "title": "Третья девушка",
+     "id": "/books/OL35692879M",
+     "title": "Бриллиантовая смерть",
+     "authors": [
+      "Nora Roberts",
+      "ROBERTS N."
+     ],
+     "publishedDate": "2003",
+     "description": "",
+     "isbn": "9785699089697",
+     "coverURL": "https://covers.openlibrary.org/b/id/12390843-L.jpg",
+     "totalPages": 464
+    },
+    {
+     "id": "/books/OL40280916M",
+     "title": "Почему не Эванс?",
      "authors": [
       "Агата Кристи"
      ],
-     "publishedDate": "1966",
+     "publishedDate": "1934",
      "description": "",
-     "isbn": "9785699966547",
-     "coverURL": "https://covers.openlibrary.org/b/id/11562048-L.jpg",
-     "totalPages": 253
-    },
-    {
-     "id": "/books/OL39794172M",
-     "title": "Утраченный символ",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2009",
-     "description": "",
-     "isbn": "9785170251957",
-     "coverURL": "https://covers.openlibrary.org/b/id/12904246-L.jpg",
-     "totalPages": 604
-    },
-    {
-     "id": "/books/OL26295815M",
-     "title": "Поле смерти",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785699206117",
-     "coverURL": "https://covers.openlibrary.org/b/id/14424762-L.jpg",
-     "totalPages": 500
+     "isbn": "9785699812738",
+     "coverURL": "https://covers.openlibrary.org/b/id/12996475-L.jpg",
+     "totalPages": 254
     },
     {
      "id": "/books/OL43717571M",
@@ -671,30 +609,6 @@
      "totalPages": 352
     },
     {
-     "id": "/books/OL32745101M",
-     "title": "Смерть не имеет лица",
-     "authors": [
-      "Nora Roberts"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785699017836",
-     "coverURL": "https://covers.openlibrary.org/b/id/11371290-L.jpg",
-     "totalPages": 368
-    },
-    {
-     "id": "/books/OL12538251M",
-     "title": "Ночная тьма",
-     "authors": [
-      "Агата Кристи"
-     ],
-     "publishedDate": "1905",
-     "description": "",
-     "isbn": "9785170119516",
-     "coverURL": "https://covers.openlibrary.org/b/id/12854315-L.jpg",
-     "totalPages": 239
-    },
-    {
      "id": "/books/OL12543670M",
      "title": "Ночная смена",
      "authors": [
@@ -705,30 +619,6 @@
      "isbn": "9785237008630",
      "coverURL": "https://covers.openlibrary.org/b/id/14651975-L.jpg",
      "totalPages": 384
-    },
-    {
-     "id": "/books/OL35692892M",
-     "title": "Жертвоприношение",
-     "authors": [
-      "Nora Roberts"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785699019939",
-     "coverURL": "https://covers.openlibrary.org/b/id/12390857-L.jpg",
-     "totalPages": 333
-    },
-    {
-     "id": "/books/OL39827101M",
-     "title": "Кошки-мышки",
-     "authors": [
-      "James Patterson"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785170405688",
-     "coverURL": "https://covers.openlibrary.org/b/id/12952974-L.jpg",
-     "totalPages": 451
     },
     {
      "id": "/books/OL32945861M",
@@ -743,28 +633,16 @@
      "totalPages": 393
     },
     {
-     "id": "/books/OL45990539M",
-     "title": "Джек Ричер, или Ловушка",
+     "id": "/books/OL35692892M",
+     "title": "Жертвоприношение",
      "authors": [
-      "Lee Child"
+      "Nora Roberts"
      ],
-     "publishedDate": "1999",
+     "publishedDate": "1997",
      "description": "",
-     "isbn": "9785699656417",
-     "coverURL": "https://covers.openlibrary.org/b/id/14425112-L.jpg",
-     "totalPages": 422
-    },
-    {
-     "id": "/books/OL43100509M",
-     "title": "Джек Ричер, или В розыске",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "2012",
-     "description": "",
-     "isbn": "9785699827046",
-     "coverURL": "https://covers.openlibrary.org/b/id/14425233-L.jpg",
-     "totalPages": 445
+     "isbn": "9785699019939",
+     "coverURL": "https://covers.openlibrary.org/b/id/12390857-L.jpg",
+     "totalPages": 333
     },
     {
      "id": "/books/OL61726609M",
@@ -777,6 +655,127 @@
      "isbn": "9781691849666",
      "coverURL": "https://covers.openlibrary.org/b/id/15216700-L.jpg",
      "totalPages": 156
+    },
+    {
+     "id": "/books/OL25480166M",
+     "title": "Оливер Твист",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1822",
+     "description": "",
+     "isbn": "9780371944028",
+     "coverURL": "https://covers.openlibrary.org/b/id/9280636-L.jpg",
+     "totalPages": 414
+    },
+    {
+     "id": "/books/OL39827101M",
+     "title": "Кошки-мышки",
+     "authors": [
+      "James Patterson"
+     ],
+     "publishedDate": "1997",
+     "description": "",
+     "isbn": "9785170405688",
+     "coverURL": "https://covers.openlibrary.org/b/id/12952974-L.jpg",
+     "totalPages": 451
+    },
+    {
+     "id": "/books/OL26413552M",
+     "title": "Убийство на улиц Морг",
+     "authors": [
+      "Э. По"
+     ],
+     "publishedDate": "1841",
+     "description": "",
+     "isbn": "9785373031097",
+     "coverURL": "https://covers.openlibrary.org/b/id/11822919-L.jpg",
+     "totalPages": 42
+    },
+    {
+     "id": "/books/OL12540892M",
+     "title": "Черный дом",
+     "authors": [
+      "Stephen King",
+      "Peter Straub"
+     ],
+     "publishedDate": "2001",
+     "description": "",
+     "isbn": "9785170251575",
+     "coverURL": "https://covers.openlibrary.org/b/id/14652973-L.jpg",
+     "totalPages": 672
+    },
+    {
+     "id": "/books/OL32945600M",
+     "title": "Третья девушка",
+     "authors": [
+      "Агата Кристи"
+     ],
+     "publishedDate": "1966",
+     "description": "",
+     "isbn": "9785699966547",
+     "coverURL": "https://covers.openlibrary.org/b/id/11562048-L.jpg",
+     "totalPages": 253
+    },
+    {
+     "id": "/books/OL45990539M",
+     "title": "Джек Ричер, или Ловушка",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785699656417",
+     "coverURL": "https://covers.openlibrary.org/b/id/14425112-L.jpg",
+     "totalPages": 422
+    },
+    {
+     "id": "/books/OL27230693M",
+     "title": "Джек Ричер",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "2013",
+     "description": "",
+     "isbn": "9785699923281",
+     "coverURL": "https://covers.openlibrary.org/b/id/15179851-L.jpg",
+     "totalPages": 440
+    },
+    {
+     "id": "/books/OL27131762M",
+     "title": "Сплошные проблемы и неприятности",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "1984",
+     "description": "",
+     "isbn": "9785699495214",
+     "coverURL": "https://covers.openlibrary.org/b/id/14292250-L.jpg",
+     "totalPages": 439
+    },
+    {
+     "id": "/books/OL35617041M",
+     "title": "Детектив",
+     "authors": [
+      "Артур Хейли"
+     ],
+     "publishedDate": "1997",
+     "description": "",
+     "isbn": "9785170285945",
+     "coverURL": "https://covers.openlibrary.org/b/id/12324265-L.jpg",
+     "totalPages": 571
+    },
+    {
+     "id": "/books/OL12538251M",
+     "title": "Ночная тьма",
+     "authors": [
+      "Агата Кристи"
+     ],
+     "publishedDate": "1905",
+     "description": "",
+     "isbn": "9785170119516",
+     "coverURL": "https://covers.openlibrary.org/b/id/12854315-L.jpg",
+     "totalPages": 239
     }
    ]
   },
@@ -809,18 +808,6 @@
      "totalPages": 336
     },
     {
-     "id": "/books/OL60959064M",
-     "title": "Хорошо быть тихоней",
-     "authors": [
-      "Stephen Chbosky"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785389061606",
-     "coverURL": "https://covers.openlibrary.org/b/id/15152725-L.jpg",
-     "totalPages": 231
-    },
-    {
      "id": "/books/OL51160247M",
      "title": "Описание В конце они оба умрут",
      "authors": [
@@ -833,100 +820,17 @@
      "totalPages": 373
     },
     {
-     "id": "/books/OL45721619M",
-     "title": "Элита",
+     "id": "/books/OL35418073M",
+     "title": "Поющие в терновнике",
      "authors": [
-      "Kiera Cass"
+      "Colleen McCullough",
+      "Colleen McCullough"
      ],
-     "publishedDate": "2012",
+     "publishedDate": "1977",
      "description": "",
-     "isbn": "9785389059597",
-     "coverURL": "https://covers.openlibrary.org/b/id/13354109-L.jpg",
-     "totalPages": 336
-    },
-    {
-     "id": "/books/OL48581896M",
-     "title": "Рождественские повести",
-     "authors": [
-      "Ч. Диккенс"
-     ],
-     "publishedDate": "1843",
-     "description": "",
-     "isbn": "9785280012752",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364439-L.jpg",
-     "totalPages": 114
-    },
-    {
-     "id": "/books/OL34902791M",
-     "title": "Кандид",
-     "authors": [
-      "Вольтер"
-     ],
-     "publishedDate": "1746",
-     "description": "",
-     "isbn": "9781635376036",
-     "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
-     "totalPages": 152
-    },
-    {
-     "id": "/books/OL26940354M",
-     "title": "Дважды два",
-     "authors": [
-      "Nicholas Sparks"
-     ],
-     "publishedDate": "2016",
-     "description": "",
-     "isbn": "9785171004576",
-     "coverURL": "https://covers.openlibrary.org/b/id/8349529-L.jpg",
-     "totalPages": 499
-    },
-    {
-     "id": "/books/OL23066459M",
-     "title": "Дикий мед",
-     "authors": [
-      "Вайолет Уинспир"
-     ],
-     "publishedDate": "1967",
-     "description": "",
-     "isbn": "9785227017352",
-     "coverURL": "https://covers.openlibrary.org/b/id/15247909-L.jpg",
-     "totalPages": 269
-    },
-    {
-     "id": "/books/OL2270254M",
-     "title": "Двадцать тысячь лье под водой",
-     "authors": [
-      "Жюль Верн"
-     ],
-     "publishedDate": "1870",
-     "description": "",
-     "isbn": "9781459011700",
-     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
-     "totalPages": 325
-    },
-    {
-     "id": "/books/OL43352509M",
-     "title": "Пятьдесят оттенков свободы",
-     "authors": [
-      "E. L. James"
-     ],
-     "publishedDate": "2011",
-     "description": "",
-     "isbn": "9785699791934",
-     "coverURL": "https://covers.openlibrary.org/b/id/14566725-L.jpg",
-     "totalPages": 640
-    },
-    {
-     "id": "/books/OL26916424M",
-     "title": "Затмение",
-     "authors": [
-      "Стефани Майер"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170563333",
-     "coverURL": "https://covers.openlibrary.org/b/id/11749200-L.jpg",
-     "totalPages": 629
+     "isbn": "5843210036",
+     "coverURL": "https://covers.openlibrary.org/b/id/12259901-L.jpg",
+     "totalPages": 597
     },
     {
      "id": "/works/OL258301W",
@@ -941,100 +845,28 @@
      "totalPages": 559
     },
     {
-     "id": "/books/OL23021178M",
-     "title": "Искупление",
+     "id": "/books/OL27118192M",
+     "title": "Наперекор волне",
      "authors": [
-      "Ian McEwan"
+      "Nora Roberts"
      ],
-     "publishedDate": "2001",
+     "publishedDate": "1968",
      "description": "",
-     "isbn": "9785170092062",
-     "coverURL": "https://covers.openlibrary.org/b/id/8381084-L.jpg",
-     "totalPages": 384
-    },
-    {
-     "id": "/books/OL38631447M",
-     "title": "Бесплодные земли",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1991",
-     "description": "",
-     "isbn": "9785237014853",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
-     "totalPages": 566
-    },
-    {
-     "id": "/books/OL28118234M",
-     "title": "Бра́тья Карама́зовы",
-     "authors": [
-      "Ф.М Достоевский"
-     ],
-     "publishedDate": "1880",
-     "description": "",
-     "isbn": "9780199536375",
-     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
-     "totalPages": 821
-    },
-    {
-     "id": "/books/OL45064803M",
-     "title": "Бессердечная",
-     "authors": [
-      "Марисса Мейер"
-     ],
-     "publishedDate": "2000",
-     "description": "",
-     "isbn": "9785171393007",
-     "coverURL": "https://covers.openlibrary.org/b/id/13120910-L.jpg",
-     "totalPages": 510
-    },
-    {
-     "id": "/books/OL22957228M",
-     "title": "Ребекка",
-     "authors": [
-      "Д. Дюморье"
-     ],
-     "publishedDate": "1938",
-     "description": "",
-     "isbn": "9785859650132",
-     "coverURL": "https://covers.openlibrary.org/b/id/14543878-L.jpg",
-     "totalPages": 386
-    },
-    {
-     "id": "/books/OL38564331M",
-     "title": "Чувство и чувствительность",
-     "authors": [
-      "Джейн Остин"
-     ],
-     "publishedDate": "1811",
-     "description": "",
-     "isbn": "9785389067844",
-     "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
+     "isbn": "9785699377183",
+     "coverURL": "https://covers.openlibrary.org/b/id/11386193-L.jpg",
      "totalPages": 352
     },
     {
-     "id": "/books/OL23066517M",
-     "title": "Любовь во время чумы",
+     "id": "/books/OL23066459M",
+     "title": "Дикий мед",
      "authors": [
-      "Габриэль Гарсиа Маркес"
+      "Вайолет Уинспир"
      ],
-     "publishedDate": "1980",
+     "publishedDate": "1967",
      "description": "",
-     "isbn": "9785901354018",
-     "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
-     "totalPages": 134
-    },
-    {
-     "id": "/books/OL48577768M",
-     "title": "Госпожа Бовари",
-     "authors": [
-      "Гюстав Флобер"
-     ],
-     "publishedDate": "1856",
-     "description": "",
-     "isbn": "9798671717518",
-     "coverURL": "https://covers.openlibrary.org/b/id/14362476-L.jpg",
-     "totalPages": 351
+     "isbn": "9785227017352",
+     "coverURL": "https://covers.openlibrary.org/b/id/15247909-L.jpg",
+     "totalPages": 269
     },
     {
      "id": "/works/OL267174W",
@@ -1052,6 +884,150 @@
      "totalPages": 93
     },
     {
+     "id": "/books/OL22957228M",
+     "title": "Ребекка",
+     "authors": [
+      "Д. Дюморье"
+     ],
+     "publishedDate": "1938",
+     "description": "",
+     "isbn": "9785859650132",
+     "coverURL": "https://covers.openlibrary.org/b/id/14543878-L.jpg",
+     "totalPages": 386
+    },
+    {
+     "id": "/books/OL28118234M",
+     "title": "Бра́тья Карама́зовы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1880",
+     "description": "",
+     "isbn": "9780199536375",
+     "coverURL": "https://covers.openlibrary.org/b/id/9821248-L.jpg",
+     "totalPages": 821
+    },
+    {
+     "id": "/books/OL2270254M",
+     "title": "Двадцать тысячь лье под водой",
+     "authors": [
+      "Жюль Верн"
+     ],
+     "publishedDate": "1870",
+     "description": "",
+     "isbn": "9781459011700",
+     "coverURL": "https://covers.openlibrary.org/b/id/6573517-L.jpg",
+     "totalPages": 325
+    },
+    {
+     "id": "/books/OL23021178M",
+     "title": "Искупление",
+     "authors": [
+      "Ian McEwan"
+     ],
+     "publishedDate": "2001",
+     "description": "",
+     "isbn": "9785170092062",
+     "coverURL": "https://covers.openlibrary.org/b/id/8381084-L.jpg",
+     "totalPages": 384
+    },
+    {
+     "id": "/books/OL48577768M",
+     "title": "Госпожа Бовари",
+     "authors": [
+      "Гюстав Флобер"
+     ],
+     "publishedDate": "1856",
+     "description": "",
+     "isbn": "9798671717518",
+     "coverURL": "https://covers.openlibrary.org/b/id/14362476-L.jpg",
+     "totalPages": 351
+    },
+    {
+     "id": "/books/OL26940354M",
+     "title": "Дважды два",
+     "authors": [
+      "Nicholas Sparks"
+     ],
+     "publishedDate": "2016",
+     "description": "",
+     "isbn": "9785171004576",
+     "coverURL": "https://covers.openlibrary.org/b/id/8349529-L.jpg",
+     "totalPages": 499
+    },
+    {
+     "id": "/books/OL26931142M",
+     "title": "Сто лет одиночества",
+     "authors": [
+      "Габриэль Гарсиа Маркес"
+     ],
+     "publishedDate": "1967",
+     "description": "",
+     "isbn": "9785171041557",
+     "coverURL": "https://covers.openlibrary.org/b/id/10830339-L.jpg",
+     "totalPages": 432
+    },
+    {
+     "id": "/books/OL48581896M",
+     "title": "Рождественские повести",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1843",
+     "description": "",
+     "isbn": "9785280012752",
+     "coverURL": "https://covers.openlibrary.org/b/id/14364439-L.jpg",
+     "totalPages": 114
+    },
+    {
+     "id": "/books/OL43352509M",
+     "title": "Пятьдесят оттенков свободы",
+     "authors": [
+      "E. L. James"
+     ],
+     "publishedDate": "2011",
+     "description": "",
+     "isbn": "9785699791934",
+     "coverURL": "https://covers.openlibrary.org/b/id/14566725-L.jpg",
+     "totalPages": 640
+    },
+    {
+     "id": "/books/OL38631447M",
+     "title": "Бесплодные земли",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1991",
+     "description": "",
+     "isbn": "9785237014853",
+     "coverURL": "https://covers.openlibrary.org/b/id/14654530-L.jpg",
+     "totalPages": 566
+    },
+    {
+     "id": "/books/OL23066517M",
+     "title": "Любовь во время чумы",
+     "authors": [
+      "Габриэль Гарсиа Маркес"
+     ],
+     "publishedDate": "1980",
+     "description": "",
+     "isbn": "9785901354018",
+     "coverURL": "https://covers.openlibrary.org/b/id/8489856-L.jpg",
+     "totalPages": 134
+    },
+    {
+     "id": "/books/OL26647548M",
+     "title": "Новолуние",
+     "authors": [
+      "Стефани Майер"
+     ],
+     "publishedDate": "2006",
+     "description": "",
+     "isbn": "9785170485659",
+     "coverURL": "https://covers.openlibrary.org/b/id/12643311-L.jpg",
+     "totalPages": 563
+    },
+    {
      "id": "/books/OL27142898M",
      "title": "На пятьдесят оттенков темнее",
      "authors": [
@@ -1064,16 +1040,40 @@
      "totalPages": 590
     },
     {
-     "id": "/books/OL37814101M",
-     "title": "Американская трагедия",
+     "id": "/books/OL45064803M",
+     "title": "Бессердечная",
      "authors": [
-      "Теодор Драйзер"
+      "Марисса Мейер"
      ],
-     "publishedDate": "1900",
+     "publishedDate": "2000",
      "description": "",
-     "isbn": "9785699890989",
-     "coverURL": "https://covers.openlibrary.org/b/id/12717903-L.jpg",
-     "totalPages": 784
+     "isbn": "9785171393007",
+     "coverURL": "https://covers.openlibrary.org/b/id/13120910-L.jpg",
+     "totalPages": 510
+    },
+    {
+     "id": "/books/OL45721619M",
+     "title": "Элита",
+     "authors": [
+      "Kiera Cass"
+     ],
+     "publishedDate": "2012",
+     "description": "",
+     "isbn": "9785389059597",
+     "coverURL": "https://covers.openlibrary.org/b/id/13354109-L.jpg",
+     "totalPages": 336
+    },
+    {
+     "id": "/books/OL12584722M",
+     "title": "Carloson - Авто премиум сегмента в аренду",
+     "authors": [
+      "Audrey Niffenegger"
+     ],
+     "publishedDate": "2003",
+     "description": "",
+     "isbn": "9785699150472",
+     "coverURL": "https://covers.openlibrary.org/b/id/15251461-L.jpg",
+     "totalPages": 546
     }
    ]
   },
@@ -1094,6 +1094,18 @@
      "totalPages": 320
     },
     {
+     "id": "/books/OL48581929M",
+     "title": "Мартин Иден",
+     "authors": [
+      "Джек Лондон"
+     ],
+     "publishedDate": "1908",
+     "description": "",
+     "isbn": "9782752905536",
+     "coverURL": "https://covers.openlibrary.org/b/id/14364469-L.jpg",
+     "totalPages": 411
+    },
+    {
      "id": "/books/OL15445384M",
      "title": "Заводной Апельсин",
      "authors": [
@@ -1106,40 +1118,16 @@
      "totalPages": 192
     },
     {
-     "id": "/books/OL52764652M",
-     "title": "Бремя страстей человеческих",
+     "id": "/books/OL40295417M",
+     "title": "Мост в Терабитию",
      "authors": [
-      "Сомерсет Моэм"
+      "Katherine Paterson"
      ],
-     "publishedDate": "1915",
+     "publishedDate": "1972",
      "description": "",
-     "isbn": "9785170626809",
-     "coverURL": "https://covers.openlibrary.org/b/id/14647799-L.jpg",
-     "totalPages": 589
-    },
-    {
-     "id": "/books/OL48583987M",
-     "title": "Тесс из рода д'Эрбервиллей",
-     "authors": [
-      "Т.Гарди"
-     ],
-     "publishedDate": "1707",
-     "description": "",
-     "isbn": "9798542422077",
-     "coverURL": "https://covers.openlibrary.org/b/id/14365234-L.jpg",
-     "totalPages": 457
-    },
-    {
-     "id": "/books/OL48581929M",
-     "title": "Мартин Иден",
-     "authors": [
-      "Джек Лондон"
-     ],
-     "publishedDate": "1908",
-     "description": "",
-     "isbn": "9782752905536",
-     "coverURL": "https://covers.openlibrary.org/b/id/14364469-L.jpg",
-     "totalPages": 411
+     "isbn": "9785389094857",
+     "coverURL": "https://covers.openlibrary.org/b/id/12999701-L.jpg",
+     "totalPages": 152
     },
     {
      "id": "/books/OL33313054M",
@@ -1167,16 +1155,16 @@
      "totalPages": 231
     },
     {
-     "id": "/books/OL40295417M",
-     "title": "Мост в Терабитию",
+     "id": "/books/OL48583987M",
+     "title": "Тесс из рода д'Эрбервиллей",
      "authors": [
-      "Katherine Paterson"
+      "Т.Гарди"
      ],
-     "publishedDate": "1972",
+     "publishedDate": "1707",
      "description": "",
-     "isbn": "9785389094857",
-     "coverURL": "https://covers.openlibrary.org/b/id/12999701-L.jpg",
-     "totalPages": 152
+     "isbn": "9798542422077",
+     "coverURL": "https://covers.openlibrary.org/b/id/14365234-L.jpg",
+     "totalPages": 457
     },
     {
      "id": "/books/OL27108210M",
@@ -1189,6 +1177,18 @@
      "isbn": "9780192828286",
      "coverURL": "https://covers.openlibrary.org/b/id/8081288-L.jpg",
      "totalPages": 238
+    },
+    {
+     "id": "/books/OL52764652M",
+     "title": "Бремя страстей человеческих",
+     "authors": [
+      "Сомерсет Моэм"
+     ],
+     "publishedDate": "1915",
+     "description": "",
+     "isbn": "9785170626809",
+     "coverURL": "https://covers.openlibrary.org/b/id/14647799-L.jpg",
+     "totalPages": 589
     }
    ]
   },
@@ -1279,28 +1279,16 @@
    "source": "openlibrary",
    "books": [
     {
-     "id": "/books/OL9044529M",
-     "title": "Гарри Поттер и узник Азкабана",
+     "id": "/books/OL38219539M",
+     "title": "Битва королей",
      "authors": [
-      "Джоан Роулинг"
+      "Джордж Мартин"
      ],
-     "publishedDate": "1999",
+     "publishedDate": "1998",
      "description": "",
-     "isbn": "9785353003700",
-     "coverURL": "https://covers.openlibrary.org/b/id/12728909-L.jpg",
-     "totalPages": 416
-    },
-    {
-     "id": "/books/OL12539418M",
-     "title": "Планета Обезьян",
-     "authors": [
-      "Пьер Буль"
-     ],
-     "publishedDate": "1963",
-     "description": "",
-     "isbn": "9785170188352",
-     "coverURL": "https://covers.openlibrary.org/b/id/14559323-L.jpg",
-     "totalPages": 208
+     "isbn": "9785170762071",
+     "coverURL": "https://covers.openlibrary.org/b/id/12767858-L.jpg",
+     "totalPages": 761
     },
     {
      "id": "/books/OL39486867M",
@@ -1315,77 +1303,16 @@
      "totalPages": 176
     },
     {
-     "id": "/books/OL27178160M",
-     "title": "Парень из Колорадо",
+     "id": "/books/OL26457807M",
+     "title": "Игра Эндера",
      "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1978",
-     "description": "",
-     "isbn": "9785170864812",
-     "coverURL": "https://covers.openlibrary.org/b/id/12647582-L.jpg",
-     "totalPages": 184
-    },
-    {
-     "id": "/books/OL23019830M",
-     "title": "Акадимия и Империя",
-     "authors": [
-      "Isaac Asimov"
-     ],
-     "publishedDate": "1950",
-     "description": "",
-     "isbn": "9785040033089",
-     "coverURL": "https://covers.openlibrary.org/b/id/15177611-L.jpg",
-     "totalPages": 605
-    },
-    {
-     "id": "/books/OL12584781M",
-     "title": "Сошествие тьмы",
-     "authors": [
-      "Dean Koontz"
-     ],
-     "publishedDate": "1984",
-     "description": "",
-     "isbn": "9785699157457",
-     "coverURL": "https://covers.openlibrary.org/b/id/13003769-L.jpg",
-     "totalPages": 351
-    },
-    {
-     "id": "/books/OL27323738M",
-     "title": "Звёздные Войны. Траун",
-     "authors": [
-      "Timothy Zahn",
-      "Albert Agut Iglesias"
-     ],
-     "publishedDate": "2017",
-     "description": "",
-     "isbn": "9785389135901",
-     "coverURL": "https://covers.openlibrary.org/b/id/8790660-L.jpg",
-     "totalPages": 496
-    },
-    {
-     "id": "/books/OL59121051M",
-     "title": "Мечтают ли андроиды об электроовцах?",
-     "authors": [
-      "Филип К. Дик"
-     ],
-     "publishedDate": "1968",
-     "description": "",
-     "isbn": "9785041141585",
-     "coverURL": "https://covers.openlibrary.org/b/id/15087606-L.jpg",
-     "totalPages": 224
-    },
-    {
-     "id": "/books/OL38231252M",
-     "title": "Рассказ Служанки",
-     "authors": [
-      "Margaret Atwood"
+      "Orson Scott Card"
      ],
      "publishedDate": "1985",
      "description": "",
-     "isbn": "9785699909568",
-     "coverURL": "https://covers.openlibrary.org/b/id/12776275-L.jpg",
-     "totalPages": 352
+     "isbn": "9785389065819",
+     "coverURL": "https://covers.openlibrary.org/b/id/8186417-L.jpg",
+     "totalPages": 330
     },
     {
      "id": "/books/OL38217962M",
@@ -1400,28 +1327,40 @@
      "totalPages": 800
     },
     {
-     "id": "/books/OL32112415M",
-     "title": "Капитан Подштанник и ужасные унитазы-убийцы",
+     "id": "/books/OL61173945M",
+     "title": "Гиперион",
      "authors": [
-      "Dav Pilkey"
+      "Дан Симънс"
      ],
-     "publishedDate": "1996",
+     "publishedDate": "1989",
      "description": "",
-     "isbn": "9785902918059",
-     "coverURL": "https://covers.openlibrary.org/b/id/10772368-L.jpg",
-     "totalPages": 136
+     "isbn": "9785881963873",
+     "coverURL": "https://covers.openlibrary.org/b/id/15164596-L.jpg",
+     "totalPages": 481
     },
     {
-     "id": "/books/OL51723838M",
-     "title": "На берегу",
+     "id": "/books/OL23019830M",
+     "title": "Акадимия и Империя",
      "authors": [
-      "Nevil Shute"
+      "Isaac Asimov"
      ],
-     "publishedDate": "1957",
+     "publishedDate": "1950",
      "description": "",
-     "isbn": "9785170702626",
-     "coverURL": "https://covers.openlibrary.org/b/id/14630167-L.jpg",
-     "totalPages": 292
+     "isbn": "9785040033089",
+     "coverURL": "https://covers.openlibrary.org/b/id/15177611-L.jpg",
+     "totalPages": 605
+    },
+    {
+     "id": "/books/OL51723839M",
+     "title": "Земля пребывает вовеки",
+     "authors": [
+      "George Rippey Stewart"
+     ],
+     "publishedDate": "1949",
+     "description": "",
+     "isbn": "9785866430093",
+     "coverURL": "https://covers.openlibrary.org/b/id/8310472-L.jpg",
+     "totalPages": 368
     },
     {
      "id": "/books/OL37856334M",
@@ -1436,28 +1375,28 @@
      "totalPages": 544
     },
     {
-     "id": "/books/OL38219539M",
-     "title": "Битва королей",
+     "id": "/books/OL21898446M",
+     "title": "Две твердыни",
      "authors": [
-      "Джордж Мартин"
+      "J.R.R. Tolkien"
      ],
-     "publishedDate": "1998",
+     "publishedDate": "1954",
      "description": "",
-     "isbn": "9785170762071",
-     "coverURL": "https://covers.openlibrary.org/b/id/12767858-L.jpg",
-     "totalPages": 761
+     "isbn": "9785050023971",
+     "coverURL": "https://covers.openlibrary.org/b/id/14338259-L.jpg",
+     "totalPages": 434
     },
     {
-     "id": "/books/OL51723839M",
-     "title": "Земля пребывает вовеки",
+     "id": "/books/OL12539418M",
+     "title": "Планета Обезьян",
      "authors": [
-      "George Rippey Stewart"
+      "Пьер Буль"
      ],
-     "publishedDate": "1949",
+     "publishedDate": "1963",
      "description": "",
-     "isbn": "9785866430093",
-     "coverURL": "https://covers.openlibrary.org/b/id/8310472-L.jpg",
-     "totalPages": 368
+     "isbn": "9785170188352",
+     "coverURL": "https://covers.openlibrary.org/b/id/14559323-L.jpg",
+     "totalPages": 208
     },
     {
      "id": "/books/OL27098420M",
@@ -1474,16 +1413,104 @@
      "totalPages": 170
     },
     {
-     "id": "/books/OL61173945M",
-     "title": "Гиперион",
+     "id": "/books/OL27178160M",
+     "title": "Парень из Колорадо",
      "authors": [
-      "Дан Симънс"
+      "Стивен Кинг"
      ],
-     "publishedDate": "1989",
+     "publishedDate": "1978",
      "description": "",
-     "isbn": "9785881963873",
-     "coverURL": "https://covers.openlibrary.org/b/id/15164596-L.jpg",
-     "totalPages": 481
+     "isbn": "9785170864812",
+     "coverURL": "https://covers.openlibrary.org/b/id/12647582-L.jpg",
+     "totalPages": 184
+    },
+    {
+     "id": "/books/OL32112415M",
+     "title": "Капитан Подштанник и ужасные унитазы-убийцы",
+     "authors": [
+      "Dav Pilkey"
+     ],
+     "publishedDate": "1996",
+     "description": "",
+     "isbn": "9785902918059",
+     "coverURL": "https://covers.openlibrary.org/b/id/10772368-L.jpg",
+     "totalPages": 136
+    },
+    {
+     "id": "/books/OL27323738M",
+     "title": "Звёздные Войны. Траун",
+     "authors": [
+      "Timothy Zahn",
+      "Albert Agut Iglesias"
+     ],
+     "publishedDate": "2017",
+     "description": "",
+     "isbn": "9785389135901",
+     "coverURL": "https://covers.openlibrary.org/b/id/8790660-L.jpg",
+     "totalPages": 496
+    },
+    {
+     "id": "/books/OL61131157M",
+     "title": "Задача трёх тел",
+     "authors": [
+      "刘慈欣",
+      "Vincent Schmitt",
+      "Gwennaël Gaffric",
+      "Marc Simonetti"
+     ],
+     "publishedDate": "2008",
+     "description": "",
+     "isbn": "9785041619015",
+     "coverURL": "https://covers.openlibrary.org/b/id/15162422-L.jpg",
+     "totalPages": 416
+    },
+    {
+     "id": "/books/OL51723838M",
+     "title": "На берегу",
+     "authors": [
+      "Nevil Shute"
+     ],
+     "publishedDate": "1957",
+     "description": "",
+     "isbn": "9785170702626",
+     "coverURL": "https://covers.openlibrary.org/b/id/14630167-L.jpg",
+     "totalPages": 292
+    },
+    {
+     "id": "/books/OL59121051M",
+     "title": "Мечтают ли андроиды об электроовцах?",
+     "authors": [
+      "Филип К. Дик"
+     ],
+     "publishedDate": "1968",
+     "description": "",
+     "isbn": "9785041141585",
+     "coverURL": "https://covers.openlibrary.org/b/id/15087606-L.jpg",
+     "totalPages": 224
+    },
+    {
+     "id": "/books/OL12584781M",
+     "title": "Сошествие тьмы",
+     "authors": [
+      "Dean Koontz"
+     ],
+     "publishedDate": "1984",
+     "description": "",
+     "isbn": "9785699157457",
+     "coverURL": "https://covers.openlibrary.org/b/id/13003769-L.jpg",
+     "totalPages": 351
+    },
+    {
+     "id": "/books/OL38231252M",
+     "title": "Рассказ Служанки",
+     "authors": [
+      "Margaret Atwood"
+     ],
+     "publishedDate": "1985",
+     "description": "",
+     "isbn": "9785699909568",
+     "coverURL": "https://covers.openlibrary.org/b/id/12776275-L.jpg",
+     "totalPages": 352
     }
    ]
   },
@@ -1492,64 +1519,16 @@
    "source": "openlibrary",
    "books": [
     {
-     "id": "/books/OL45119801M",
-     "title": "Шестерка воронов",
+     "id": "/books/OL37814101M",
+     "title": "Американская трагедия",
      "authors": [
-      "Leigh Bardugo"
+      "Теодор Драйзер"
      ],
-     "publishedDate": "2015",
+     "publishedDate": "1900",
      "description": "",
-     "isbn": "9785171366162",
-     "coverURL": "https://covers.openlibrary.org/b/id/13122069-L.jpg",
-     "totalPages": 512
-    },
-    {
-     "id": "/books/OL45991366M",
-     "title": "Джек Ричер, или Личный интерес",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "2014",
-     "description": "",
-     "isbn": "9785699906048",
-     "coverURL": "https://covers.openlibrary.org/b/id/14425113-L.jpg",
-     "totalPages": 432
-    },
-    {
-     "id": "/books/OL36689356M",
-     "title": "Цифровая крепость",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785170137763",
-     "coverURL": "https://covers.openlibrary.org/b/id/13397327-L.jpg",
-     "totalPages": 447
-    },
-    {
-     "id": "/books/OL32046827M",
-     "title": "Мёртвая зона",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1979",
-     "description": "",
-     "isbn": "9785770708417",
-     "coverURL": "https://covers.openlibrary.org/b/id/14652746-L.jpg",
-     "totalPages": 426
-    },
-    {
-     "id": "/books/OL27120690M",
-     "title": "Цена ее жизни",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "1998",
-     "description": "",
-     "isbn": "9785699358649",
-     "coverURL": "https://covers.openlibrary.org/b/id/15179424-L.jpg",
-     "totalPages": 434
+     "isbn": "9785699890989",
+     "coverURL": "https://covers.openlibrary.org/b/id/12717903-L.jpg",
+     "totalPages": 784
     },
     {
      "id": "/books/OL27118185M",
@@ -1562,6 +1541,18 @@
      "isbn": "9785699383719",
      "coverURL": "https://covers.openlibrary.org/b/id/9274756-L.jpg",
      "totalPages": 576
+    },
+    {
+     "id": "/books/OL36689356M",
+     "title": "Цифровая крепость",
+     "authors": [
+      "Дэн Браун"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785170137763",
+     "coverURL": "https://covers.openlibrary.org/b/id/13397327-L.jpg",
+     "totalPages": 447
     },
     {
      "id": "/books/OL26369169M",
@@ -1588,52 +1579,52 @@
      "totalPages": 719
     },
     {
-     "id": "/books/OL23048427M",
-     "title": "Точка обмана",
-     "authors": [
-      "Дэн Браун"
-     ],
-     "publishedDate": "2001",
-     "description": "",
-     "isbn": "9785170310869",
-     "coverURL": "https://covers.openlibrary.org/b/id/8398101-L.jpg",
-     "totalPages": 559
-    },
-    {
-     "id": "/books/OL27230693M",
-     "title": "Джек Ричер",
+     "id": "/books/OL45991366M",
+     "title": "Джек Ричер, или Личный интерес",
      "authors": [
       "Lee Child"
      ],
-     "publishedDate": "2013",
+     "publishedDate": "2014",
      "description": "",
-     "isbn": "9785699923281",
-     "coverURL": "https://covers.openlibrary.org/b/id/15179851-L.jpg",
-     "totalPages": 440
+     "isbn": "9785699906048",
+     "coverURL": "https://covers.openlibrary.org/b/id/14425113-L.jpg",
+     "totalPages": 432
     },
     {
-     "id": "/books/OL32602771M",
-     "title": "Томминокеры",
+     "id": "/books/OL59580157M",
+     "title": "Игра в классики",
+     "authors": [
+      "Julio Cortázar"
+     ],
+     "publishedDate": "1963",
+     "description": "",
+     "isbn": "9785170916122",
+     "coverURL": "https://covers.openlibrary.org/b/id/15103847-L.jpg",
+     "totalPages": 633
+    },
+    {
+     "id": "/books/OL27120690M",
+     "title": "Цена ее жизни",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "1998",
+     "description": "",
+     "isbn": "9785699358649",
+     "coverURL": "https://covers.openlibrary.org/b/id/15179424-L.jpg",
+     "totalPages": 434
+    },
+    {
+     "id": "/books/OL12539210M",
+     "title": "Мешок с костями",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1985",
+     "publishedDate": "1998",
      "description": "",
-     "isbn": "9785170835966",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654731-L.jpg",
-     "totalPages": 725
-    },
-    {
-     "id": "/books/OL27153655M",
-     "title": "Джек Ричер, или выстрел",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "2005",
-     "description": "",
-     "isbn": "9785699611485",
-     "coverURL": "https://covers.openlibrary.org/b/id/15179850-L.jpg",
-     "totalPages": 436
+     "isbn": "9785170177301",
+     "coverURL": "https://covers.openlibrary.org/b/id/13035742-L.jpg",
+     "totalPages": 608
     },
     {
      "id": "/books/OL12545159M",
@@ -1646,42 +1637,6 @@
      "isbn": "9785329001181",
      "coverURL": "https://covers.openlibrary.org/b/id/14551555-L.jpg",
      "totalPages": 248
-    },
-    {
-     "id": "/books/OL27131762M",
-     "title": "Сплошные проблемы и неприятности",
-     "authors": [
-      "Lee Child"
-     ],
-     "publishedDate": "1984",
-     "description": "",
-     "isbn": "9785699495214",
-     "coverURL": "https://covers.openlibrary.org/b/id/14292250-L.jpg",
-     "totalPages": 439
-    },
-    {
-     "id": "/books/OL12540541M",
-     "title": "Волки Кальи",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785170236459",
-     "coverURL": "https://covers.openlibrary.org/b/id/14656136-L.jpg",
-     "totalPages": 714
-    },
-    {
-     "id": "/books/OL49835379M",
-     "title": "Наш человек в Гаване",
-     "authors": [
-      "Грэм Грин"
-     ],
-     "publishedDate": "1958",
-     "description": "",
-     "isbn": "9785367023978",
-     "coverURL": "https://covers.openlibrary.org/b/id/14542880-L.jpg",
-     "totalPages": 246
     },
     {
      "id": "/books/OL37794363M",
@@ -1698,6 +1653,18 @@
      "totalPages": 484
     },
     {
+     "id": "/books/OL39794172M",
+     "title": "Утраченный символ",
+     "authors": [
+      "Дэн Браун"
+     ],
+     "publishedDate": "2009",
+     "description": "",
+     "isbn": "9785170251957",
+     "coverURL": "https://covers.openlibrary.org/b/id/12904246-L.jpg",
+     "totalPages": 604
+    },
+    {
      "id": "/books/OL49348297M",
      "title": "Біле Ікло",
      "authors": [
@@ -1710,28 +1677,112 @@
      "totalPages": 237
     },
     {
-     "id": "/books/OL12539210M",
-     "title": "Мешок с костями",
+     "id": "/books/OL43100509M",
+     "title": "Джек Ричер, или В розыске",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "2012",
+     "description": "",
+     "isbn": "9785699827046",
+     "coverURL": "https://covers.openlibrary.org/b/id/14425233-L.jpg",
+     "totalPages": 445
+    },
+    {
+     "id": "/books/OL26354654M",
+     "title": "Парк Юрского периода",
+     "authors": [
+      "Michael Crichton"
+     ],
+     "publishedDate": "1990",
+     "description": "",
+     "isbn": "9785040072491",
+     "coverURL": "https://covers.openlibrary.org/b/id/8748992-L.jpg",
+     "totalPages": 455
+    },
+    {
+     "id": "/books/OL49835379M",
+     "title": "Наш человек в Гаване",
+     "authors": [
+      "Грэм Грин"
+     ],
+     "publishedDate": "1958",
+     "description": "",
+     "isbn": "9785367023978",
+     "coverURL": "https://covers.openlibrary.org/b/id/14542880-L.jpg",
+     "totalPages": 246
+    },
+    {
+     "id": "/books/OL38565762M",
+     "title": "Стрелок",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1998",
+     "publishedDate": "1976",
      "description": "",
-     "isbn": "9785170177301",
-     "coverURL": "https://covers.openlibrary.org/b/id/13035742-L.jpg",
-     "totalPages": 608
+     "isbn": "9785170770519",
+     "coverURL": "https://covers.openlibrary.org/b/id/12802998-L.jpg",
+     "totalPages": 255
     },
     {
-     "id": "/books/OL59580157M",
-     "title": "Игра в классики",
+     "id": "/books/OL32602771M",
+     "title": "Томминокеры",
      "authors": [
-      "Julio Cortázar"
+      "Стивен Кинг"
      ],
-     "publishedDate": "1963",
+     "publishedDate": "1985",
      "description": "",
-     "isbn": "9785170916122",
-     "coverURL": "https://covers.openlibrary.org/b/id/15103847-L.jpg",
-     "totalPages": 633
+     "isbn": "9785170835966",
+     "coverURL": "https://covers.openlibrary.org/b/id/14654731-L.jpg",
+     "totalPages": 725
+    },
+    {
+     "id": "/books/OL12540541M",
+     "title": "Волки Кальи",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1997",
+     "description": "",
+     "isbn": "9785170236459",
+     "coverURL": "https://covers.openlibrary.org/b/id/14656136-L.jpg",
+     "totalPages": 714
+    },
+    {
+     "id": "/books/OL23048427M",
+     "title": "Точка обмана",
+     "authors": [
+      "Дэн Браун"
+     ],
+     "publishedDate": "2001",
+     "description": "",
+     "isbn": "9785170310869",
+     "coverURL": "https://covers.openlibrary.org/b/id/8398101-L.jpg",
+     "totalPages": 559
+    },
+    {
+     "id": "/books/OL32046827M",
+     "title": "Мёртвая зона",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1979",
+     "description": "",
+     "isbn": "9785770708417",
+     "coverURL": "https://covers.openlibrary.org/b/id/14652746-L.jpg",
+     "totalPages": 426
+    },
+    {
+     "id": "/books/OL27153655M",
+     "title": "Джек Ричер, или выстрел",
+     "authors": [
+      "Lee Child"
+     ],
+     "publishedDate": "2005",
+     "description": "",
+     "isbn": "9785699611485",
+     "coverURL": "https://covers.openlibrary.org/b/id/15179850-L.jpg",
+     "totalPages": 436
     }
    ]
   },
@@ -1739,6 +1790,115 @@
    "title": "Ужасы",
    "source": "openlibrary",
    "books": [
+    {
+     "id": "/books/OL23009002M",
+     "title": "Четыре сезона",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1982",
+     "description": "",
+     "isbn": "9785237007121",
+     "coverURL": "https://covers.openlibrary.org/b/id/14654448-L.jpg",
+     "totalPages": 529
+    },
+    {
+     "id": "/books/OL26401582M",
+     "title": "К западу от октября",
+     "authors": [
+      "Рэй Брэдбери"
+     ],
+     "publishedDate": "1988",
+     "description": "",
+     "isbn": "9785699108282",
+     "coverURL": "https://covers.openlibrary.org/b/id/9346259-L.jpg",
+     "totalPages": 288
+    },
+    {
+     "id": "/books/OL52097612M",
+     "title": "Ееземля; Herland (Russian Edition)",
+     "authors": [
+      "Charlotte Perkins Gilman"
+     ],
+     "publishedDate": "1915",
+     "description": "",
+     "isbn": "9781715592165",
+     "coverURL": "https://covers.openlibrary.org/b/id/448130-L.jpg",
+     "totalPages": 152
+    },
+    {
+     "id": "/books/OL31963537M",
+     "title": "Час ведьмовства",
+     "authors": [
+      "Ан Райс"
+     ],
+     "publishedDate": "1990",
+     "description": "",
+     "isbn": "9785699311453",
+     "coverURL": "https://covers.openlibrary.org/b/id/10703213-L.jpg",
+     "totalPages": 965
+    },
+    {
+     "id": "/books/OL26273533M",
+     "title": "Паутина грез",
+     "authors": [
+      "V.C. Andrews"
+     ],
+     "publishedDate": "1920",
+     "description": "",
+     "isbn": "9785702009865",
+     "coverURL": "https://covers.openlibrary.org/b/id/10210742-L.jpg",
+     "totalPages": 439
+    },
+    {
+     "id": "/books/OL58497090M",
+     "title": "Кентуки",
+     "authors": [
+      "Samanta Schweblin"
+     ],
+     "publishedDate": "2014",
+     "description": "",
+     "isbn": "9785171129323",
+     "coverURL": "https://covers.openlibrary.org/b/id/14860971-L.jpg",
+     "totalPages": 256
+    },
+    {
+     "id": "/books/OL12541735M",
+     "title": "Талисман",
+     "authors": [
+      "Stephen King",
+      "Peter Straub"
+     ],
+     "publishedDate": "1925",
+     "description": "",
+     "isbn": "9785170290642",
+     "coverURL": "https://covers.openlibrary.org/b/id/14651566-L.jpg",
+     "totalPages": 769
+    },
+    {
+     "id": "/books/OL22997387M",
+     "title": "Дом у кладбища",
+     "authors": [
+      "Sheridan Le Fanu"
+     ],
+     "publishedDate": "1863",
+     "description": "",
+     "isbn": "9785862184303",
+     "coverURL": "https://covers.openlibrary.org/b/id/3950063-L.jpg",
+     "totalPages": 528
+    },
+    {
+     "id": "/books/OL35324189M",
+     "title": "Мельмот Скиталец",
+     "authors": [
+      "Charles Robert Maturin"
+     ],
+     "publishedDate": "1820",
+     "description": "",
+     "isbn": "9785699337705",
+     "coverURL": "https://covers.openlibrary.org/b/id/12138560-L.jpg",
+     "totalPages": 416
+    },
     {
      "id": "/books/OL50496187M",
      "title": "Костотряс",
@@ -1750,6 +1910,93 @@
      "isbn": "9785918780299",
      "coverURL": "https://covers.openlibrary.org/b/id/14556640-L.jpg",
      "totalPages": 416
+    },
+    {
+     "id": "/books/OL12540983M",
+     "title": "Долгая прогулка",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1979",
+     "description": "",
+     "isbn": "9785170255481",
+     "coverURL": "https://covers.openlibrary.org/b/id/14653609-L.jpg",
+     "totalPages": 352
+    },
+    {
+     "id": "/books/OL61375746M",
+     "title": "И останется только пепел",
+     "authors": [
+      "Rebecca Schaeffer"
+     ],
+     "publishedDate": "2019",
+     "description": "",
+     "isbn": "9785171379254",
+     "coverURL": "https://covers.openlibrary.org/b/id/15176568-L.jpg",
+     "totalPages": 448
+    },
+    {
+     "id": "/books/OL26395506M",
+     "title": "Свет в ночи",
+     "authors": [
+      "V.C. Andrews"
+     ],
+     "publishedDate": "1994",
+     "description": "",
+     "isbn": "9785702009605",
+     "coverURL": "https://covers.openlibrary.org/b/id/10209298-L.jpg",
+     "totalPages": 380
+    },
+    {
+     "id": "/books/OL12584660M",
+     "title": "Тик-так",
+     "authors": [
+      "Dean Koontz"
+     ],
+     "publishedDate": "1996",
+     "description": "",
+     "isbn": "9785699141081",
+     "coverURL": "https://covers.openlibrary.org/b/id/13007989-L.jpg",
+     "totalPages": 315
+    },
+    {
+     "id": "/books/OL32162386M",
+     "title": "Гвенди и ее шкатулка",
+     "authors": [
+      "Stephen King",
+      "Richard Chizmar",
+      "Richard T. Chizmar"
+     ],
+     "publishedDate": "2017",
+     "description": "",
+     "isbn": "9785171066086",
+     "coverURL": "https://covers.openlibrary.org/b/id/10828899-L.jpg",
+     "totalPages": 176
+    },
+    {
+     "id": "/books/OL60149938M",
+     "title": "Миссис Марч",
+     "authors": [
+      "Virginia Feito"
+     ],
+     "publishedDate": "2021",
+     "description": "",
+     "isbn": "9785041189891",
+     "coverURL": "https://covers.openlibrary.org/b/id/15123944-L.jpg",
+     "totalPages": 328
+    },
+    {
+     "id": "/books/OL414173M",
+     "title": "Голова профессора Доуэля",
+     "authors": [
+      "Алекса́ндр Рома́нович Беля́ев",
+      "Carl Engel"
+     ],
+     "publishedDate": "1980",
+     "description": "",
+     "isbn": "9781480118799",
+     "coverURL": "https://covers.openlibrary.org/b/id/4401073-L.jpg",
+     "totalPages": 157
     },
     {
      "id": "/books/OL26364232M",
@@ -1787,55 +2034,6 @@
      "totalPages": 414
     },
     {
-     "id": "/books/OL31963537M",
-     "title": "Час ведьмовства",
-     "authors": [
-      "Ан Райс"
-     ],
-     "publishedDate": "1990",
-     "description": "",
-     "isbn": "9785699311453",
-     "coverURL": "https://covers.openlibrary.org/b/id/10703213-L.jpg",
-     "totalPages": 965
-    },
-    {
-     "id": "/books/OL26401582M",
-     "title": "К западу от октября",
-     "authors": [
-      "Рэй Брэдбери"
-     ],
-     "publishedDate": "1988",
-     "description": "",
-     "isbn": "9785699108282",
-     "coverURL": "https://covers.openlibrary.org/b/id/9346259-L.jpg",
-     "totalPages": 288
-    },
-    {
-     "id": "/books/OL26332061M",
-     "title": "Темный карнавал",
-     "authors": [
-      "Рэй Брэдбери"
-     ],
-     "publishedDate": "1947",
-     "description": "",
-     "isbn": "9785699371297",
-     "coverURL": "https://covers.openlibrary.org/b/id/9345437-L.jpg",
-     "totalPages": 313
-    },
-    {
-     "id": "/books/OL414173M",
-     "title": "Голова профессора Доуэля",
-     "authors": [
-      "Алекса́ндр Рома́нович Беля́ев",
-      "Carl Engel"
-     ],
-     "publishedDate": "1980",
-     "description": "",
-     "isbn": "9781480118799",
-     "coverURL": "https://covers.openlibrary.org/b/id/4401073-L.jpg",
-     "totalPages": 157
-    },
-    {
      "id": "/books/OL58382812M",
      "title": "Дистанция спасения",
      "authors": [
@@ -1860,190 +2058,6 @@
      "totalPages": 384
     },
     {
-     "id": "/books/OL58497090M",
-     "title": "Кентуки",
-     "authors": [
-      "Samanta Schweblin"
-     ],
-     "publishedDate": "2014",
-     "description": "",
-     "isbn": "9785171129323",
-     "coverURL": "https://covers.openlibrary.org/b/id/14860971-L.jpg",
-     "totalPages": 256
-    },
-    {
-     "id": "/books/OL12541735M",
-     "title": "Талисман",
-     "authors": [
-      "Stephen King",
-      "Peter Straub"
-     ],
-     "publishedDate": "1925",
-     "description": "",
-     "isbn": "9785170290642",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651566-L.jpg",
-     "totalPages": 769
-    },
-    {
-     "id": "/books/OL60149938M",
-     "title": "Миссис Марч",
-     "authors": [
-      "Virginia Feito"
-     ],
-     "publishedDate": "2021",
-     "description": "",
-     "isbn": "9785041189891",
-     "coverURL": "https://covers.openlibrary.org/b/id/15123944-L.jpg",
-     "totalPages": 328
-    },
-    {
-     "id": "/books/OL12540983M",
-     "title": "Долгая прогулка",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1979",
-     "description": "",
-     "isbn": "9785170255481",
-     "coverURL": "https://covers.openlibrary.org/b/id/14653609-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL26395506M",
-     "title": "Свет в ночи",
-     "authors": [
-      "V.C. Andrews"
-     ],
-     "publishedDate": "1994",
-     "description": "",
-     "isbn": "9785702009605",
-     "coverURL": "https://covers.openlibrary.org/b/id/10209298-L.jpg",
-     "totalPages": 380
-    },
-    {
-     "id": "/books/OL12584660M",
-     "title": "Тик-так",
-     "authors": [
-      "Dean Koontz"
-     ],
-     "publishedDate": "1996",
-     "description": "",
-     "isbn": "9785699141081",
-     "coverURL": "https://covers.openlibrary.org/b/id/13007989-L.jpg",
-     "totalPages": 315
-    },
-    {
-     "id": "/books/OL35324189M",
-     "title": "Мельмот Скиталец",
-     "authors": [
-      "Charles Robert Maturin"
-     ],
-     "publishedDate": "1820",
-     "description": "",
-     "isbn": "9785699337705",
-     "coverURL": "https://covers.openlibrary.org/b/id/12138560-L.jpg",
-     "totalPages": 416
-    },
-    {
-     "id": "/books/OL52097612M",
-     "title": "Ееземля; Herland (Russian Edition)",
-     "authors": [
-      "Charlotte Perkins Gilman"
-     ],
-     "publishedDate": "1915",
-     "description": "",
-     "isbn": "9781715592165",
-     "coverURL": "https://covers.openlibrary.org/b/id/448130-L.jpg",
-     "totalPages": 152
-    },
-    {
-     "id": "/books/OL12540892M",
-     "title": "Черный дом",
-     "authors": [
-      "Stephen King",
-      "Peter Straub"
-     ],
-     "publishedDate": "2001",
-     "description": "",
-     "isbn": "9785170251575",
-     "coverURL": "https://covers.openlibrary.org/b/id/14652973-L.jpg",
-     "totalPages": 672
-    },
-    {
-     "id": "/books/OL26273533M",
-     "title": "Паутина грез",
-     "authors": [
-      "V.C. Andrews"
-     ],
-     "publishedDate": "1920",
-     "description": "",
-     "isbn": "9785702009865",
-     "coverURL": "https://covers.openlibrary.org/b/id/10210742-L.jpg",
-     "totalPages": 439
-    },
-    {
-     "id": "/books/OL26413552M",
-     "title": "Убийство на улиц Морг",
-     "authors": [
-      "Э. По"
-     ],
-     "publishedDate": "1841",
-     "description": "",
-     "isbn": "9785373031097",
-     "coverURL": "https://covers.openlibrary.org/b/id/11822919-L.jpg",
-     "totalPages": 42
-    },
-    {
-     "id": "/books/OL23009002M",
-     "title": "Четыре сезона",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1982",
-     "description": "",
-     "isbn": "9785237007121",
-     "coverURL": "https://covers.openlibrary.org/b/id/14654448-L.jpg",
-     "totalPages": 529
-    },
-    {
-     "id": "/books/OL61375746M",
-     "title": "И останется только пепел",
-     "authors": [
-      "Rebecca Schaeffer"
-     ],
-     "publishedDate": "2019",
-     "description": "",
-     "isbn": "9785171379254",
-     "coverURL": "https://covers.openlibrary.org/b/id/15176568-L.jpg",
-     "totalPages": 448
-    },
-    {
-     "id": "/books/OL22997387M",
-     "title": "Дом у кладбища",
-     "authors": [
-      "Sheridan Le Fanu"
-     ],
-     "publishedDate": "1863",
-     "description": "",
-     "isbn": "9785862184303",
-     "coverURL": "https://covers.openlibrary.org/b/id/3950063-L.jpg",
-     "totalPages": 528
-    },
-    {
-     "id": "/books/OL32162386M",
-     "title": "Гвенди и ее шкатулка",
-     "authors": [
-      "Stephen King",
-      "Richard Chizmar",
-      "Richard T. Chizmar"
-     ],
-     "publishedDate": "2017",
-     "description": "",
-     "isbn": "9785171066086",
-     "coverURL": "https://covers.openlibrary.org/b/id/10828899-L.jpg",
-     "totalPages": 176
-    },
-    {
      "id": "/books/OL39804470M",
      "title": "Темная половина",
      "authors": [
@@ -2054,6 +2068,18 @@
      "isbn": "9785170855308",
      "coverURL": "https://covers.openlibrary.org/b/id/12920281-L.jpg",
      "totalPages": 474
+    },
+    {
+     "id": "/books/OL26332061M",
+     "title": "Темный карнавал",
+     "authors": [
+      "Рэй Брэдбери"
+     ],
+     "publishedDate": "1947",
+     "description": "",
+     "isbn": "9785699371297",
+     "coverURL": "https://covers.openlibrary.org/b/id/9345437-L.jpg",
+     "totalPages": 313
     }
    ]
   },
@@ -2061,30 +2087,6 @@
    "title": "Исторические",
    "source": "openlibrary",
    "books": [
-    {
-     "id": "/books/OL60405429M",
-     "title": "Бегущий за ветром",
-     "authors": [
-      "Халед Хоссейни"
-     ],
-     "publishedDate": "2003",
-     "description": "",
-     "isbn": "9785864716250",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162778-L.jpg",
-     "totalPages": 371
-    },
-    {
-     "id": "/books/OL62332679M",
-     "title": "Последний из Могикан",
-     "authors": [
-      "James Fenimore Cooper"
-     ],
-     "publishedDate": "1826",
-     "description": "",
-     "isbn": "9798457297821",
-     "coverURL": "https://covers.openlibrary.org/b/id/15239495-L.jpg",
-     "totalPages": 418
-    },
     {
      "id": "/works/OL43370W",
      "title": "Отцы и дети",
@@ -2096,30 +2098,6 @@
      "isbn": "9781432611323",
      "coverURL": "https://covers.openlibrary.org/b/id/8236420-L.jpg",
      "totalPages": 247
-    },
-    {
-     "id": "/books/OL30680274M",
-     "title": "На западном фронте без перемен",
-     "authors": [
-      "Эрих Мария Ремарк"
-     ],
-     "publishedDate": "1928",
-     "description": "",
-     "isbn": "9785170889402",
-     "coverURL": "https://covers.openlibrary.org/b/id/10484868-L.jpg",
-     "totalPages": 248
-    },
-    {
-     "id": "/books/OL34898577M",
-     "title": "Приключения Гекльберри Финна",
-     "authors": [
-      "М.Твен"
-     ],
-     "publishedDate": "1876",
-     "description": "",
-     "isbn": "9781519764362",
-     "coverURL": "https://covers.openlibrary.org/b/id/15182329-L.jpg",
-     "totalPages": 346
     },
     {
      "id": "/books/OL48583983M",
@@ -2134,41 +2112,64 @@
      "totalPages": 574
     },
     {
-     "id": "/works/OL166925W",
-     "title": "Идиот",
+     "id": "/books/OL47259673M",
+     "title": "Приключения Робинзона Крузо",
      "authors": [
-      "Ф.М Достоевский"
+      "Д. Дефо"
      ],
-     "publishedDate": "1874",
+     "publishedDate": "1686",
      "description": "",
-     "isbn": "9781909115439",
-     "coverURL": "https://covers.openlibrary.org/b/id/11226648-L.jpg",
-     "totalPages": 620
+     "isbn": "9789663120454",
+     "coverURL": "https://covers.openlibrary.org/b/id/13709108-L.jpg",
+     "totalPages": 274
     },
     {
-     "id": "/books/OL35418073M",
-     "title": "Поющие в терновнике",
+     "id": "/books/OL38564331M",
+     "title": "Чувство и чувствительность",
      "authors": [
-      "Colleen McCullough",
-      "Colleen McCullough"
+      "Джейн Остин"
      ],
-     "publishedDate": "1977",
+     "publishedDate": "1811",
      "description": "",
-     "isbn": "5843210036",
-     "coverURL": "https://covers.openlibrary.org/b/id/12259901-L.jpg",
-     "totalPages": 597
+     "isbn": "9785389067844",
+     "coverURL": "https://covers.openlibrary.org/b/id/12801615-L.jpg",
+     "totalPages": 352
     },
     {
-     "id": "/books/OL50983593M",
-     "title": "Сидхартха",
+     "id": "/books/OL62332679M",
+     "title": "Последний из Могикан",
      "authors": [
-      "Hermann Hesse"
+      "James Fenimore Cooper"
      ],
-     "publishedDate": "1922",
+     "publishedDate": "1826",
      "description": "",
-     "isbn": "9785413012178",
-     "coverURL": "https://covers.openlibrary.org/b/id/14575459-L.jpg",
-     "totalPages": 139
+     "isbn": "9798457297821",
+     "coverURL": "https://covers.openlibrary.org/b/id/15239495-L.jpg",
+     "totalPages": 418
+    },
+    {
+     "id": "/books/OL34898577M",
+     "title": "Приключения Гекльберри Финна",
+     "authors": [
+      "М.Твен"
+     ],
+     "publishedDate": "1876",
+     "description": "",
+     "isbn": "9781519764362",
+     "coverURL": "https://covers.openlibrary.org/b/id/15182329-L.jpg",
+     "totalPages": 346
+    },
+    {
+     "id": "/books/OL30680274M",
+     "title": "На западном фронте без перемен",
+     "authors": [
+      "Эрих Мария Ремарк"
+     ],
+     "publishedDate": "1928",
+     "description": "",
+     "isbn": "9785170889402",
+     "coverURL": "https://covers.openlibrary.org/b/id/10484868-L.jpg",
+     "totalPages": 248
     },
     {
      "id": "/books/OL9045568M",
@@ -2185,16 +2186,16 @@
      "totalPages": 380
     },
     {
-     "id": "/books/OL47259673M",
-     "title": "Приключения Робинзона Крузо",
+     "id": "/books/OL36619237M",
+     "title": "Она же грейс",
      "authors": [
-      "Д. Дефо"
+      "Margaret Atwood"
      ],
-     "publishedDate": "1686",
+     "publishedDate": "1996",
      "description": "",
-     "isbn": "9789663120454",
-     "coverURL": "https://covers.openlibrary.org/b/id/13709108-L.jpg",
-     "totalPages": 274
+     "isbn": "9785699945993",
+     "coverURL": "https://covers.openlibrary.org/b/id/12511405-L.jpg",
+     "totalPages": 552
     },
     {
      "id": "/books/OL42893467M",
@@ -2209,16 +2210,52 @@
      "totalPages": 439
     },
     {
-     "id": "/books/OL12584722M",
-     "title": "Carloson - Авто премиум сегмента в аренду",
+     "id": "/works/OL166925W",
+     "title": "Идиот",
      "authors": [
-      "Audrey Niffenegger"
+      "Ф.М Достоевский"
      ],
-     "publishedDate": "2003",
+     "publishedDate": "1874",
      "description": "",
-     "isbn": "9785699150472",
-     "coverURL": "https://covers.openlibrary.org/b/id/15251461-L.jpg",
-     "totalPages": 546
+     "isbn": "9781604240955",
+     "coverURL": "https://covers.openlibrary.org/b/id/11226648-L.jpg",
+     "totalPages": 620
+    },
+    {
+     "id": "/books/OL48111135M",
+     "title": "Возлюбленная",
+     "authors": [
+      "Toni Morrison"
+     ],
+     "publishedDate": "1987",
+     "description": "",
+     "isbn": "9785699874958",
+     "coverURL": "https://covers.openlibrary.org/b/id/14342722-L.jpg",
+     "totalPages": 321
+    },
+    {
+     "id": "/books/OL53638929M",
+     "title": "Повесть о двух городах",
+     "authors": [
+      "Ч. Диккенс"
+     ],
+     "publishedDate": "1800",
+     "description": "",
+     "isbn": "9785389011335",
+     "coverURL": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
+     "totalPages": 388
+    },
+    {
+     "id": "/books/OL34902791M",
+     "title": "Кандид",
+     "authors": [
+      "Вольтер"
+     ],
+     "publishedDate": "1746",
+     "description": "",
+     "isbn": "9781635376036",
+     "coverURL": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
+     "totalPages": 152
     },
     {
      "id": "/books/OL35722568M",
@@ -2233,28 +2270,16 @@
      "totalPages": 321
     },
     {
-     "id": "/books/OL36619237M",
-     "title": "Она же грейс",
+     "id": "/works/OL267096W",
+     "title": "Анна Каренина",
      "authors": [
-      "Margaret Atwood"
+      "Толстой, Лев"
      ],
-     "publishedDate": "1996",
+     "publishedDate": "1876",
      "description": "",
-     "isbn": "9785699945993",
-     "coverURL": "https://covers.openlibrary.org/b/id/12511405-L.jpg",
-     "totalPages": 552
-    },
-    {
-     "id": "/books/OL26785132M",
-     "title": "Бойня номер пять, или Крестовый поход детей",
-     "authors": [
-      "Курт Воннегут"
-     ],
-     "publishedDate": "1956",
-     "description": "",
-     "isbn": "9785352003725",
-     "coverURL": "https://covers.openlibrary.org/b/id/15239321-L.jpg",
-     "totalPages": 203
+     "isbn": "9781535290142",
+     "coverURL": "https://covers.openlibrary.org/b/id/2560652-L.jpg",
+     "totalPages": 660
     }
    ]
   },
@@ -2263,40 +2288,270 @@
    "source": "openlibrary",
    "books": [
     {
-     "id": "/books/OL29554500M",
-     "title": "Гарри Поттер и Дары Смерти",
+     "id": "/books/OL35143635M",
+     "title": "Книжный вор",
      "authors": [
-      "Джоан Роулинг"
+      "Markus Zusak",
+      "Alexandra Ernst"
      ],
-     "publishedDate": "2007",
+     "publishedDate": "1998",
      "description": "",
-     "isbn": "9785389077928",
-     "coverURL": "https://covers.openlibrary.org/b/id/15159984-L.jpg",
-     "totalPages": 701
+     "isbn": "9785699528110",
+     "coverURL": "https://covers.openlibrary.org/b/id/12065918-L.jpg",
+     "totalPages": 556
     },
     {
-     "id": "/books/OL45667604M",
-     "title": "Хоббит",
+     "id": "/books/OL30563589M",
+     "title": "Книжные странники",
      "authors": [
-      "J.R.R. Tolkien"
+      "Mechthild Gläser"
      ],
-     "publishedDate": "1937",
+     "publishedDate": "2015",
      "description": "",
-     "isbn": "9785878600125",
-     "coverURL": "https://covers.openlibrary.org/b/id/14626140-L.jpg",
-     "totalPages": 310
+     "isbn": "9785521151332",
+     "coverURL": "https://covers.openlibrary.org/b/id/10473072-L.jpg",
+     "totalPages": 371
     },
     {
-     "id": "/books/OL45170658M",
-     "title": "Большие надежды",
+     "id": "/books/OL51160249M",
+     "title": "Что, если это мы",
      "authors": [
-      "Ч. Диккенс"
+      "Becky Albertalli",
+      "Adam Silvera"
      ],
-     "publishedDate": "1861",
+     "publishedDate": "2018",
      "description": "",
-     "isbn": "9785170695010",
-     "coverURL": "https://covers.openlibrary.org/b/id/13353431-L.jpg",
-     "totalPages": 482
+     "isbn": "9785604360668",
+     "coverURL": "https://covers.openlibrary.org/b/id/14588805-L.jpg",
+     "totalPages": 443
+    },
+    {
+     "id": "/books/OL26916424M",
+     "title": "Затмение",
+     "authors": [
+      "Стефани Майер"
+     ],
+     "publishedDate": "2006",
+     "description": "",
+     "isbn": "9785170563333",
+     "coverURL": "https://covers.openlibrary.org/b/id/11749200-L.jpg",
+     "totalPages": 629
+    },
+    {
+     "id": "/books/OL51153314M",
+     "title": "Руководство джентльмена по пороку и добродетели",
+     "authors": [
+      "Mackenzi Lee"
+     ],
+     "publishedDate": "2017",
+     "description": "",
+     "isbn": "9785604718155",
+     "coverURL": "https://covers.openlibrary.org/b/id/14587334-L.jpg",
+     "totalPages": 529
+    },
+    {
+     "id": "/books/OL35345672M",
+     "title": "Только ты можешь спасти человечество",
+     "authors": [
+      "Terry Pratchett"
+     ],
+     "publishedDate": "1992",
+     "description": "",
+     "isbn": "9785699073863",
+     "coverURL": "https://covers.openlibrary.org/b/id/12175420-L.jpg",
+     "totalPages": 221
+    },
+    {
+     "id": "/books/OL62083562M",
+     "title": "Пышечная, согревающая сердца",
+     "authors": [
+      "Инна Тоболина"
+     ],
+     "publishedDate": "2026",
+     "description": "",
+     "isbn": "9785378359219",
+     "coverURL": "https://covers.openlibrary.org/b/id/15226567-L.jpg",
+     "totalPages": 240
+    },
+    {
+     "id": "/books/OL60632305M",
+     "title": "Наверно, я еще маленький",
+     "authors": [
+      "Ася Петрова"
+     ],
+     "publishedDate": "2020",
+     "description": "",
+     "isbn": "9785386105211",
+     "coverURL": "https://covers.openlibrary.org/b/isbn/9785386105211-L.jpg?default=false",
+     "totalPages": 106
+    },
+    {
+     "id": "/books/OL27323728M",
+     "title": "Звёздные Войны. Асока",
+     "authors": [
+      "E. K. Johnston"
+     ],
+     "publishedDate": "2016",
+     "description": "",
+     "isbn": "9785389133228",
+     "coverURL": "https://covers.openlibrary.org/b/id/8790638-L.jpg",
+     "totalPages": 319
+    },
+    {
+     "id": "/books/OL36691602M",
+     "title": "Мальчик в полосатой пижаме",
+     "authors": [
+      "John Boyne"
+     ],
+     "publishedDate": "2006",
+     "description": "",
+     "isbn": "9785864716632",
+     "coverURL": "https://covers.openlibrary.org/b/id/12575852-L.jpg",
+     "totalPages": 216
+    },
+    {
+     "id": "/books/OL51160256M",
+     "title": "Дарий Великий заслуживает большего",
+     "authors": [
+      "Adib Khorram"
+     ],
+     "publishedDate": "2019",
+     "description": "",
+     "isbn": "9785604653296",
+     "coverURL": "https://covers.openlibrary.org/b/id/14588809-L.jpg",
+     "totalPages": 360
+    },
+    {
+     "id": "/books/OL51160254M",
+     "title": "Дарий Великий не в порядке",
+     "authors": [
+      "Adib Khorram"
+     ],
+     "publishedDate": "2018",
+     "description": "",
+     "isbn": "9785604262757",
+     "coverURL": "https://covers.openlibrary.org/b/id/14588808-L.jpg",
+     "totalPages": 320
+    },
+    {
+     "id": "/books/OL40287149M",
+     "title": "Перехожу на прием",
+     "authors": [
+      "Roald Dahl"
+     ],
+     "publishedDate": "1946",
+     "description": "",
+     "isbn": "9785699521098",
+     "coverURL": "https://covers.openlibrary.org/b/id/12999037-L.jpg",
+     "totalPages": 160
+    },
+    {
+     "id": "/books/OL60099355M",
+     "title": "Неправильное воспитание Кэмерон Пост",
+     "authors": [
+      "Emily M. Danforth"
+     ],
+     "publishedDate": "2012",
+     "description": "",
+     "isbn": "9785604611982",
+     "coverURL": "https://covers.openlibrary.org/b/id/15122012-L.jpg",
+     "totalPages": 480
+    },
+    {
+     "id": "/books/OL27138268M",
+     "title": "Сойка-пересмешница",
+     "authors": [
+      "Сьюзен Коллинз"
+     ],
+     "publishedDate": "2010",
+     "description": "",
+     "isbn": "9785271424557",
+     "coverURL": "https://covers.openlibrary.org/b/id/15168538-L.jpg",
+     "totalPages": 424
+    },
+    {
+     "id": "/books/OL37015069M",
+     "title": "Джонни и бомба",
+     "authors": [
+      "Terry Pratchett"
+     ],
+     "publishedDate": "1996",
+     "description": "",
+     "isbn": "9785699101214",
+     "coverURL": "https://covers.openlibrary.org/b/id/12594476-L.jpg",
+     "totalPages": 250
+    },
+    {
+     "id": "/books/OL51160265M",
+     "title": "Сила нашего притяжения",
+     "authors": [
+      "Phil Stamper"
+     ],
+     "publishedDate": "2019",
+     "description": "",
+     "isbn": "9785001952640",
+     "coverURL": "https://covers.openlibrary.org/b/id/14588820-L.jpg",
+     "totalPages": 352
+    },
+    {
+     "id": "/books/OL37035450M",
+     "title": "Янтарный телескоп",
+     "authors": [
+      "Philip Pullman"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785353017264",
+     "coverURL": "https://covers.openlibrary.org/b/id/12614573-L.jpg",
+     "totalPages": 536
+    },
+    {
+     "id": "/books/OL26421032M",
+     "title": "Чудесный нож роман",
+     "authors": [
+      "Philip Pullman"
+     ],
+     "publishedDate": "1997",
+     "description": "",
+     "isbn": "9785353015260",
+     "coverURL": "https://covers.openlibrary.org/b/id/15173010-L.jpg",
+     "totalPages": 350
+    },
+    {
+     "id": "/books/OL45693047M",
+     "title": "Грегор и тайный знак",
+     "authors": [
+      "Сьюзен Коллинз"
+     ],
+     "publishedDate": "2006",
+     "description": "",
+     "isbn": "9785170798094",
+     "coverURL": "https://covers.openlibrary.org/b/id/15204062-L.jpg",
+     "totalPages": 320
+    },
+    {
+     "id": "/books/OL52564663M",
+     "title": "Финт",
+     "authors": [
+      "Terry Pratchett"
+     ],
+     "publishedDate": "2012",
+     "description": "",
+     "isbn": "9785699842148",
+     "coverURL": "https://covers.openlibrary.org/b/id/14646450-L.jpg",
+     "totalPages": 402
+    },
+    {
+     "id": "/books/OL32249448M",
+     "title": "Гамлет",
+     "authors": [
+      "Вильям Шекспир"
+     ],
+     "publishedDate": "1603",
+     "description": "",
+     "isbn": "9789873874109",
+     "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
+     "totalPages": 188
     },
     {
      "id": "/books/OL31889800M",
@@ -2321,235 +2576,6 @@
      "isbn": "9785604785997",
      "coverURL": "https://covers.openlibrary.org/b/id/14587457-L.jpg",
      "totalPages": 205
-    },
-    {
-     "id": "/books/OL27323728M",
-     "title": "Звёздные Войны. Асока",
-     "authors": [
-      "E. K. Johnston"
-     ],
-     "publishedDate": "2016",
-     "description": "",
-     "isbn": "9785389133228",
-     "coverURL": "https://covers.openlibrary.org/b/id/8790638-L.jpg",
-     "totalPages": 319
-    },
-    {
-     "id": "/books/OL27064170M",
-     "title": "И вспыхнет пламя",
-     "authors": [
-      "Сьюзен Коллинз"
-     ],
-     "publishedDate": "2009",
-     "description": "",
-     "isbn": "9785170671281",
-     "coverURL": "https://covers.openlibrary.org/b/id/15168032-L.jpg",
-     "totalPages": 400
-    },
-    {
-     "id": "/books/OL40287149M",
-     "title": "Перехожу на прием",
-     "authors": [
-      "Roald Dahl"
-     ],
-     "publishedDate": "1946",
-     "description": "",
-     "isbn": "9785699521098",
-     "coverURL": "https://covers.openlibrary.org/b/id/12999037-L.jpg",
-     "totalPages": 160
-    },
-    {
-     "id": "/books/OL51160249M",
-     "title": "Что, если это мы",
-     "authors": [
-      "Becky Albertalli",
-      "Adam Silvera"
-     ],
-     "publishedDate": "2018",
-     "description": "",
-     "isbn": "9785604360668",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588805-L.jpg",
-     "totalPages": 443
-    },
-    {
-     "id": "/books/OL60099355M",
-     "title": "Неправильное воспитание Кэмерон Пост",
-     "authors": [
-      "Emily M. Danforth"
-     ],
-     "publishedDate": "2012",
-     "description": "",
-     "isbn": "9785604611982",
-     "coverURL": "https://covers.openlibrary.org/b/id/15122012-L.jpg",
-     "totalPages": 480
-    },
-    {
-     "id": "/books/OL27323741M",
-     "title": "Звёздные Войны. Путь повстанца",
-     "authors": [
-      "Beth Revis"
-     ],
-     "publishedDate": "2017",
-     "description": "",
-     "isbn": "9785389139824",
-     "coverURL": "https://covers.openlibrary.org/b/id/8790664-L.jpg",
-     "totalPages": 416
-    },
-    {
-     "id": "/books/OL52564663M",
-     "title": "Финт",
-     "authors": [
-      "Terry Pratchett"
-     ],
-     "publishedDate": "2012",
-     "description": "",
-     "isbn": "9785699842148",
-     "coverURL": "https://covers.openlibrary.org/b/id/14646450-L.jpg",
-     "totalPages": 402
-    },
-    {
-     "id": "/books/OL51153314M",
-     "title": "Руководство джентльмена по пороку и добродетели",
-     "authors": [
-      "Mackenzi Lee"
-     ],
-     "publishedDate": "2017",
-     "description": "",
-     "isbn": "9785604718155",
-     "coverURL": "https://covers.openlibrary.org/b/id/14587334-L.jpg",
-     "totalPages": 529
-    },
-    {
-     "id": "/books/OL51160254M",
-     "title": "Дарий Великий не в порядке",
-     "authors": [
-      "Adib Khorram"
-     ],
-     "publishedDate": "2018",
-     "description": "",
-     "isbn": "9785604262757",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588808-L.jpg",
-     "totalPages": 320
-    },
-    {
-     "id": "/books/OL26421032M",
-     "title": "Чудесный нож роман",
-     "authors": [
-      "Philip Pullman"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785353015260",
-     "coverURL": "https://covers.openlibrary.org/b/id/15173010-L.jpg",
-     "totalPages": 350
-    },
-    {
-     "id": "/books/OL32249448M",
-     "title": "Гамлет",
-     "authors": [
-      "Вильям Шекспир"
-     ],
-     "publishedDate": "1603",
-     "description": "",
-     "isbn": "9789873874109",
-     "coverURL": "https://covers.openlibrary.org/b/id/10879558-L.jpg",
-     "totalPages": 188
-    },
-    {
-     "id": "/books/OL51160256M",
-     "title": "Дарий Великий заслуживает большего",
-     "authors": [
-      "Adib Khorram"
-     ],
-     "publishedDate": "2019",
-     "description": "",
-     "isbn": "9785604653296",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588809-L.jpg",
-     "totalPages": 360
-    },
-    {
-     "id": "/books/OL30563589M",
-     "title": "Книжные странники",
-     "authors": [
-      "Mechthild Gläser"
-     ],
-     "publishedDate": "2015",
-     "description": "",
-     "isbn": "9785521151332",
-     "coverURL": "https://covers.openlibrary.org/b/id/10473072-L.jpg",
-     "totalPages": 371
-    },
-    {
-     "id": "/books/OL62083562M",
-     "title": "Пышечная, согревающая сердца",
-     "authors": [
-      "Инна Тоболина"
-     ],
-     "publishedDate": "2026",
-     "description": "",
-     "isbn": "9785378359219",
-     "coverURL": "https://covers.openlibrary.org/b/id/15226567-L.jpg",
-     "totalPages": 240
-    },
-    {
-     "id": "/books/OL37015069M",
-     "title": "Джонни и бомба",
-     "authors": [
-      "Terry Pratchett"
-     ],
-     "publishedDate": "1996",
-     "description": "",
-     "isbn": "9785699101214",
-     "coverURL": "https://covers.openlibrary.org/b/id/12594476-L.jpg",
-     "totalPages": 250
-    },
-    {
-     "id": "/books/OL45693047M",
-     "title": "Грегор и тайный знак",
-     "authors": [
-      "Сьюзен Коллинз"
-     ],
-     "publishedDate": "2006",
-     "description": "",
-     "isbn": "9785170798094",
-     "coverURL": "https://covers.openlibrary.org/b/id/15204062-L.jpg",
-     "totalPages": 320
-    },
-    {
-     "id": "/books/OL51160265M",
-     "title": "Сила нашего притяжения",
-     "authors": [
-      "Phil Stamper"
-     ],
-     "publishedDate": "2019",
-     "description": "",
-     "isbn": "9785001952640",
-     "coverURL": "https://covers.openlibrary.org/b/id/14588820-L.jpg",
-     "totalPages": 352
-    },
-    {
-     "id": "/books/OL60632305M",
-     "title": "Наверно, я еще маленький",
-     "authors": [
-      "Ася Петрова"
-     ],
-     "publishedDate": "2020",
-     "description": "",
-     "isbn": "9785386105211",
-     "coverURL": "https://covers.openlibrary.org/b/isbn/9785386105211-L.jpg?default=false",
-     "totalPages": 106
-    },
-    {
-     "id": "/books/OL37035450M",
-     "title": "Янтарный телескоп",
-     "authors": [
-      "Philip Pullman"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785353017264",
-     "coverURL": "https://covers.openlibrary.org/b/id/12614573-L.jpg",
-     "totalPages": 536
     }
    ]
   },
@@ -2630,41 +2656,55 @@
      "totalPages": 192
     },
     {
-     "id": "/books/OL32963070M",
-     "title": "Душераздирающее творение ошеломляющего гения",
+     "id": "/books/OL27153693M",
+     "title": "Бенджамин Франклин",
      "authors": [
-      "Dave Eggers",
-      "Dion Graham"
+      "Walter Isaacson",
+      "Boyd Gaines",
+      "Nelson Runger"
      ],
-     "publishedDate": "2000",
+     "publishedDate": "2003",
      "description": "",
-     "isbn": "9785699210497",
-     "coverURL": "https://covers.openlibrary.org/b/id/11576131-L.jpg",
-     "totalPages": 437
+     "isbn": "9785916576726",
+     "coverURL": "https://covers.openlibrary.org/b/id/541092-L.jpg",
+     "totalPages": 590
     },
     {
-     "id": "/books/OL27184315M",
-     "title": "ИГРА В ИМИТАЦИЮ Ходжес Эндрю",
+     "id": "/works/OL15698346W",
+     "title": "Детство; Отрочество; Юность",
      "authors": [
-      "Andrew Hodges"
+      "Лев Толстой"
      ],
-     "publishedDate": "1983",
+     "publishedDate": "1862",
      "description": "",
-     "isbn": "9785170897414",
-     "coverURL": "https://covers.openlibrary.org/b/id/14619025-L.jpg",
-     "totalPages": 592
+     "isbn": "9781420979183",
+     "coverURL": "https://covers.openlibrary.org/b/id/8240391-L.jpg",
+     "totalPages": 382
     },
     {
-     "id": "/books/OL39485124M",
-     "title": "Прощай, оружие!",
+     "id": "/books/OL27201736M",
+     "title": "Другие берега",
      "authors": [
-      "Эрнест Хемингуэй"
+      "Vladimir Nabokov",
+      "Vladimir Nabokov"
      ],
-     "publishedDate": "1929",
+     "publishedDate": "1951",
      "description": "",
-     "isbn": "9785170989898",
-     "coverURL": "https://covers.openlibrary.org/b/id/12890382-L.jpg",
-     "totalPages": 332
+     "isbn": "9785389079557",
+     "coverURL": "https://covers.openlibrary.org/b/id/12803675-L.jpg",
+     "totalPages": 287
+    },
+    {
+     "id": "/books/OL52097698M",
+     "title": "В Тылу Северного Ветра; at the Back of the North Wind (Russian Edition)",
+     "authors": [
+      "George MacDonald"
+     ],
+     "publishedDate": "1871",
+     "description": "",
+     "isbn": "9781715642396",
+     "coverURL": "https://covers.openlibrary.org/b/id/8245161-L.jpg",
+     "totalPages": 303
     },
     {
      "id": "/books/OL59768115M",
@@ -2681,42 +2721,6 @@
      "totalPages": 560
     },
     {
-     "id": "/books/OL27177744M",
-     "title": "Время секонд хэнд",
-     "authors": [
-      "Светлана Алексиевич"
-     ],
-     "publishedDate": "2013",
-     "description": "",
-     "isbn": "9785969113374",
-     "coverURL": "https://covers.openlibrary.org/b/id/14341222-L.jpg",
-     "totalPages": 547
-    },
-    {
-     "id": "/books/OL43361383M",
-     "title": "Чернобыльская молитва",
-     "authors": [
-      "Светлана Алексиевич"
-     ],
-     "publishedDate": "1997",
-     "description": "",
-     "isbn": "9785969115743",
-     "coverURL": "https://covers.openlibrary.org/b/id/14341209-L.jpg",
-     "totalPages": 304
-    },
-    {
-     "id": "/works/OL10419087W",
-     "title": "Дневник писателя",
-     "authors": [
-      "Фёдор Михайлович Достоевский"
-     ],
-     "publishedDate": "1878",
-     "description": "",
-     "isbn": "9780810110076",
-     "coverURL": "https://covers.openlibrary.org/b/id/7124055-L.jpg",
-     "totalPages": 1097
-    },
-    {
      "id": "/works/OL10215W",
      "title": "Мы",
      "authors": [
@@ -2729,66 +2733,28 @@
      "totalPages": 224
     },
     {
-     "id": "/books/OL27153693M",
-     "title": "Бенджамин Франклин",
+     "id": "/books/OL27184315M",
+     "title": "ИГРА В ИМИТАЦИЮ Ходжес Эндрю",
      "authors": [
-      "Walter Isaacson",
-      "Boyd Gaines",
-      "Nelson Runger"
+      "Andrew Hodges"
      ],
-     "publishedDate": "2003",
+     "publishedDate": "1983",
      "description": "",
-     "isbn": "9785916576726",
-     "coverURL": "https://covers.openlibrary.org/b/id/541092-L.jpg",
-     "totalPages": 590
+     "isbn": "9785170897414",
+     "coverURL": "https://covers.openlibrary.org/b/id/14619025-L.jpg",
+     "totalPages": 592
     },
     {
-     "id": "/works/OL272388W",
-     "title": "Архипелаг ГУЛАГ",
+     "id": "/books/OL27177744M",
+     "title": "Время секонд хэнд",
      "authors": [
-      "Александр Солженицын"
+      "Светлана Алексиевич"
      ],
-     "publishedDate": "1970",
+     "publishedDate": "2013",
      "description": "",
-     "isbn": "9780060912802",
-     "coverURL": "https://covers.openlibrary.org/b/id/12715912-L.jpg",
-     "totalPages": 577
-    },
-    {
-     "id": "/books/OL50212909M",
-     "title": "Лимонов",
-     "authors": [
-      "Emmanuel Carrère"
-     ],
-     "publishedDate": "2011",
-     "description": "",
-     "isbn": "9785911031282",
-     "coverURL": "https://covers.openlibrary.org/b/id/15093972-L.jpg",
-     "totalPages": 377
-    },
-    {
-     "id": "/books/OL52097698M",
-     "title": "В Тылу Северного Ветра; at the Back of the North Wind (Russian Edition)",
-     "authors": [
-      "George MacDonald"
-     ],
-     "publishedDate": "1871",
-     "description": "",
-     "isbn": "9781715642396",
-     "coverURL": "https://covers.openlibrary.org/b/id/8245161-L.jpg",
-     "totalPages": 303
-    },
-    {
-     "id": "/works/OL15698346W",
-     "title": "Детство; Отрочество; Юность",
-     "authors": [
-      "Лев Толстой"
-     ],
-     "publishedDate": "1862",
-     "description": "",
-     "isbn": "9781420979183",
-     "coverURL": "https://covers.openlibrary.org/b/id/8240391-L.jpg",
-     "totalPages": 382
+     "isbn": "9785969113374",
+     "coverURL": "https://covers.openlibrary.org/b/id/14341222-L.jpg",
+     "totalPages": 547
     },
     {
      "id": "/books/OL26954158M",
@@ -2803,6 +2769,18 @@
      "totalPages": 696
     },
     {
+     "id": "/books/OL43361383M",
+     "title": "Чернобыльская молитва",
+     "authors": [
+      "Светлана Алексиевич"
+     ],
+     "publishedDate": "1997",
+     "description": "",
+     "isbn": "9785969115743",
+     "coverURL": "https://covers.openlibrary.org/b/id/14341209-L.jpg",
+     "totalPages": 304
+    },
+    {
      "id": "/books/OL32353977M",
      "title": "Цветы Зла",
      "authors": [
@@ -2815,17 +2793,65 @@
      "totalPages": 282
     },
     {
-     "id": "/books/OL27201736M",
-     "title": "Другие берега",
+     "id": "/works/OL10419087W",
+     "title": "Дневник писателя",
      "authors": [
-      "Vladimir Nabokov",
-      "Vladimir Nabokov"
+      "Фёдор Михайлович Достоевский"
      ],
-     "publishedDate": "1951",
+     "publishedDate": "1878",
      "description": "",
-     "isbn": "9785389079557",
-     "coverURL": "https://covers.openlibrary.org/b/id/12803675-L.jpg",
-     "totalPages": 287
+     "isbn": "9780810110076",
+     "coverURL": "https://covers.openlibrary.org/b/id/7124055-L.jpg",
+     "totalPages": 1097
+    },
+    {
+     "id": "/works/OL272388W",
+     "title": "Архипелаг ГУЛАГ",
+     "authors": [
+      "Александр Солженицын"
+     ],
+     "publishedDate": "1970",
+     "description": "",
+     "isbn": "9780060912802",
+     "coverURL": "https://covers.openlibrary.org/b/id/12715912-L.jpg",
+     "totalPages": 577
+    },
+    {
+     "id": "/books/OL39485124M",
+     "title": "Прощай, оружие!",
+     "authors": [
+      "Эрнест Хемингуэй"
+     ],
+     "publishedDate": "1929",
+     "description": "",
+     "isbn": "9785170989898",
+     "coverURL": "https://covers.openlibrary.org/b/id/12890382-L.jpg",
+     "totalPages": 332
+    },
+    {
+     "id": "/books/OL32963070M",
+     "title": "Душераздирающее творение ошеломляющего гения",
+     "authors": [
+      "Dave Eggers",
+      "Dion Graham"
+     ],
+     "publishedDate": "2000",
+     "description": "",
+     "isbn": "9785699210497",
+     "coverURL": "https://covers.openlibrary.org/b/id/11576131-L.jpg",
+     "totalPages": 437
+    },
+    {
+     "id": "/books/OL50212909M",
+     "title": "Лимонов",
+     "authors": [
+      "Emmanuel Carrère"
+     ],
+     "publishedDate": "2011",
+     "description": "",
+     "isbn": "9785911031282",
+     "coverURL": "https://covers.openlibrary.org/b/id/15093972-L.jpg",
+     "totalPages": 377
     }
    ]
   },
@@ -2846,16 +2872,16 @@
      "totalPages": 384
     },
     {
-     "id": "/books/OL61135107M",
-     "title": "Портрет Дориана Грея",
+     "id": "/books/OL34009968M",
+     "title": "Кладбище домашних животных",
      "authors": [
-      "Oscar Wilde"
+      "Стивен Кинг"
      ],
-     "publishedDate": "1890",
+     "publishedDate": "1983",
      "description": "",
-     "isbn": "9785041039578",
-     "coverURL": "https://covers.openlibrary.org/b/id/15162627-L.jpg",
-     "totalPages": 246
+     "isbn": "9785170770861",
+     "coverURL": "https://covers.openlibrary.org/b/id/12019545-L.jpg",
+     "totalPages": 423
     },
     {
      "id": "/books/OL48581955M",
@@ -2870,55 +2896,6 @@
      "totalPages": 120
     },
     {
-     "id": "/books/OL58503723M",
-     "title": "Вегетарианка",
-     "authors": [
-      "Han Kang"
-     ],
-     "publishedDate": "2007",
-     "description": "",
-     "isbn": "9785171025427",
-     "coverURL": "https://covers.openlibrary.org/b/id/14861176-L.jpg",
-     "totalPages": 192
-    },
-    {
-     "id": "/books/OL24609733M",
-     "title": "Имя ветра",
-     "authors": [
-      "Patrick Rothfuss",
-      "Marc Simonetti"
-     ],
-     "publishedDate": "2007",
-     "description": "",
-     "isbn": "9785699399376",
-     "coverURL": "https://covers.openlibrary.org/b/id/6692522-L.jpg",
-     "totalPages": 736
-    },
-    {
-     "id": "/books/OL23010873M",
-     "title": "Девочка, которая любила Тома Гордона",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1999",
-     "description": "",
-     "isbn": "9785237029499",
-     "coverURL": "https://covers.openlibrary.org/b/id/8536430-L.jpg",
-     "totalPages": 256
-    },
-    {
-     "id": "/books/OL26368854M",
-     "title": "Долорес Клейборн",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1992",
-     "description": "",
-     "isbn": "9785237013757",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651976-L.jpg",
-     "totalPages": 307
-    },
-    {
      "id": "/books/OL32937807M",
      "title": "Звук и ярость",
      "authors": [
@@ -2931,40 +2908,16 @@
      "totalPages": 358
     },
     {
-     "id": "/books/OL26381788M",
-     "title": "Пятеро, что ждут тебя на небесах",
+     "id": "/books/OL53203058M",
+     "title": "Колдун и кристалл",
      "authors": [
-      "Mitch Albom"
+      "Стивен Кинг"
      ],
-     "publishedDate": "2003",
+     "publishedDate": "1997",
      "description": "",
-     "isbn": "9785170363704",
-     "coverURL": "https://covers.openlibrary.org/b/id/12560426-L.jpg",
-     "totalPages": 223
-    },
-    {
-     "id": "/books/OL25585334M",
-     "title": "Голод",
-     "authors": [
-      "Knut Hamsun"
-     ],
-     "publishedDate": "1890",
-     "description": "",
-     "isbn": "9789997411136",
-     "coverURL": "https://covers.openlibrary.org/b/id/10472594-L.jpg",
-     "totalPages": 196
-    },
-    {
-     "id": "/books/OL35094887M",
-     "title": "Над кукушкиным гнездом",
-     "authors": [
-      "Кен Кизи"
-     ],
-     "publishedDate": "1962",
-     "description": "",
-     "isbn": "9785699691975",
-     "coverURL": "https://covers.openlibrary.org/b/id/12064280-L.jpg",
-     "totalPages": 311
+     "isbn": "9785237008128",
+     "coverURL": "https://covers.openlibrary.org/b/id/14656068-L.jpg",
+     "totalPages": 718
     },
     {
      "id": "/books/OL12537201M",
@@ -2979,16 +2932,40 @@
      "totalPages": 736
     },
     {
-     "id": "/works/OL166923W",
-     "title": "Игрокъ",
+     "id": "/books/OL58503723M",
+     "title": "Вегетарианка",
+     "authors": [
+      "Han Kang"
+     ],
+     "publishedDate": "2007",
+     "description": "",
+     "isbn": "9785171025427",
+     "coverURL": "https://covers.openlibrary.org/b/id/14861176-L.jpg",
+     "totalPages": 192
+    },
+    {
+     "id": "/books/OL26368854M",
+     "title": "Долорес Клейборн",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1992",
+     "description": "",
+     "isbn": "9785237013757",
+     "coverURL": "https://covers.openlibrary.org/b/id/14651976-L.jpg",
+     "totalPages": 307
+    },
+    {
+     "id": "/works/OL21025633W",
+     "title": "Записки изъ подполья",
      "authors": [
       "Ф.М Достоевский"
      ],
-     "publishedDate": "1866",
+     "publishedDate": "1864",
      "description": "",
-     "isbn": "9781086879612",
-     "coverURL": "https://covers.openlibrary.org/b/id/3293339-L.jpg",
-     "totalPages": 166
+     "isbn": "9781983676925",
+     "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
+     "totalPages": 132
     },
     {
      "id": "/books/OL26405752M",
@@ -3003,64 +2980,40 @@
      "totalPages": 608
     },
     {
-     "id": "/books/OL12587028M",
-     "title": "Бесы",
+     "id": "/books/OL23010873M",
+     "title": "Девочка, которая любила Тома Гордона",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "1999",
+     "description": "",
+     "isbn": "9785237029499",
+     "coverURL": "https://covers.openlibrary.org/b/id/8536430-L.jpg",
+     "totalPages": 256
+    },
+    {
+     "id": "/books/OL22926722M",
+     "title": "Основание",
+     "authors": [
+      "Isaac Asimov"
+     ],
+     "publishedDate": "1951",
+     "description": "",
+     "isbn": "9780380380756",
+     "coverURL": "https://covers.openlibrary.org/b/id/15177609-L.jpg",
+     "totalPages": 240
+    },
+    {
+     "id": "/works/OL166923W",
+     "title": "Игрокъ",
      "authors": [
       "Ф.М Достоевский"
      ],
-     "publishedDate": "1871",
+     "publishedDate": "1866",
      "description": "",
-     "isbn": "9785792200135",
-     "coverURL": "https://covers.openlibrary.org/b/id/9258937-L.jpg",
-     "totalPages": 704
-    },
-    {
-     "id": "/books/OL12542225M",
-     "title": "Дорожные работы",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "1981",
-     "description": "",
-     "isbn": "9785170065516",
-     "coverURL": "https://covers.openlibrary.org/b/id/14651941-L.jpg",
-     "totalPages": 362
-    },
-    {
-     "id": "/books/OL26784125M",
-     "title": "После заката",
-     "authors": [
-      "Стивен Кинг"
-     ],
-     "publishedDate": "2008",
-     "description": "",
-     "isbn": "9785170711352",
-     "coverURL": "https://covers.openlibrary.org/b/id/13097616-L.jpg",
-     "totalPages": 448
-    },
-    {
-     "id": "/books/OL33089006M",
-     "title": "Комната",
-     "authors": [
-      "Emma Donoghue"
-     ],
-     "publishedDate": "2010",
-     "description": "",
-     "isbn": "9785227055873",
-     "coverURL": "https://covers.openlibrary.org/b/id/13260616-L.jpg",
-     "totalPages": 370
-    },
-    {
-     "id": "/books/OL37823414M",
-     "title": "Краткая история быта и частной жизни",
-     "authors": [
-      "Bill Bryson"
-     ],
-     "publishedDate": "2010",
-     "description": "",
-     "isbn": "9785170991808",
-     "coverURL": "https://covers.openlibrary.org/b/id/12724131-L.jpg",
-     "totalPages": 637
+     "isbn": "9781086879612",
+     "coverURL": "https://covers.openlibrary.org/b/id/3293339-L.jpg",
+     "totalPages": 166
     },
     {
      "id": "/books/OL22967190M",
@@ -3073,6 +3026,18 @@
      "isbn": "9789660305960",
      "coverURL": "https://covers.openlibrary.org/b/id/14575641-L.jpg",
      "totalPages": 224
+    },
+    {
+     "id": "/books/OL26784125M",
+     "title": "После заката",
+     "authors": [
+      "Стивен Кинг"
+     ],
+     "publishedDate": "2008",
+     "description": "",
+     "isbn": "9785170711352",
+     "coverURL": "https://covers.openlibrary.org/b/id/13097616-L.jpg",
+     "totalPages": 448
     },
     {
      "id": "/books/OL12584491M",
@@ -3106,28 +3071,64 @@
      "totalPages": 272
     },
     {
-     "id": "/works/OL21025633W",
-     "title": "Записки изъ подполья",
+     "id": "/books/OL25585334M",
+     "title": "Голод",
      "authors": [
-      "Ф.М Достоевский"
+      "Knut Hamsun"
      ],
-     "publishedDate": "1864",
+     "publishedDate": "1890",
      "description": "",
-     "isbn": "9781983676925",
-     "coverURL": "https://covers.openlibrary.org/b/id/10445973-L.jpg",
-     "totalPages": 132
+     "isbn": "9789997411136",
+     "coverURL": "https://covers.openlibrary.org/b/id/10472594-L.jpg",
+     "totalPages": 196
     },
     {
-     "id": "/books/OL53203058M",
-     "title": "Колдун и кристалл",
+     "id": "/books/OL33089006M",
+     "title": "Комната",
+     "authors": [
+      "Emma Donoghue"
+     ],
+     "publishedDate": "2010",
+     "description": "",
+     "isbn": "9785227055873",
+     "coverURL": "https://covers.openlibrary.org/b/id/13260616-L.jpg",
+     "totalPages": 370
+    },
+    {
+     "id": "/books/OL12542225M",
+     "title": "Дорожные работы",
      "authors": [
       "Стивен Кинг"
      ],
-     "publishedDate": "1997",
+     "publishedDate": "1981",
      "description": "",
-     "isbn": "9785237008128",
-     "coverURL": "https://covers.openlibrary.org/b/id/14656068-L.jpg",
-     "totalPages": 718
+     "isbn": "9785170065516",
+     "coverURL": "https://covers.openlibrary.org/b/id/14651941-L.jpg",
+     "totalPages": 362
+    },
+    {
+     "id": "/books/OL37823414M",
+     "title": "Краткая история быта и частной жизни",
+     "authors": [
+      "Bill Bryson"
+     ],
+     "publishedDate": "2010",
+     "description": "",
+     "isbn": "9785170991808",
+     "coverURL": "https://covers.openlibrary.org/b/id/12724131-L.jpg",
+     "totalPages": 637
+    },
+    {
+     "id": "/books/OL12587028M",
+     "title": "Бесы",
+     "authors": [
+      "Ф.М Достоевский"
+     ],
+     "publishedDate": "1871",
+     "description": "",
+     "isbn": "9785792200135",
+     "coverURL": "https://covers.openlibrary.org/b/id/9258937-L.jpg",
+     "totalPages": 704
     },
     {
      "id": "/books/OL23095870M",
@@ -3140,6 +3141,30 @@
      "isbn": "9785699160587",
      "coverURL": "https://covers.openlibrary.org/b/id/12879769-L.jpg",
      "totalPages": 384
+    },
+    {
+     "id": "/books/OL26381788M",
+     "title": "Пятеро, что ждут тебя на небесах",
+     "authors": [
+      "Mitch Albom"
+     ],
+     "publishedDate": "2003",
+     "description": "",
+     "isbn": "9785170363704",
+     "coverURL": "https://covers.openlibrary.org/b/id/12560426-L.jpg",
+     "totalPages": 223
+    },
+    {
+     "id": "/books/OL35094887M",
+     "title": "Над кукушкиным гнездом",
+     "authors": [
+      "Кен Кизи"
+     ],
+     "publishedDate": "1962",
+     "description": "",
+     "isbn": "9785699691975",
+     "coverURL": "https://covers.openlibrary.org/b/id/12064280-L.jpg",
+     "totalPages": 311
     }
    ]
   },
