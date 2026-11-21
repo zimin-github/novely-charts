@@ -567,10 +567,25 @@ def resolve_seed(seed: tuple[str, str]) -> dict | None:
 
 # --- Build ------------------------------------------------------------------
 
-def build_shelf(slug: str, config: dict) -> dict:
+def previous_shelves() -> dict:
+    """Полки прошлой выгрузки — запас на ночь, когда Open Library не ответила."""
+    try:
+        return json.loads(OUTPUT.read_text(encoding="utf-8")).get("shelves", {})
+    except (OSError, ValueError):
+        return {}
+
+
+def build_shelf(slug: str, config: dict, previous: dict | None = None) -> dict:
     log(f"{slug}: live chart…")
     books = live_chart(slug, config)
     source = "openlibrary"
+
+    # Одна ночь без ответа Open Library — ещё не повод менять полку на запасной
+    # список: 21.11.2026 «Популярное» так ушло из 24 книг в две, а «Фэнтези» —
+    # в три. Вчерашний чарт лучше: он настоящий и почти не стареет за сутки.
+    if len(books) < 6 and previous and previous.get("source") == "openlibrary" and len(previous.get("books", [])) >= 6:
+        log(f"{slug}: live chart returned {len(books)}, keeping the previous chart ({len(previous['books'])})")
+        books = previous["books"]
 
     # Open Library ranks by reading activity, which is the shelf worth having
     # when it answers — but it is an Internet Archive host and for months at a
@@ -579,7 +594,7 @@ def build_shelf(slug: str, config: dict) -> dict:
     # published and Google's data may not be. What is left is Novely's own
     # curated list, resolved through Open Library, and the app labels it as
     # Novely's own rather than as anybody's chart.
-    if len(books) < 6:
+    elif len(books) < 6:
         log(f"{slug}: live chart returned {len(books)}, falling back to curated seeds")
         # Sequential, not a thread pool: `get_json` throttles per host, and
         # firing these in parallel against an unauthenticated endpoint is what
@@ -682,7 +697,8 @@ def place_across_shelves(built: dict, day: str | None = None) -> dict:
 
 
 def main() -> int:
-    built = {slug: build_shelf(slug, config) for slug, config in GENRES.items()}
+    previous = previous_shelves()
+    built = {slug: build_shelf(slug, config, previous.get(slug)) for slug, config in GENRES.items()}
     built = place_across_shelves(built)
     # A shelf with nothing in it is left out of the feed rather than published
     # empty, and `newReleases` and `nonFiction` are left out every time: Open
